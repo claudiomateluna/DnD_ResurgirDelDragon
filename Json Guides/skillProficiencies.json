@@ -1,0 +1,51 @@
+"skillProficiencies": [
+	{
+		"choose": {
+			"from": [
+				"acrobatics",
+				"animal handling",
+				"arcana",
+				"athletics",
+				"deception",
+				"history",
+				"insight",
+				"intimidation",
+				"investigation",
+				"medicine",
+				"nature",
+				"perception",
+				"performance",
+				"persuasion",
+				"religion",
+				"sleight of hand",
+				"stealth",
+				"survival",
+				{
+					"tool": true
+				}
+			],
+			"count": 2
+		}
+	}
+],
+"skillProficiencies": [
+	{
+		"intimidation": true
+	}
+],
+"skillProficiencies": [
+	{
+		"performance": true,
+		"persuasion": true,
+		"tool": true
+	}
+],
+"entries": [
+	{
+		"name": "Skill Versatility",
+		"entries": [
+			"You have proficiency with any combination of two other skills or {@book tools|phb|5|tools} of your choice."
+		],
+		"type": "entries"
+	}
+]

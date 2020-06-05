@@ -1,0 +1,28 @@
+"ability": [
+	{
+		"str": 1,
+		"dex": 1,
+		"con": 1,
+		"int": 1,
+		"wis": 1,
+		"cha": 1
+	}
+],
+
+"ability": [
+	{
+		"cha": 1,
+		"wis": 1,
+		"choose": {
+			"from": [
+				"str",
+				"dex",
+				"con",
+				"int",
+				"wis",
+				"cha"
+			],
+			"count": 1
+		}
+	}
+],
