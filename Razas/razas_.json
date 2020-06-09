@@ -2,99 +2,158 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Giddy",
-				"abbreviation": "Brew",
-				"full": "TheGiddyLimit",
+				"json": "ArainaRD",
+				"abbreviation": "Arai",
+				"full": "ArainaElResurgirDelDragon",
 				"authors": [
-					"TheGiddyLimit"
+					"Pedro J. Ramos", 
+					"Pedro Gil", 
+					"Juan Sixto", 
+					"Pablo Sixto", 
+					"Javier Charro", 
+					"Antonio Vázquez", 
+					"Esther Sanz"
 				],
+				"convertedBy": "Vlad Drakul",
 				"version": "1.0.0",
-				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/razas_.json",
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateAdded": 1591660500,
+		"dateLastModified": 1591660500
 	},
 	"race": [
 		{
-			"name": "Awakened Skeleton",
-			"source": "Giddy",
+			"name": "Araina",
+			"source": "ArainaRD",
 			"ability": [
 				{
-					"cha": -4,
 					"dex": 2,
-					"wis": 1
-				},
-				{
-					"cha": -4,
-					"dex": 1,
-					"wis": 2
-				},
-				{
-					"cha": -4,
-					"choose": {
-						"weighted": {
-							"from": [
-								"str",
-								"dex",
-								"con",
-								"wis"
-							],
-							"weights": [
-								2,
-								1,
-								-1,
-								-2
-							]
-						}
-					}
+					"int": 1
 				}
 			],
 			"size": "M",
-			"speed": 30,
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
 			"darkvision": 60,
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Skeletal",
+					"name": "Age",
 					"entries": [
-						"You are vulnerable to bludgeoning damage, but resistant to slashing and piercing damage."
+						"Los arainas alcanzan la edad adulta a los 20 anos y generalmente viven poco mas de un siglo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Undead Nature",
+					"name": "Alineamiento",
 					"entries": [
-						"You are immune to poison damage and exhaustion, and you can't be poisoned. You don't require air, food, drink, or sleep."
+						"La mayoria de los arainas son legales buenos o legales neutrales. Por regla general, aprecian el orden, la soledad y la autosuficiencia, aunque saben colaborar cuando es necesario. Aunque son recelosos, cuidan de los que demuestran ser dignos de confianza"
 					]
 				},
 				{
-					"name": "Darkvision",
+					"type": "entries",
+					"name": "Size",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
+						"Mediano. De media, los arainas miden 7 pies y pesan 200 libras. A pesar de su envergadura, pesan solo un poco mas que un humano debido a la ligereza de su cuerpo aracnido"
+					]
 				},
 				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando y escalando es de 30 pies. Necesitas utilizar cuatro de tus seis extremidades para trepar"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vision en la oscuridad",
+					"entries": [
+						"Tienes una vision superior en la oscuridad y la penumbra, dado que estas acostumbrado a la luz crepuscular de los bosques y al cielo nocturno. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Multiples brazos",
+					"entries": [
+						"Tienes dos brazos adicionales. Tienes un segundo uso sin coste para interactuar con un objeto o rasgo del entorno por turno. Tambien puedes empunar armas con ellos"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cazador silencioso",
+					"entries": [
+						"Tienes competencia con la habilidad {@skill Stealth}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quimico natural",
+					"entries": [
+						"Tienes competencia con el {@item herbalism kit|phb} o el de {@item poisoner's kit|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escalada de arana",
+					"entries": [
+						"Puedes escalar superficies dificiles, incluso por el techo, sin necesidad de hacer una prueba de caracteristica"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentir la telarana",
+					"entries": [
+						"Mientras estes en contacto con una telarana, sabes la localizacion exacta de cualquier otra criatura en contacto con la misma telarana"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Caminar por la telarana",
+					"entries": [
+						"Ignoras las restricciones al movimiento causadas por telas de arana"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Telarana",
+					"entries": [
+						"Posees un ataque natural de telarana (arma a distancia, alcance 30 pies), con el que se considera que tienes competencia. Si impactas, el objetivo queda atrapado por la telarana. Como accion, el objetivo atrapado puede hacer una prueba de Fuerza para romperla. La CD de esta tirada de salvacion es igual a 8 + tu modificador por Constitucion + tu bonificador por competencia. La telarana tambien se puede atacar y destruir (CD 10; 5 puntos de golpe; vulnerabilidad al dano por fuego; inmunidad al dano contundente, veneno y psiquico). Este ataque tiene tantos usos como 1 + tu modificador de Constitucion (minimo 1), que se recuperan completamente tras un descanso prolongado"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"Gifted with the ability to talk shit even after death, you can speak, read, and write Common."
-					],
-					"type": "entries"
+						"Puedes hablar, leer y escribir comun y araina. El idioma araina se basa en la litografia y xilografia. Son trazos simples y con angulos rectos y se usa principalmente para registrar la historia de un lugar o de una persona sobre superficies lisas en las edificaciones."
+					]
 				}
 			],
+			"tokenUrl": "https://s3-eu-west-2.amazonaws.com/dungeon20/images/199/medium-5f36e58115ea591bbde17df88cfc4683bb0ff023.png?1529671421",
 			"fluff": {
 				"entries": [
-					"Some assembly required."
+					"Los arainas viven entre tinieblas. Sus leyendas dicen que proceden de lo mas profundo de la tierra, pero lo cierto es que los registros existentes los ubican en territorio boscoso, donde extienden sus telaranas a lo largo de varias millas. Son, por tanto, habiles trepadores y pasan desapercibidos hasta que deciden mostrarse. Quiza esta predisposicion a ocultarse sea la razon por la que los arainas tardaron tanto tiempo en relacionarse con otras razas. Sin embargo, cuando los elfos de Mirianis llegaron a sus puertas, con afabilidad y empatia, acabaron estableciendo una alianza con ellos que aun perdura. Erguidos, los arainas miden de media 7 pies. Tienen una apariencia de ser humano, pero con elementos aracnidos. Cuentan con seis extremidades: cuatro brazos de humano y dos patas de arana que les permiten trepar a lo alto de los arboles, donde se desenvuelven con soltura. La esperanza de vida de un araina es algo superior a la de un humano y puede llegar a los 200 anos. Son muy protectores con sus huevos, ya que solamente unos pocos consiguen salir adelante."
 				]
 			},
 			"traitTags": [
-				"Improved Resting"
+				"Skill Proficiency",
+				"Armor Proficiency",
+				"Tool Proficiency",
+				"Unarmed Strike",
+				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
 				{
-					"common": true
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
 				}
 			]
 		}
