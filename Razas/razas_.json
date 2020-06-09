@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "ArainaRD",
-				"abbreviation": "Arai",
-				"full": "ArainaElResurgirDelDragon",
+				"json": "ElResurgirDelDragon",
+				"abbreviation": "RD-R",
+				"full": "El Resurgir Del Dragon - Razas",
 				"authors": [
 					"Pedro J. Ramos", 
 					"Pedro Gil", 
@@ -16,7 +16,7 @@
 				],
 				"convertedBy": "Vlad Drakul",
 				"version": "1.0.0",
-				"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/razas_.json",
+				"url": "https://www.nosolorol.com/es/el-resurgir-del-dragon/507/el-resurgir-del-dragon-papel",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -26,7 +26,7 @@
 	"race": [
 		{
 			"name": "Araina",
-			"source": "ArainaRD",
+			"source": "ElResurgirDelDragon",
 			"ability": [
 				{
 					"dex": 2,
@@ -44,21 +44,21 @@
 					"type": "entries",
 					"name": "Age",
 					"entries": [
-						"Los arainas alcanzan la edad adulta a los 20 anos y generalmente viven poco mas de un siglo."
+						"Los arainas alcanzan la edad adulta a los 20 años y generalmente viven poco más de un siglo."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Alineamiento",
 					"entries": [
-						"La mayoria de los arainas son legales buenos o legales neutrales. Por regla general, aprecian el orden, la soledad y la autosuficiencia, aunque saben colaborar cuando es necesario. Aunque son recelosos, cuidan de los que demuestran ser dignos de confianza"
+						"La mayoría de los arainas son legales buenos o legales neutrales. Por regla general, aprecian el orden, la soledad y la autosuficiencia, aunque saben colaborar cuando es necesario. Aunque son recelosos, cuidan de los que demuestran ser dignos de confianza"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "Tamaño",
 					"entries": [
-						"Mediano. De media, los arainas miden 7 pies y pesan 200 libras. A pesar de su envergadura, pesan solo un poco mas que un humano debido a la ligereza de su cuerpo aracnido"
+						"Mediano. De media, los arainas miden 7 pies y pesan 200 libras. A pesar de su envergadura, pesan solo un poco más que un humano debido a la ligereza de su cuerpo arácnido"
 					]
 				},
 				{
@@ -70,16 +70,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Vision en la oscuridad",
+					"name": "Visión en la oscuridad",
 					"entries": [
-						"Tienes una vision superior en la oscuridad y la penumbra, dado que estas acostumbrado a la luz crepuscular de los bosques y al cielo nocturno. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+						"Tienes una visión superior en la oscuridad y la penumbra, dado que estás acostumbrado a la luz crepuscular de los bosques y al cielo nocturno. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Multiples brazos",
+					"name": "Múltiples brazos",
 					"entries": [
-						"Tienes dos brazos adicionales. Tienes un segundo uso sin coste para interactuar con un objeto o rasgo del entorno por turno. Tambien puedes empunar armas con ellos"
+						"Tienes dos brazos adicionales. Tienes un segundo uso sin coste para interactuar con un objeto o rasgo del entorno por turno. También puedes empuñar armas con ellos"
 					]
 				},
 				{
@@ -91,51 +91,88 @@
 				},
 				{
 					"type": "entries",
-					"name": "Quimico natural",
+					"name": "Químico natural",
 					"entries": [
 						"Tienes competencia con el {@item herbalism kit|phb} o el de {@item poisoner's kit|phb}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Escalada de arana",
+					"name": "Escalada de araña",
 					"entries": [
-						"Puedes escalar superficies dificiles, incluso por el techo, sin necesidad de hacer una prueba de caracteristica"
+						"Puedes escalar superficies difíciles, incluso por el techo, sin necesidad de hacer una prueba de característica"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sentir la telarana",
+					"name": "Sentir la telaraña",
 					"entries": [
-						"Mientras estes en contacto con una telarana, sabes la localizacion exacta de cualquier otra criatura en contacto con la misma telarana"
+						"Mientras estés en contacto con una telaraña, sabes la localización exacta de cualquier otra criatura en contacto con la misma telaraña"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Caminar por la telarana",
+					"name": "Caminar por la telaraña",
 					"entries": [
-						"Ignoras las restricciones al movimiento causadas por telas de arana"
+						"Ignoras las restricciones al movimiento causadas por telas de araña"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Telarana",
+					"name": "Telaraña",
 					"entries": [
-						"Posees un ataque natural de telarana (arma a distancia, alcance 30 pies), con el que se considera que tienes competencia. Si impactas, el objetivo queda atrapado por la telarana. Como accion, el objetivo atrapado puede hacer una prueba de Fuerza para romperla. La CD de esta tirada de salvacion es igual a 8 + tu modificador por Constitucion + tu bonificador por competencia. La telarana tambien se puede atacar y destruir (CD 10; 5 puntos de golpe; vulnerabilidad al dano por fuego; inmunidad al dano contundente, veneno y psiquico). Este ataque tiene tantos usos como 1 + tu modificador de Constitucion (minimo 1), que se recuperan completamente tras un descanso prolongado"
+						"Posees un ataque natural de telaraña (arma a distancia, alcance 30 pies), con el que se considera que tienes competencia. Si impactas, el objetivo queda atrapado por la telaraña. Como acción, el objetivo atrapado puede hacer una prueba de Fuerza para romperla. La CD de esta tirada de salvación es igual a 8 + tu modificador por Constitución + tu bonificador por competencia. La telaraña también se puede atacar y destruir (CD 10; 5 puntos de golpe; vulnerabilidad al daño por fuego; inmunidad al daño contundente, veneno y psíquico). Este ataque tiene tantos usos como 1 + tu modificador de Constitución (mínimo 1), que se recuperan completamente tras un descanso prolongado"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Languages",
+					"name": "Idiomas",
 					"entries": [
-						"Puedes hablar, leer y escribir comun y araina. El idioma araina se basa en la litografia y xilografia. Son trazos simples y con angulos rectos y se usa principalmente para registrar la historia de un lugar o de una persona sobre superficies lisas en las edificaciones."
+						"Puedes hablar, leer y escribir común y araina. El idioma araina se basa en la litografía y xilografía. Son trazos simples y con ángulos rectos y se usa principalmente para registrar la historia de un lugar o de una persona sobre superficies lisas en las edificaciones."
 					]
 				}
 			],
 			"tokenUrl": "https://s3-eu-west-2.amazonaws.com/dungeon20/images/199/medium-5f36e58115ea591bbde17df88cfc4683bb0ff023.png?1529671421",
+			"heightAndWeight": {
+				"baseHeight": 82,
+				"heightMod": "2d8",
+				"baseWeight": 200,
+				"weightMod": "2d8"
+			},
 			"fluff": {
 				"entries": [
-					"Los arainas viven entre tinieblas. Sus leyendas dicen que proceden de lo mas profundo de la tierra, pero lo cierto es que los registros existentes los ubican en territorio boscoso, donde extienden sus telaranas a lo largo de varias millas. Son, por tanto, habiles trepadores y pasan desapercibidos hasta que deciden mostrarse. Quiza esta predisposicion a ocultarse sea la razon por la que los arainas tardaron tanto tiempo en relacionarse con otras razas. Sin embargo, cuando los elfos de Mirianis llegaron a sus puertas, con afabilidad y empatia, acabaron estableciendo una alianza con ellos que aun perdura. Erguidos, los arainas miden de media 7 pies. Tienen una apariencia de ser humano, pero con elementos aracnidos. Cuentan con seis extremidades: cuatro brazos de humano y dos patas de arana que les permiten trepar a lo alto de los arboles, donde se desenvuelven con soltura. La esperanza de vida de un araina es algo superior a la de un humano y puede llegar a los 200 anos. Son muy protectores con sus huevos, ya que solamente unos pocos consiguen salir adelante."
+					"Los arainas viven entre tinieblas. Sus leyendas dicen que proceden de lo más profundo de la tierra, pero lo cierto es que los registros existentes los ubican en territorio boscoso, donde extienden sus telarañas a lo largo de varias millas. Son, por tanto, hábiles trepadores y pasan desapercibidos hasta que deciden mostrarse. Quizá esta predisposición a ocultarse sea la razón por la que los arainas tardaron tanto tiempo en relacionarse con otras razas. Sin embargo, cuando los elfos de Mirianis llegaron a sus puertas, con afabilidad y empatía, acabaron estableciendo una alianza con ellos que aún perdura.",
+					"Erguidos, los arainas miden de media 7 pies. Tienen una apariencia de ser humano, pero con elementos arácnidos. Cuentan con seis extremidades: cuatro brazos de humano y dos patas de araña que les permiten trepar a lo alto de los árboles, donde se desenvuelven con soltura. La esperanza de vida de un araina es algo superior a la de un humano y puede llegar a los 200 años. Son muy protectores con sus huevos, ya que solamente unos pocos consiguen salir adelante.",
+					{
+						"type": "entries",
+						"name": "Arainas Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Lellel, Lael, Llell"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Larina, Lella, Lallistäe"
+										]
+									}
+								]
+							}
+						]
+					}
 				]
 			},
 			"traitTags": [
