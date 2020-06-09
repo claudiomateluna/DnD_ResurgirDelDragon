@@ -56,11 +56,11 @@
 	"race": [
 		{
 			"name": "Araina",
-			"source": "ArainaRD",
+			"source": "RD-R",
 			"ability": [
 				{
 					"dex": 2,
-					"int": 1,
+					"int": 1
 				}
 			],
 			"darkvision": 60,
