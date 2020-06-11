@@ -41,11 +41,6 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "{@skill Athletics}, {@skill Animal Handling}"
-						},
-						{
-							"type": "item",
 							"name": "Tool Proficiencies",
 							"entry": "Herbalism kit, vehicles (land)"
 						},
