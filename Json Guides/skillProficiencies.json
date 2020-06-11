@@ -49,3 +49,18 @@
 		"type": "entries"
 	}
 ]
+
+"skills": [
+	"{@skill History}",
+	"{@skill Perception}",
+	"{@skill Investigation}",
+	"{@skill History}",
+	"{@skill Acrobatics}",
+	"{@skill Medicine}",
+	"{@skill Persuasion}",
+	"{@skill Animal Handling}",
+	"{@skill Nature}",
+	"{@skill Perception}",
+	"{@skill Stealth}",
+	"{@skill Survival}"
+]

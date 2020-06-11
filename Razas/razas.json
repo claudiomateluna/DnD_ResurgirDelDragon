@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "ElResurgirDelDragon",
+				"json": "ElResurgirDelDragon_Razas",
 				"abbreviation": "RD-R",
 				"full": "El Resurgir Del Dragon - Razas",
 				"authors": [
@@ -17,7 +17,8 @@
 				"convertedBy": "Vlad Drakul",
 				"version": "1.0.0",
 				"url": "https://www.nosolorol.com/es/el-resurgir-del-dragon/507/el-resurgir-del-dragon-papel",
-				"targetSchema": "1.0.0"
+				"targetSchema": "1.0.0",
+				"color": "2ecc71"
 			}
 		],
 		"dateAdded": 1591660500,
@@ -26,7 +27,45 @@
 	"race": [
 		{
 			"name": "Araina",
-			"source": "ElResurgirDelDragon",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/araina.png",
+			"fluff": {
+				"entries": [
+					"Los arainas viven entre tinieblas. Sus leyendas dicen que proceden de lo más profundo de la tierra, pero lo cierto es que los registros existentes los ubican en territorio boscoso, donde extienden sus telarañas a lo largo de varias millas. Son, por tanto, hábiles trepadores y pasan desapercibidos hasta que deciden mostrarse. Quizá esta predisposición a ocultarse sea la razón por la que los arainas tardaron tanto tiempo en relacionarse con otras razas. Sin embargo, cuando los elfos de Mirianis llegaron a sus puertas, con afabilidad y empatía, acabaron estableciendo una alianza con ellos que aún perdura.",
+					"Erguidos, los arainas miden de media 7 pies. Tienen una apariencia de ser humano, pero con elementos arácnidos. Cuentan con seis extremidades: cuatro brazos de humano y dos patas de araña que les permiten trepar a lo alto de los árboles, donde se desenvuelven con soltura. La esperanza de vida de un araina es algo superior a la de un humano y puede llegar a los 200 años. Son muy protectores con sus huevos, ya que solamente unos pocos consiguen salir adelante.",
+					"Los aventureros arainas suelen ser druidas, exploradores, hechiceros o pícaros.",
+					{
+						"type": "entries",
+						"name": "Arainas Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Lellel, Lael, Llell"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Larina, Lella, Lallistäe"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
 			"ability": [
 				{
 					"dex": 2,
@@ -42,7 +81,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Age",
+					"name": "Edad",
 					"entries": [
 						"Los arainas alcanzan la edad adulta a los 20 años y generalmente viven poco más de un siglo."
 					]
@@ -132,49 +171,6 @@
 					]
 				}
 			],
-			"tokenUrl": "https://s3-eu-west-2.amazonaws.com/dungeon20/images/199/medium-5f36e58115ea591bbde17df88cfc4683bb0ff023.png?1529671421",
-			"heightAndWeight": {
-				"baseHeight": 82,
-				"heightMod": "2d8",
-				"baseWeight": 200,
-				"weightMod": "2d8"
-			},
-			"fluff": {
-				"entries": [
-					"Los arainas viven entre tinieblas. Sus leyendas dicen que proceden de lo más profundo de la tierra, pero lo cierto es que los registros existentes los ubican en territorio boscoso, donde extienden sus telarañas a lo largo de varias millas. Son, por tanto, hábiles trepadores y pasan desapercibidos hasta que deciden mostrarse. Quizá esta predisposición a ocultarse sea la razón por la que los arainas tardaron tanto tiempo en relacionarse con otras razas. Sin embargo, cuando los elfos de Mirianis llegaron a sus puertas, con afabilidad y empatía, acabaron estableciendo una alianza con ellos que aún perdura.",
-					"Erguidos, los arainas miden de media 7 pies. Tienen una apariencia de ser humano, pero con elementos arácnidos. Cuentan con seis extremidades: cuatro brazos de humano y dos patas de araña que les permiten trepar a lo alto de los árboles, donde se desenvuelven con soltura. La esperanza de vida de un araina es algo superior a la de un humano y puede llegar a los 200 años. Son muy protectores con sus huevos, ya que solamente unos pocos consiguen salir adelante.",
-					{
-						"type": "entries",
-						"name": "Arainas Names",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Male Names",
-										"entries": [
-											"Lellel, Lael, Llell"
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Female Names",
-										"entries": [
-											"Larina, Lella, Lallistäe"
-										]
-									}
-								]
-							}
-						]
-					}
-				]
-			},
 			"traitTags": [
 				"Skill Proficiency",
 				"Armor Proficiency",
@@ -190,7 +186,3649 @@
 			],
 			"skillProficiencies": [
 				{
-					"stealth": true
+					"stealth": true,
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Batrok",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/batrok.png",
+			"fluff": {
+				"entries": [
+					"Los batrok son una temida raza palustre. Su apariencia, de sapos antropomorfos, su idioma gutural y su tendencia belicosa los hacen criaturas peligrosas con las que encontrarse. Los batrok llevan tanto tiempo defendiendo sus territorios de criaturas salvajes que han olvidado que en tiempos fueron seres civilizados. Son sus parientes, los anuros, los que aún conservan el espíritu pacífico y la curiosidad de sus ancestros. Posiblemente por eso los anuros prefieren relacionarse con otras razas inteligentes de Voldor antes que con los batrok.",
+					"La altura de los batrok ronda los 5 pies cuando se encuentran erguidos. No obstante, parecen mucho más pequeños, ya que se sientes más cómodos con las ancas flexionadas. Los anuros son más estilizados, pero quien no ha visto antes a un batrok y un anuro los confundirá, lo cual supone un insulto tanto para unos como para los otros. La esperanza de vida de batrok y anuros es de unos 60 años. Como una misma pareja de esta raza puede engendrar hasta una docena de descendientes, es frecuente que los lancen rápidamente a enfrentarse al mundo exterior y que varios de ellos fallezcan antes de alcanzar la madurez.",
+					"Los aventureros batrok suelen ser bárbaros, brujos, druidas o pícaros",
+					{
+						"type": "entries",
+						"name": "Batrok Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Gug, Gaggltesk, Glinn"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Galka, Gekina, Gleda"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"size": "M",
+			"speed": {
+				"walk": 25,
+				"swim": 25
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los batrok son una raza prematura. Sus individuos se consideran adultos a los 14 años y suelen vivir hasta los 60 años"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"La mayoría de los batrok son caóticos: los anuros tienden hacia la bondad y los batrok puros hacia la neutralidad, aunque no es raro ver individuos o incluso poblaciones enteras malignas. Sus sociedades se fundamentan en la figura del líder, que básicamente dictamina a su antojo, más que en un sistema reglado"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. La altura de un batrok adulto está entre 4 y 5 pies y su complexión es robusta"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando y nadando es de 25 pies"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Anfibio",
+					"entries": [
+						"Puedes respirar aire y agua"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Salto vertical",
+					"entries": [
+						"Tu salto largo es de hasta 30 pies y tu salto hacia arriba es de hasta 15 pies, tanto si empieza corriendo como si no"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fortaleza anura",
+					"entries": [
+						" Tienes ventaja en las tiradas de salvación contra {@condition poisoned} y eres resistente al daño por veneno"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guerrero de los pantanos",
+					"entries": [
+						"Tienes competencia con la {@item spear|phb}, el {@item shield|phb}, la {@item sling|phb} y la {@item dart|phb|darts}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y habla del pantano"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escoge una subraza",
+					"entries": [
+						"anuro o batrok puro"
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Armor Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"subraces": [
+				{
+					"name": "Anuros",
+					"ability": [
+						{
+							"wis": 1
+						}
+					],
+					"traitTags": [
+						"Skill Proficiency"
+					],
+					"skillProficiencies": [
+						{
+							"survival": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Civilizados",
+							"entries": [
+								"Los anuros evolucionaron al margen de sus parientes batrok. Son escasos, pero valoran el conocimiento y la amistad, por lo que no es raro encontrárselos en el camino, lejos de su hogar. No les gusta que los confundan con los batrok puros, a los que consideran unos incivilizados."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rastreador de los pantanos",
+							"entries": [
+								"Tienes competencia con la habilidad de {@skill Survival}"
+							]
+						}
+					]
+				},
+				{
+					"name": "Batrok puros",
+					"ability": [
+						{
+							"str": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Rabia Interior",
+							"entries": [
+								"A diferencia de sus parientes más pequeños, los batrok puros poseen una rabia interior y un instinto de supervivencia que los hace grandes luchadores. No es raro que algunos lleguen a ser bandidos o incluso mercenarios capaces de ganarse la vida mediante las armas."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ataques salvajes",
+							"entries": [
+								"Cuando saques un crítico en un ataque con un arma cuerpo a cuerpo, puedes volver a tirar una vez uno de los dados de daño del arma y añadirlo al daño adicional del golpe crítico"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Centauro",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/centauro.png",
+			"fluff": {
+				"entries": [
+					"Los centauros son mitad hombres y mitad caballos: la parte superior de su cuerpo es humanoide, mientras que de cintura para abajo tienen un cuerpo equino con cuatro fuertes patas que les permiten correr a gran velocidad. Su hábitat natural son las praderas, que han aprendido a explotar tanto para la caza y recolección como para la artesanía: mientras que los gnomos son célebres por sus ingenios tecnológicos y los enanos por su herrería y pedrería, los centauros se han ganado una merecida fama trabajando la madera y la arcilla. Aunque son afables, protegen sus comunidades con las armas, como llevan haciendo tiempo con los saurios, que intentan hacerse con su territorio. Los centauros parecen tener las de ganar desde que se aliaron con los elfos Banjora y los fórmigos.",
+					"Un centauro suele rondar los 7 pies de altura y su esperanza de vida es de 175 años. Los centauros tienen dificultades para dejar descendencia, por lo que otorgan un gran peso a la vida de sus iguales.",
+					"Los aventureros centauros suelen ser bardos, clérigos, exploradores o hechiceros",
+					{
+						"type": "entries",
+						"name": "Centauros Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Herio, Democles, Dícules"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Ardiana, Hilia, Soffe"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"str": 2,
+					"wis": 1
+				}
+			],
+			"size": "M",
+			"speed": 50,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los centauros suelen vivir entre 160 y 175 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"A los centauros les encanta la libertad y la vida salvaje, por lo que tienden hacia los aspectos más moderados del caos. Valoran y protegen la libertad de su pueblo con fiereza, pero prefieren la paz a la guerra"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Grande. Un centauro suele superar los 7 pies de altura"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 50 pies"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pezuñas",
+					"entries": [
+						"Posees un arma natural de pezuñas (arma cuerpo a cuerpo, alcance 5 pies, daño {@dice 1d6} contundente), con la que se considera que tienes competencia"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Entrenamiento de combate centauro",
+					"entries": [
+						"Tienes competencia con el {@item longbow|phb}, la {@item spear|phb}, la {@item pike|phb} y la {@item lance|phb}. Además, siempre se te considera montado a efectos de utilizar armas"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Competencia con herramientas",
+					"entries": [
+						"Tienes competencia con las herramientas de artesano que elijas entre: {@item Potter's Tools|phb}, {@item woodcarver's Tools|phb} o {@item carpenter's Tools|phb}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Afinidad con las bestias",
+					"entries": [
+						"Tienes competencia con la habilidad de {@skill Animal Handling}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mitad humano",
+					"entries": [
+						"Pese a su tamaño, los centauros acostumbran a utilizar armas humanas. Aunque eres Grande, se te considera Mediano a efectos de esgrimir armas, pero no armaduras. Además, no se te considera humanoide sino monstruosidad"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común, así como un idioma adicional de tu elección."
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Monstrous Race",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Unarmed Strike",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"animal handling": true,
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Dracónido",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/draconido.png",
+			"fluff": {
+				"entries": [
+					"Los dracónidos son humanoides de aspecto draconiano. Existe una amplia variedad de dracónidos, ya que el color de sus escamas los emparenta con alguna de las especies de dragones existentes en Voldor. Por su apariencia temible, los dracónidos han vivido durante mucho tiempo separados de otras razas, agrupándose en clanes autosuficientes en los que valores como la bondad y la empatía han calado hondo. Por ejemplo, es frecuente que todos los miembros de la comunidad ayuden a proteger los huevos hasta que eclosionan. La buena disposición de los miembros de esta raza ha facilitado que, cuando alguno ha viajado más allá del territorio de su clan, haya trabado amistad fácilmente con otras razas. Pese a su relación, los dragones de Voldor parecen tener animadversión hacia los dracónidos, ya que los atacan en cuanto los ven.",
+					"Los dracónidos suelen medir algo más de 6 pies y su esperanza de vida sobrepasa los 200 años.","Los aventureros dracónidos suelen ser hechiceros, clérigos, magos o paladines.",
+					{
+						"type": "entries",
+						"name": "Dracónidos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Arjaan, Deehk, Ennod"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Eneera, Lendäa, Ijiit"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"size": "M",
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 66,
+				"heightMod": "2d8",
+				"baseWeight": 175,
+				"weightMod": "2d6"
+			},
+			"traitTags": [
+				"Damage Resistance",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/dragonborn.mp3"
+			},
+			"entries": [
+				{
+					"name": "Edad",
+					"type": "entries",
+					"entries": [
+						"Los dracónidos crecen rápido. Caminan horas después de salir del cascarón, alcanzan el tamaño y el desarrollo de un niño humano de 10 años cuando tienen 3 y la madurez cuando tienen 15. Viven unos 200 años"
+					]
+				},
+				{
+					"name": "Alineamiento",
+					"type": "entries",
+					"entries": [
+						"Los dracónidos tienden hacia los extremos en la guerra cósmica entre el bien y el mal. La mayoría son buenos, pero los que se ponen de lado del mal pueden ser terriblemente malignos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los dracónidos son más altos y pesados que los humanos, pueden medir más de 6 pies de altura y pesan una media de 250 libras."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"name": "Antepasado dragón",
+					"entries": [
+						"Tienes un antepasado dragón. Elige un tipo de dragón de la tabla de antepasado dragón. Tu arma de aliento y tu resistencia al daño están determinadas por el tipo de dragón, como se indica en la tabla.",
+						{
+							"type": "table",
+							"caption": "Antepasado dragón",
+							"colLabels": [
+								"Dragón",
+								"Tipo de daño y resistencia",
+								"Arma de aliento"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-3 text-center",
+								"col-6"
+							],
+							"rows": [
+								[
+									"Negro",
+									"Ácido",
+									"Línea de 5 a 30 pies (salvación de Destreza)"
+								],
+								[
+									"Azul",
+									"Relámpago",
+									"Línea de 5 por 30 pies (salvación de Destreza)"
+								],
+								[
+									"De oropel",
+									"Fuego",
+									"Línea de 5 a 30 pies (salvación de Destreza)"
+								],
+								[
+									"De bronce",
+									"Relámpago",
+									"Línea de 5 a 30 pies (salvación de Destreza)"
+								],
+								[
+									"De cobre",
+									"Ácido",
+									"Línea de 5 a 30 pies (salvación de Destreza)"
+								],
+								[
+									"De oro",
+									"Fuego",
+									"Cono de 15 pies (salvación de Destreza)"
+								],
+								[
+									"Verde",
+									"Veneno",
+									"Cono de 15 pies (salvación de Constitución)"
+								],
+								[
+									"Rojo",
+									"Fuego",
+									"Cono de 15 pies (salvación de Destreza)"
+								],
+								[
+									"De plata",
+									"Frío",
+									"Cono de 15 pies (salvación de Constitución)"
+								],
+								[
+									"Blanco",
+									"Frío",
+									"Cono de 15 pies (salvación de Constitución)"
+								]
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Arma de aliento",
+					"entries": [
+						"Puedes usar tu acción para exhalar energía destructiva. Tu antepasado dragón determina el tamaño, la forma y el tipo de daño de la exhalación.",
+						"Cuando usas tu arma de aliento, todas las criaturas que se encuentren en el área de la exhalación deben hacer una tirada de salvación, según determine tu antepasado dragón. La CD de esta tirada de salvación es igual a 8 + tu modificador por Constitución + tu bonificador por competencia. Si la criatura falla la tirada, recibe {@dice 2d6} puntos de daño, y si tiene éxito, la mitad. El daño aumenta a {@dice 3d6} en el nivel 6, a {@dice 4d6} en el nivel 11 y a {@dice 5d6} en el nivel 16",
+						"Después de usar tu arma de aliento, tienes que completar un descanso breve o prolongado para volver a utilizarla."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistencia al daño",
+					"entries": [
+						"Tienes resistencia al tipo de daño asociado con tu antepasado dragón."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y dragón. Se cree que el dragón es uno de los idiomas más antiguos, y a menudo se usa en el estudio de la magia. Esta lengua suena áspera para la mayoría de criaturas e incluye muchas consonantes duras y sibilantes."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elfo",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/elfo.png",
+			"fluff": {
+				"entries": [
+					"De entre todas las razas creadas por los Peregrinos en Voldor, los elfos sobresalían por encima de todas las demás. Eran y son criaturas hermosas, pero inquietantes y crueles, pues eran conscientes de su superioridad al poder medrar bajo la protección de sus creadores sin sufrir su desprecio y su cólera. Tal vez de ahí su desdén hacia otras razas. Incapaces de sufrir remordimiento o de albergar bondad en sus corazones, se aislaron en sí mismos. Este egoísmo fue intensificándose hasta la marcha de los Peregrinos. Huérfanos y abandonados, los elfos se escindieron en dos pueblos: los Banjora, que decidieron dejar atrás las ciudades del mundo interior y buscar su suerte en la superficie, junto a las demás razas; y los Bastarre, también llamados altos elfos, que permanecieron en su hogar, aguardando el regreso de sus creadores.",
+					"A pesar de su longevidad (los elfos superan con facilidad el medio milenio), muchos de sus miembros son estériles, cada vez más, por eso el número de elfos ha menguando al pasar de los siglos. Cada año que pasa mueren más individuos de los que nacen, hasta su presumible extinción.",
+					"Los aventureros elfos suelen ser exploradores, clérigos, magos o pícaros",
+					{
+						"type": "entries",
+						"name": "Elfos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Arlimaad, Eventhelios, Dheliand"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Berediand, Liriana, Miireen"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"size": "M",
+			"darkvision": 60,
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Aunque los elfos alcanzan la madurez física más o menos a la misma edad que los humanos, la forma en que entienden la edad adulta va más allá del crecimiento físico y abarca la experiencia mundana. Normalmente, un elfo se considera maduro y recibe un nombre de adulto con 100 años aproximadamente y puede vivir hasta 750 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"A los elfos les encanta la libertad, la diversidad y la expresión personal, por lo que tienen una fuerte tendencia hacia los aspectos más moderados del caos. Valoran y protegen la libertad de los demás como si fuera la suya propia, y suelen ser más buenos que malignos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los elfos miden de 5 a 6 pies de altura y tienen una constitución delgada"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Tienes una visión superior en la oscuridad y la penumbra, dado que estás acostumbrado a la luz crepuscular de los bosques y al cielo nocturno. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante y, en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentidos agudizados",
+					"entries": [
+						"Tienes competencia con la habilidad de {@skill Perception}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ancestro feérico",
+					"entries": [
+						"Tienes ventaja en las tiradas de salvación para no quedar {@condition charmed} y no puedes quedarte dormido por ningún efecto mágico"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trance",
+					"entries": [
+						"Los elfos no necesitan dormir, en lugar de ello meditan profundamente y permanecen semiinconscientes durante cuatro horas al día (la palabra del idioma común para tal meditación es \"trance.\"). Mientras meditas, puedes tener una especie de sueños, aunque en realidad son ejercicios mentales automatizados gracias a años de práctica. Descansar de este modo te otorga los mismos beneficios que dormir ocho horas a un humano"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y élfico. El élfico es un idioma fluido, con entonaciones sutiles y una gramática intrincada. La literatura élfica es rica y variada, y sus poemas y canciones son famosos entre el resto de razas. Muchos bardos aprenden este idioma para incluir poemas élficos a sus repertorios"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escoge una subraza",
+					"entries": [
+						"elfo Banjora o elfo Bastarre"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Improved Resting",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true,
+					"tool": true
+				}
+			],
+			"subraces": [
+				{
+					"name": "Banjora",
+					"ability": [
+						{
+							"wis": 1
+						}
+					],
+					"languageProficiencies": [
+						{
+							"anyStandard": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Elfos Banjora",
+							"entries": [
+								"Prácticos y vitales, los elfos Banjora abrazaron la soledad tras la marcha de los Peregrinos como una oportunidad para conocer el mundo de Voldor. Emigraron a lugares tan inhóspitos como bellos y los convirtieron en su hogar. Aunque son mucho más accesibles que los elfos Bastarre, los Banjora siguen resultando distantes y demasiado tradicionales para las otras razas.",
+								"Los aventureros Banjora suelen ser bardos, exploradores, magos o guerreros."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Entrenamiento con armas élficas",
+							"entries": [
+								"Tienes competencia con la {@item scimitar|phb}, la {@item spear|phb}, el {@item shortbow|phb} y el {@item morningstar|phb}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Adaptado al yermo",
+							"entries": [
+								"Tienes ventaja en las tiradas de salvación contra agotamiento y necesitas la mitad de comida y agua que otras razas para subsistir"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Idioma adicional",
+							"entries": [
+								"Puedes hablar, leer y escribir un idioma adicional de tu elección"
+							]
+						}
+					]
+				},
+				{
+					"name": "Bastarre (alto elfo)",
+					"ability": [
+						{
+							"int": 1
+						}
+					],
+					"languageProficiencies": [
+						{
+							"anyStandard": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Elfos Bastarre",
+							"entries": [
+								"Al contrario que sus parientes Banjora, los elfos Bastarre no se resignaron al abandono de los Peregrinos, sino que aguardan su regreso. Se consideran la raza verdaderamente digna de sus creadores y por eso evitan en la medida de lo posible mezclarse con las demás. Los Bastarre tienen una mente suspicaz y dominan al menos lo básico de la magia, que perfeccionan en sus hogares recluidos.",
+								"Los aventureros Bastarre suelen ser brujos, clérigos, magos o guerreros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Entrenamiento con armas élficas",
+							"entries": [
+								"Tienes competencia con la {@item longsword|phb}, la {@item shortsword|phb}, el {@item shortbow|phb} y el {@item longbow|phb}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Truco",
+							"entries": [
+								"Conoces un {@filter truco de tu elección de la lista de conjuros de mago|spells|level=0|class=Wizard}. La característica que usas para lanzarlo es Inteligencia"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Idioma adicional",
+							"entries": [
+								"Puedes hablar, leer y escribir un idioma adicional de tu elección"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Enano",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/enano.png",
+			"fluff": {
+				"entries": [
+					"Tal y como su nombre evoca, los enanos parecen humanos achaparrados, corpulentos y velludos, hasta el punto de que los varones han convertido el cuidado de sus barbas en todo un arte. Los enanos están más cómodos bajo la tierra que sobre ella, y por ello la mayor parte de sus ciudades se encuentran en el subsuelo, aunque siempre bien comunicadas con la superficie. Aunque son tozudos y en ocasiones hoscos, los enanos suelen tener buen corazón. Esto, unido a sus férreas tradiciones en las que valores como el honor, la valentía y el coraje tienen un papel principal, hace que muchos de ellos se lancen a la aventura en cuanto son capaces de levantar un hacha. Y, dado que su esperanza de vida es de entre 300 y 400 años, les esperan cientos de aventuras.",
+					"Existen subrazas de enanos, como los enanos de las colinas y otras menos conocidas que parecen el reflejo oscuro de sus hermanos: los derro, de piel grisácea y mente enloquecida, y los duérgar, una sibilina raza que rara vez abandona las profundidades.",
+					"Los aventureros enanos suelen ser bárbaros, clérigos, guerreros o paladines",
+					{
+						"type": "entries",
+						"name": "Enanos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Korlen, Krogar, Kirken"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Dulka, Dekra, Kerana"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"con": 2
+				}
+			],
+			"size": "M",
+			"darkvision": 60,
+			"speed": 25,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los enanos maduran al mismo ritmo que los humanos, pero se consideran jóvenes hasta los 50 años de edad. Viven una media de 350 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"La mayoría de los enanos son legales y creen firmemente en los beneficios de una sociedad bien organizada. Asimismo, tienden hacia el bien, tienen un arraigado sentido del juego limpio y creen que todo el mundo merece beneficiarse de la justicia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los enanos tienen un tamaño de entre 4 y 5 pies de altura y pesan una media de 150 libras"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 25 pies y no se ve reducida por llevar armadura pesada"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Al estar acostumbrado a la vida subterránea, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fortaleza enana",
+					"entries": [
+						"Tienes ventaja en las tiradas de salvación contra venenos y eres resistente al daño por veneno"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Entrenamiento de combate enano",
+					"entries": [
+						"Tienes competencia con el {@item battleaxe|phb}, el {@item handaxe|phb}, el {@item light hammer|phb} y el {@item warhammer|phb}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Competencia con herramientas",
+					"entries": [
+						"Tienes competencia con las herramientas de artesano que elijas entre: {@item Smith's tools|phb}, {@item brewer's supplies|phb} o {@item mason's tools|phb}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Afinidad con la piedra",
+					"entries": [
+						"Cuando realices una prueba de Inteligencia ({@skill History}) relacionada con el origen de una obra de mampostería, se considera que tienes competencia con la habilidad de {@skill History} y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y enano. El idioma enano está lleno de consonantes duras y sonidos guturales, características que se aplican también a cualquier otra lengua que hable un enano"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escoge una subraza",
+					"entries": [
+						"Enano de las colinas o duérgar"
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dwarvish": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"tool": true
+				}
+			],
+			"subraces": [
+				{
+					"name": "Enanos de las colinas",
+					"ability": [
+						{
+							"wis": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enano de las colinas",
+							"entries": [
+								"Dentro del pueblo enano se conoce como enanos de las colinas a aquellos que tienen una relación más estrecha con la superficie, siendo prácticamente los únicos enanos que suele llegar a conocer a un miembro de otra raza. Los enanos de las colinas tienen unos sentidos agudos, una gran intuición y una fortaleza increíble.",
+								"Los aventureros enanos de las colinas suelen ser clérigos, exploradores, guerreros o paladines."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dureza enana",
+							"entries": [
+								"Tu máximo de puntos de golpe aumenta en 1 y aumenta 1 más cada vez que subes de nivel"
+							]
+						}
+					]
+				},
+				{
+					"name": "Duérgar",
+					"ability": [
+						{
+							"cha": 1
+						}
+					],
+					"darkvision": 120,
+					"traitTags": [
+						"Spellcasting"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enanos Duérgar",
+							"entries": [
+								"Los duérgar son enanos que permanecen en las tinieblas de las profundidades, distanciados de sus hermanos. Con el devenir de las generaciones se tornaron más insidiosos y sibilinos, traicionándose unos a otros y recelando de otras razas. En ocasiones son capaces de engañar a algún miembro de otra raza para que crea en ellos el tiempo suficiente para poder aprovecharse de su ingenuidad.",
+								"Los aventureros duérgar suelen ser brujos, exploradores, guerreros o pícaros."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Visión en la oscuridad mejorada",
+							"entries": [
+								"Al haberte criado en los túneles del mundo interior, tienes una visión superior en la oscuridad más absoluta. Puedes ver en la oscuridad a una distancia de 120 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sensibilidad a la luz del sol",
+							"entries": [
+								"Mientras estés expuesto a la luz del sol, tienes desventaja en las tiradas de ataque, así como en las pruebas de Sabiduría ({@skill Perception}) que se basen en la vista"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Brujería duérgar",
+							"entries": [
+								"Conoces el truco {@spell Minor Illusion}. Cuando alcanzas el nivel 3, puedes lanzar el conjuro {@spell Enlarge/Reduce} sobre ti mismo una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. Cuando alcanzas el nivel 5, puedes lanzar el conjuro {@spell Invisibility} sobre ti mismo una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. La característica para lanzar estos conjuros es Carisma"
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"innate": {
+								"1": [
+									"Minor Illusion"
+								],
+								"3": [
+									"Enlarge/Reduce"
+								],
+								"5": [
+									"Invisibility"
+								]
+							},
+							"ability": "cha"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Felínido",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/felinido.png",
+			"fluff": {
+				"entries": [
+					"Aquellos que se encuentran con un felínido por primera vez suelen tomarlo por un ser adusto y reservado, que prefiere guardarse para sí sus pensamientos y que va de acá para allá sin preocuparse por nadie. Algo de cierto hay en esa primera impresión, pero se le escapa que años de lucha por hacerse un hogar en los inhóspitos terrenos montañosos han hecho a los felínidos valorar a la familia y a los amigos. Los que han vivido junto a ellos cuentan que, si te ganas su confianza, puedes tener amigos de por vida, pero que basta traicionarlos una sola vez para que te den la espalda.",
+					"Los hombres gato tienen un carácter astuto, lo que les ha permitido dominar tanto las artes marciales como las arcanas. Son reflexivos y valoran la tranquilidad, pero dedican largos periodos al entrenamiento en combate. Se espera de cualquier miembro de su raza que afronte la vida con decisión.",
+					"Físicamente, los felínidos tienen un tamaño similar al de un humano, aunque son más fibrosos y sus pies acaban en tres garras vestigiales. El rostro de los varones suele mostrar vello facial, y tanto ellos como ellas gustan de dejar que sus cabellos crezcan de manera salvaje. De hecho, tener que cortárselo puede ser motivo de vergüenza. Un felínido suele vivir hasta los 90 años y alcanzan la madurez al mismo tiempo que los humanos. Sin embargo, su sociedad los considera adultos tan pronto como son capaces de sobrevivir por sí mismos en terreno agreste.",
+					"Los aventureros felínidos suelen ser druidas, hechiceros, monjes o pícaros",
+					{
+						"type": "entries",
+						"name": "Felínidos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Tarafi, Meren, Melenek"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Niala, Sarabhi, Shaiya"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"size": "M",
+			"speed": 35,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Aunque los felínidos tardan en alcanzar la madurez física lo mismo que los humanos, suelen ser considerados como adultos por su sociedad mucho antes. Viven una media de 90 años, aunque pueden llegar a los 110 años de edad."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los felínidos se alinean en la legalidad y el bien. Aquellos con tendencia al caos suelen ser repudiados por la sociedad felínida"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los felínidos miden entre 5 y 6 pies de altura y su constitución es delgada"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 35 pies"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Compartes con tus parientes felinos la capacidad de ver en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cultura milenaria",
+					"entries": [
+						"Tienes competencia con las herramientas de artesano que elijas entre: {@item calligrapher's supplies|PHB}, {@item cartographer's tools|phb}, {@item Potter's Tools|phb} o {@item painter's supplies|phb}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Camino del guerrero",
+					"entries": [
+						"Tienes competencia con armaduras ligeras, {@item javelin|phb}, {@item glaive|phb}, {@item shortbow|phb} y {@item spear|phb}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pies de gato",
+					"entries": [
+						"Cuando sufras daño por una caída, resta tantos pies de caída como tu bonificador por competencia multiplicado por 5. Además, siempre aterrizas de pie."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Uno con el espíritu",
+					"entries": [
+						"Tienes competencia con la habilidad {@skill arcana}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y felino."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Armor Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Fórmigo",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/formigo.png",
+			"fluff": {
+				"entries": [
+					"Los hombres hormiga son de los seres más extraordinarios de Voldor por su inteligencia, carácter práctico, paciencia, responsabilidad y laboriosidad. Son criaturas pacíficas, solo preocupadas por la prosperidad de sus colonias. Rara vez iniciarán un conflicto, pero se defenderán de manera implacable llegado el caso. También son excelentes comerciantes y constructores, y mantienen estrechos lazos de amistad con los centauros y los hombres mono del Imperio Mida.",
+					"Los hormigueros de los fórmigos son un prodigio de la ingeniería: un laberíntico sistema de túneles conecta cientos de cámaras dispuestas con todo lo necesario para cumplir diversas funciones. Algunas de estas colonias alcanzan una profundidad inusitada, más allá del mundo interior, penetrando millas y millas en la tierra. Cada colonia la controla una reina, que son las únicas que pueden engendrar las larvas que darán lugar, al final de su desarrollo, a los fórmigos.",
+					"Los aventureros fórmigos suelen ser exploradores, clérigos, magos o paladines",
+					{
+						"type": "entries",
+						"name": "Fórmigos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Iiikil, Iffilyk, Iym"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Dynii, Idhinii, Ihedii"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"int": 2,
+					"wis": 1
+				}
+			],
+			"size": "M",
+			"speed": {
+				"walk": 30,
+				"dig": 15
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						" Un fórmigo madura a la edad de 10 años y vive unos 35 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los fórmigos se alinean en la legalidad y el bien. Aunque nada les impide tener otros alineamientos, esto dificultaría su vida en una sociedad tan organizada y cooperativa como la suya."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los fórmigos miden entre 5 y 6 pies y su peso suele ser ligeramente superior al de un humano del mismo tamaño"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies. Tu velocidad excavando es de 15 pies"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Al estar acostumbrado a la vida subterránea, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Piel quitinosa",
+					"entries": [
+						"Mientras no lleves armadura, tu CA es igual a 11 + tu modificador por Destreza. Sigues pudiendo utilizar escudo y recibir sus beneficios. Tienes ventaja en las tiradas de salvación contra ácido y eres resistente al daño por ácido"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cavatúneles",
+					"entries": [
+						"Puedes excavar a través de tierra virgen no mágica."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orientación infalible",
+					"entries": [
+						"Los fórmigos poseen una capacidad extraordinaria para orientarse y memorizar rutas. Nunca te pierdes en un área interior, ya sea natural o no, y recuerdas a la perfección el camino que has seguido."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Imitación",
+					"entries": [
+						"Los fórmigos poseen una extraña capacidad para imitar acciones complejas cuando las observan atentamente. Cuando realices una acción de ataque con un arma con la que no tengas competencia, puedes usar una acción adicional para atacar como si sí la tuvieras. Tienes que poder ver a alguien competente combatir con esa misma arma para poder realizar la acción.",
+						"También se considera que tienes competencia con cualquier herramienta si puedes ver a alguien competente utilizándola en ese momento."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y fórmigo."
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Damage Resistance",
+				"Natural Armor",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Gnomo",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/gnomo.png",
+			"fluff": {
+				"entries": [
+					"Pequeños y optimistas, los gnomos son criaturas con gran voluntad. Sus orejas puntiagudas son como las de los elfos, pero su rostro recuerda más al de un niño humano. Tras esta apariencia inofensiva se encuentran unas criaturas sumamente inteligentes y con un talento extraordinario para el saber, la creación y la magia. Esta ansia de conocimiento es la que los ha abierto a otras razas. Las poblaciones de gnomos suelen ser sitios vibrantes, donde se suceden ruidos de maquinaria y, de cuando en cuando, alguna explosión. Cuando los gnomos viajan a territorios lejanos, les invade una sana curiosidad, que satisfacen haciendo preguntas de toda índole.",
+					"Una subraza de gnomo numerosa son los gnomos de las rocas, más robustos que el resto de sus hermanos. Sin embargo, no todos los gnomos son afables: en las profundidades de la tierra moran los svirfneblins, una subraza con el tono de piel azulado y naturaleza malvada, que suele aliarse con otras criaturas subterráneas antes que con sus parientes de la superficie.",
+					"Los aventureros gnomos suelen ser bardos, hechiceros, pícaros o magos"
+				]
+			},
+			"ability": [
+				{
+					"int": 2
+				}
+			],
+			"size": "S",
+			"darkvision": 60,
+			"speed": 25,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los gnomos maduran al mismo ritmo que los humanos y se espera que la mayoría llegue a la edad adulta alrededor de los 40 años. Pueden vivir de 350 a casi 500 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"La mayoría de gnomos son buenos. Aquellos que se inclinan hacia la ley son sabios, ingenieros, investigadores, eruditos o académicos. Los que se inclinan hacia el caos son juglares, timadores, vagabundos o joyeros caprichosos. Los gnomos tienen buen corazón y hasta los timadores resultan ser más traviesos que maliciosos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Pequeño. Los gnomos miden entre 3 y 4 pies y pesan una media de 40 libras"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 25 pies"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						" Al estar acostumbrado a la vida subterránea, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astucia de gnomo",
+					"entries": [
+						"Tienes ventaja en todas las tiradas de salvación de Inteligencia, Sabiduría y Carisma contra magia"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y gnomo. El idioma gnomo, que utiliza la grafía enana, es famoso por sus tratados técnicos y sus catálogos de conocimiento sobre el mundo natura"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escoge una subraza",
+					"entries": [
+						"gnomos de las rocas o svirfneblins"
+					]
+				}
+			],
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnomish": true
+				}
+			],
+			"subraces": [
+				{
+					"name": "Gnomos de las rocas",
+					"ability": [
+						{
+							"con": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Gnomo de las rocas",
+							"entries": [
+								"Como gnomo de las rocas, tienes una creatividad y una dureza naturales que superan las de otros gnomos.",
+								"Los aventureros gnomos suelen ser hechiceros, guerreros, magos o monjes."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gnomos de las rocas names",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Male Names",
+											"entries": [
+												"Dunstin, Gendry, Fylyp"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Female Names",
+											"entries": [
+												"Ellorawn, Lorabbhela, Sanirabhi"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Conocimiento de artificiero",
+							"entries": [
+								"Cuando hagas una prueba de Inteligencia ({@skill History}) relacionada con objetos mágicos, alquímicos o tecnológicos, puedes añadir tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Constructor",
+							"entries": [
+								"Tienes competencia con herramientas de artesano (constructor). Con ellas puedes dedicar una hora de trabajo y emplear materiales por valor de 10 po para fabricar un mecanismo Diminuto (CA 5, 1 pg). El dispositivo deja de funcionar 24 horas después (a menos que dediques una hora a repararlo) o cuando uses una acción para desmantelarlo; en ambos casos puedes recuperar los materiales usados. Puedes tener hasta tres mecanismos de este tipo activos a la vez. Cuando crees un mecanismo, elige una de las siguientes opciones",
+								{
+									"type": "list",
+									"style": "list-hang",
+									"items": [
+										{
+											"type": "item",
+											"name": "Juguete mecánico",
+											"entry": "Este juguete de cuerda tiene forma de animal, monstruo o persona. Puede ser una rana, un ratón, un pájaro, un dragón o un soldado. Cuando se coloca en el suelo, el juguete avanza 5 pies en cada uno de tus turnos hacia una dirección al azar. Hace ruido de acuerdo a la criatura que representa"
+										},
+										{
+											"type": "item",
+											"name": "Encendedor",
+											"entry": "Este dispositivo produce una diminuta llama que puedes usar para encender una vela, una antorcha o una hoguera. Usar el mecanismo requiere una acción"
+										},
+										{
+											"type": "item",
+											"name": "Caja de música",
+											"entry": "Cuando se abre, esta caja de música toca una única canción a un volumen moderado. La caja deja de sonar cuando acaba la canción o cuando se cierra."
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Svirfneblins",
+					"ability": [
+						{
+							"str": 1
+						}
+					],
+					"darkvision": 120,
+					"traitTags": [
+						"Spellcasting"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Gnomo Svirfneblin",
+							"entries": [
+								"Los svirfneblins son gnomos que se ocultaron en las profundidades de Vajra para librarse del control de los Peregrinos. El paso del tiempo los ha convertido en criaturas solitarias, lóbregas y recelosas de las otras razas. Son expertos en camuflarse y evitar a los enemigos, ya sea mediante el sigilo o las ilusiones.",
+								"Los aventureros svirfneblins suelen ser brujos, magos, pícaros o guerreros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Svirfneblins names",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Male Names",
+											"entries": [
+												"Duffengord, Felgestad, Svenffeld"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Female Names",
+											"entries": [
+												"Daffmila, Guffmilda, Fiffkana"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Visión en la oscuridad mejorada",
+							"entries": [
+								"Al haberte criado en los túneles del mundo interior, tienes una visión superior en la oscuridad más absoluta. Puedes ver en la oscuridad a una distancia de 120 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sensibilidad a la luz del sol",
+							"entries": [
+								"Mientras estés expuesto a la luz del sol, tienes desventaja en las tiradas de ataque y Sabiduría ({@skill Perception})."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Camuflaje en piedra",
+							"entries": [
+								"Tienes ventaja en todas las tiradas de salvación de Destreza ({@skill Stealth}) para ocultarte en terreno rocoso"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Brujería svirfneblin",
+							"entries": [
+								"Conoces el truco {@spell Minor Illusion}. Cuando alcanzas el nivel 3, puedes lanzar el conjuro {@spell disguise self} una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. Cuando alcanzas el nivel 5, puedes lanzar el conjuro {@spell blindness/deafness} una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. La característica para lanzar estos conjuros es Inteligencia"
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"innate": {
+								"1": [
+									"Minor Illusion"
+								],
+								"3": [
+									"disguise self"
+								],
+								"5": [
+									"blindness/deafness"
+								]
+							},
+							"ability": "cha"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hipótido",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/hipotido.png",
+			"fluff": {
+				"entries": [
+					"Voluminosos y resistentes, los hipótidos son hombres hipopótamo que se agrupan en tribus. Aunque se desenvuelven bien en cualquier ambiente, disfrutan de la cercanía del agua, en la cual pueden incluso dormir y reponerse de la fatiga. Se les tiene por personas tranquilas, y es cierto, pero cuando alguien consigue sacarlos de sus casillas se revelan como unos luchadores fieros y difíciles de domeñar.",
+					"Los hipótidos son hogareños y, por tanto, territoriales. No tienen problema en abandonar su hogar si una aventura lo exige, pero cuando todo se haya resuelto volverán a su casa y contarán historias de su viaje a sus seres queridos. Un fuerte sentimiento de comunidad suele ser común en todos los hipótidos, lo cual los convierte también en excelentes amigos.",
+					"Los hipótidos siempre superan los 6 pies y su peso va en consonancia con su altura. Su esperanza de vida es similar a la de los humanos.",
+					"Los aventureros hipótidos suelen ser bárbaros, clérigos, exploradores o guerreros.",
+					{
+						"type": "entries",
+						"name": "Hipótidos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Bukko, Boroko, Zorkkan"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Bukkira, Dashika, Kikkara"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"size": "M",
+			"speed": {
+				"walk": 30,
+				"swim": 25
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los hipótidos alcanzan la edad adulta hacia los 19 años y viven poco menos de un siglo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los hipótidos son criaturas tranquilas con tendencia al bien, aunque sus instintos territoriales pueden llevarlos a actuar de manera violenta. Sus sociedades suelen ser sencillas y con pocas leyes, más neutrales o incluso caóticas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los hipótidos suelen superar los 6 pies de altura y su peso ronda las 400 libras"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies. Tu velocidad nadando es de 25 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Habitante del río",
+					"entries": [
+						"Puedes aguantar la respiración tantos minutos como tu puntuación de Constitución. Además, puedes dormir debajo del agua y subir a respirar sin necesidad de despertarte"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nadador",
+					"entries": [
+						"Cuando realices una prueba de Fuerza (Atletismo) sumergido en el agua, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Corpulencia",
+					"entries": [
+						"Tu máximo de puntos de golpe aumenta en 1 y aumenta 1 más cada vez que subes de nivel."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Insaciable",
+					"entries": [
+						"Requieres el doble de comida y agua que otras razas para subsistir."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inamovible",
+					"entries": [
+						"Cuando realices una prueba de Fuerza ({@skill athletics}) para evitar ser empujado o agarrado, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común, así como el habla del pantano."
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Humano",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/humano.png",
+			"fluff": {
+				"entries": [
+					"Considerados inferiores por algunas otras razas, los humanos tienen en su número y en su adaptabilidad su gran fuerza, esa que los convierte en una raza a tener en cuenta. Su apariencia es muy variada, especialmente en lo referido al tono de piel, de pelo y color de ojos.",
+					"En la mayor parte de los escenarios de fantasía los humanos son la raza dominante. Sin embargo, en Voldor, el escenario de campaña que presentamos en este libro, son una raza poco civilizada, a la altura de otras como los orcos o los saurios. Su capacidad de adaptarse a cualquier tipo de terreno y su disposición al diálogo les han granjeado una buena posición entre las demás razas del mundo.",
+					"Los aventureros humanos suelen desempeñar cualquier clase.",
+					{
+						"type": "entries",
+						"name": "Hipótidos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Arbathos, Gustag, Kressus"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Deane, Berenda, Sionda"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"int": 1,
+					"wis": 1,
+					"cha": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los humanos alcanzan la edad adulta hacia los 19 años y viven menos de un siglo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los humanos no tienden hacia un alineamiento en particular. Entre ellos se encuentra lo mejor y lo peor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. La altura y constitución de los humanos varían mucho, desde apenas 5 pies hasta más de 6."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común, así como un idioma adicional de tu elección. Normalmente los humanos aprenden el idioma de otras gentes con las que tratan, incluso dialectos ocultos. Son aficionados a utilizar palabras de otras lenguas en sus conversaciones: maldiciones en orco, expresiones musicales élficas, frases militares enanas, etcétera"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Karasu",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/karasu.png",
+			"fluff": {
+				"entries": [
+					"No todas las razas de Voldor son igual de conocidas. Las hay que han buscado establecer lazos comerciales y de amistad; otras han guerreado, y algunas, como los karasu, se han limitado a sus propios asuntos y se han dejado ver en contadas ocasiones. Tanto es así que en algunas regiones ni se ha oído hablar de ellos o son considerados material de leyendas. Con su apariencia corvina, los karasu u hombres cuervo son un enigma para gran parte de los habitantes de Voldor. Sus tierras natales están alejadas del resto de civilizaciones, en picos altos que solamente ellos pueden ascender. Su cultura es muy hermética y les ha enseñado a desconfiar de todo y de todos, pero también a valorar la magia. Posiblemente esta sea la razón por la que algunos comienzan a ser vistos por tierras más civilizadas, a menudo como parte de un grupo de aventureros, tratando de ampliar los ya de por sí vastos conocimientos de su raza sobre lo arcano.",
+					"Físicamente, un karasu recuerda a un cuervo, aunque carecen de alas. Sus manos y pies son garras que se mueven con gran velocidad al conjurar. Un karasu madura a los 20 años y puede llegar a vivir 100 años si se cuidan bien.",
+					"Los aventureros karasu suelen ser bardos, brujos, hechiceros o monjes.",
+					{
+						"type": "entries",
+						"name": "Hipótidos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Abkú, Kenza, Oukama"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Dakia, Raina, Zaza"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"wis": 2,
+					"cha": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Un karasu alcanza la edad adulta con 20 años y generalmente vive algo menos de un siglo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"La mayoría de los karasu son caóticos. Gustan del engaño y la confusión para conseguir sus fines. Como raza no se definen en el espectro del bien o del mal. Si bien han adquirido cierta mala fama más por sus medios que por los fines. Se pueden encontrar individuos malignos, buenos o neutrales por igual en esta raza."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los karasu miden sobre los 5 pies y pesan bastante poco debido a sus huesos ligeros."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Gracias a las costumbres nocturnas de tu pueblo, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Extraño encantador",
+					"entries": [
+						"Cuando realices una prueba de Carisma ({@skill deception}) con un desconocido que no esté acostumbrado a los karasu, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mímica",
+					"entries": [
+						"Puedes imitar cualquier voz humanoide o sonido animal. Una criatura que oiga el sonido puede darse cuenta de que es una imitación con una tirada exitosa de Sabiduría ({@skill Perception}) a dificultad 8 + tu modificador por Sabiduría + tu bonificador por competencia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Camuflaje natural",
+					"entries": [
+						"Cuando realices una prueba de Destreza ({@skill Stealth}) en zonas de luz tenue u oscuridad, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Afín a lo arcano",
+					"entries": [
+						"Tienes competencia con la habilidad {@skill arcana}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y gengo"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Uncommon Race",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Kitsune",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/kitsune.png",
+			"fluff": {
+				"entries": [
+					"Los kitsune, medio hombres y medio zorros, son otra de esas razas que parecen surgidas de las mismas leyendas. Hay quien cree que son vestigios de tiempos antiguos y que se encuentran en vías de extinción; otros, que sencillamente son una raza poco fértil. Los que los conocen juran y perjuran que no hay zorro en la floresta que no sea un kitsune disfrazado. Seguramente haya un poco de verdad en todos esos rumores.",
+					"Como pueblo, los kitsune moran ahora en tierras remotas, donde fundan pequeñas comunidades, a menudo aprovechando su capacidad de convertirse en zorros para pasar desapercibidos o crear refugios difícilmente accesibles a otras razas. Sin embargo, su curiosidad natural los impulsa a abandonar la comunidad a la edad adulta, cuando emprenden un viaje de descubrimiento personal del que no siempre desean regresar. Que su esperanza de vida sea similar a la de un humano no ayuda precisamente a que decidan pasar décadas de su vida sumidos en la rutina.",
+					"Los kitsune se educan en el engaño y los enigmas. Son los misterios, tan natural para ellos, lo que los lleva a querer descubrir los porqués de las cosas. No sorprende, por tanto, que hayan sido una de las razas más interesadas en explorar los conocimientos arcanos, para los cuales parecen tener un talento innato.",
+					"Los aventureros kitsune suelen ser hechiceros, magos, monjes o pícaros.",
+					{
+						"type": "entries",
+						"name": "Kitsunes Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Bulanka, Khawan, Shakmakán"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Diene, Jezmin, Shezered"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"wis": 2,
+					"int": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los kitsune maduran al mismo ritmo que los humanos, pero viven hasta alcanzar el siglo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los kitsune suelen ser caóticos, dada su naturaleza anárquica, aunque rara vez son abiertamente malignos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano; Pequeño cuando estás en forma de zorro. Los kitsune tienen más o menos el tamaño y la complexión de los humanos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies. Tu velocidad en forma de zorro es de 40 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forma cambiante",
+					"entries": [
+						"Puedes usar tu acción para polimorfarte en un zorro. Tus estadísticas salvo el tamaño son las mismas en ambas formas. Cualquier equipo que lleves o que transportes se funde con la nueva forma.",
+						"El aspecto humanoide (kitsune) y de zorro son constantes: mantienen el sexo y no pueden coincidir con el de otra criatura. Son representaciones de tu personalidad y no varían salvo que sufras un gran cambio personal, como una gran desgracia o un cambio de alineamiento. La forma de zorro no puede hablar, empuñar armas ni llevar armaduras, y la de humanoide no puede usar el arma natural de mordisco.",
+						"Puedes permanecer en forma de zorro tantas horas como tu bonificador de Sabiduría (mínimo 1 hora), luego vuelves a tu forma normal a menos que uses este rasgo de nuevo. Puedes volver a tu forma habitual usando una acción adicional en tu turno. Vuelves a tu forma habitual automáticamente si caes inconsciente, si tus puntos de golpe descienden a 0 o si mueres.",
+						"Puedes usar este rasgo dos veces. Recuperas los usos que hayas gastado cuando termines un descanso prolongado o breve."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astucia arcana",
+					"entries": [
+						"Tienes ventaja en todas las tiradas de salvación de Inteligencia, Sabiduría y Carisma contra magia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Encuentro místico",
+					"entries": [
+						"Cuando realices una prueba de Sabiduría ({@skill Perception}) a solas con tu interlocutor, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mordisco (solo en forma de zorro)",
+					"entries": [
+						"Posees un arma natural de mordisco (arma cuerpo a cuerpo, alcance 5 pies, daño {@dice 1d6} perforante), con la que se considera que tienes competencia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Furtivo (solo en forma de zorro)",
+					"entries": [
+						"Cuando realices una prueba de Destreza ({@skill Stealth}) en tu forma de zorro, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olfato y oído agudizados (solo en forma de zorro)",
+					"entries": [
+						"Tienes ventaja en las pruebas de Sabiduría ({@skill Perception}) que se basen en el olfato o en el oído"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y gengo"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Mediano",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/mediano.png",
+			"fluff": {
+				"entries": [
+					"Conocidos también como «mediohombres», los medianos parecen humanos en miniatura. Apenas se diferencian de niños humanos por su rostro de adulto y, en el caso de los varones, por el abundante vello en todo el cuerpo, especialmente en los pies. Comparten buena parte de la cultura de sus «hermanos mayores» e incluso sus lenguas tienen abundantes paralelismos. Los nombres de mediano suelen ser los mismos que los de los humanos, a los que añaden un sobrenombre que cada mediano se gana con sus acciones o aspecto físico.",
+					"Los medianos son un pueblo afable y sociable, por lo que es frecuente ver sus comunidades integradas en otras más grandes, como puede ser un barrio mediano en una ciudad mida o un pequeño grupo de medianos que viaja con unos nómadas humanos. Este pueblo que valora las comodidades y la diversión como pocos. Se les tiene por grandes festejadores y no faltan efemérides en sus calendarios que celebrar.",
+					"A pesar de que físicamente son muy similares, existen algunas subrazas de medianos, como los piesligeros, caracterizados por su habilidad para pasar desapercibidos, y los ribereños, que han hecho de los ríos su hábitat. Unos y otros tienen buen trato y es habitual que se traten entre sí como parientes lejanos. «Si uno se remonta lo suficiente, acaba descubriendo que cualquier otro mediano es de su familia», dicen..",
+					"Los aventureros medianos suelen ser bardos, hechiceros, guerreros o pícaros.",
+					{
+						"type": "entries",
+						"name": "Medianos Apodos",
+						"entries": [
+							"Destripacerrojos, Pecas, Zampabollos"
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"size": "S",
+			"speed": 25,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Un mediano alcanza la edad adulta con 20 años y generalmente vive hasta la mitad de su segundo siglo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"La mayoría de los medianos son neutrales buenos. Como norma general, tienen buen corazón y son amables, odian ver a otros sufrir y no toleran la opresión. También son pacíficos y tradicionales, tienen una fuerte tendencia a apoyar a su comunidad y nunca renuncian a la comodidad de sus costumbres."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Pequeño. Los medianos miden una media de 3 pies de altura y pesan unas 40 libras."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 25 pies"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Afortunado",
+					"entries": [
+						" Cuando saques un 1 en 1d20 en una tirada de ataque, prueba de habilidad o tirada de salvación, puedes volver a tirar el dado, pero debes quedarte con el nuevo resultado."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Valiente",
+					"entries": [
+						"Tienes ventaja en las tiradas de salvación para no {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Agilidad de los medianos",
+					"entries": [
+						"Puedes moverte por el espacio de cualquier criatura que tenga un tamaño mayor al tuyo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y mediano. El idioma mediano no es secreto, pero los medianos son reacios a compartirlo con los demás. Escriben muy poco, así que no tienen un corpus literario rico. Por el contrario, su tradición oral es muy amplia. Casi todos los medianos hablan común para conversar con la gente de la tierra en la que viven o por la que viajan"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"halfling": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"tool": true
+				}
+			],
+			"subraces": [
+				{
+					"name": "Piesligeros",
+					"ability": [
+						{
+							"cha": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Piesligero",
+							"entries": [
+								"Los piesligeros puedes ocultarse fácilmente, incluso utilizando a otras personas como cobertura. Son amables y se llevan bien con los demás. Son la variedad de mediano más propensa a tener un espíritu viajero, y a menudo viven con otras razas o emprenden una vida nómada.",
+								"Los aventureros piesligeros suelen ser bardos, hechiceros,pícaros o guerreros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sigiloso por naturaleza",
+							"entries": [
+								"Puedes intentar esconderte incluso cuando solo te oculta una criatura de al menos una categoría de tamaño superior a la tuya"
+							]
+						}
+					]
+				},
+				{
+					"name": "Ribereños",
+					"ability": [
+						{
+							"wis": 1
+						}
+					],
+					"skillProficiencies": [
+						{
+							"perception": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ribereño",
+							"entries": [
+								"Los ribereños son aquellos medianos que viven en las regiones costeras de Voldor y que navegan por los ríos y canales como medio de vida. A diferencia de los demás medianos, los ribereños suelen pasar largas horas en el agua, tanto a bordo de embarcaciones como nadando.",
+								"Los aventureros ribereños suelen ser bardos, clérigos, guerreros o pícaros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Acostumbrados al agua",
+							"entries": [
+								"Cuando realices una prueba de Fuerza ({@skill athletics}) en el agua, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Buena vista",
+							"entries": [
+								"Tienes competencia con la habilidad de {@skill Perception}"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mida",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/mida.png",
+			"fluff": {
+				"entries": [
+					"Los mida son una raza de aspecto semejante al de un humano, aunque con rasgos simiescos que ocultan una inteligencia suma, un gusto por la erudición y un carácter diplomático. Aunque algunos sabios han establecido paralelismos entre las civilizaciones mida y élficas, existen importantes diferencias entre ambas razas. Mientras que los elfos son introspectivos y tienen una visión a largo plazo, los mida entienden que solo mediante la colaboración se puede medrar. Como los elfos, viven en armonía con la naturaleza, aunque no dudan en amoldarla a sus necesidades, construyendo casas en los más grandes árboles y en el suelo si es necesario. También han sido comparados con los humanos, pero mientras que estos tienen una mirada cortoplacista, plagada de emociones contradictorias, los mida tienen en consideración lo que es mejor para el grupo, sea este su familia, comunidad o la raza mida en sí misma.",
+					"En Voldor, los mida son los acicates de la civilización, los principales interesados en descubrir mundo, fundar ciudades y progresar en el desarrollo tecnológico y arcano.",
+					"Los aventureros mida suelen ser bardos, clérigos, magos o paladines.",
+					{
+						"type": "entries",
+						"name": "Midas Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Cornius, Daius, Zius"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Oila, Soia, Zia"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"int": 2,
+					"cha": 1
+				}
+			],
+			"size": "M",
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Un mida alcanza la edad adulta con 20 años y generalmente vive unos 80 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"La mayoría de los mida son legales. Se sienten cómodos en ambientes reglados o civilizados, como dirían ellos. Son prominentemente neutrales, aunque existen notables casos de individuos más polarizados."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los mida rondan los 5 pies de altura y suelen ser de complexión delgada."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando y escalando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Versatilidad de habilidad",
+					"entries": [
+						"Tienes competencia con una habilidad de tu elección."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Afín al legado de los Peregrinos",
+					"entries": [
+						"Tienes ventaja en las tiradas que realices de Arcanos, Investigación e Historia cuando trates con artefactos de los Peregrinos"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Educación imperial",
+					"entries": [
+						"Tienes competencia con dos armas marciales o un kit de herramientas de tu elección."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Habitante de la jungla",
+					"entries": [
+						"Puedes escalar por la vegetación sin necesidad de realizar una prueba de característica"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común, gengo y otro idioma más de tu elección"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"animal handling",
+							"arcana",
+							"athletics",
+							"deception",
+							"history",
+							"insight",
+							"intimidation",
+							"investigation",
+							"medicine",
+							"nature",
+							"perception",
+							"performance",
+							"persuasion",
+							"religion",
+							"sleight of hand",
+							"stealth",
+							"survival",
+							{
+								"tool": true
+							}
+						],
+						"count": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Morlock",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/morlock.png",
+			"fluff": {
+				"entries": [
+					"Vestigios de un tiempo pasado, los morlocks fueron humanos en tiempos remotos. Mientras que sus parientes decidieron salir a la superficie del mundo, ellos permanecieron en las profundidades, donde el xion, un prodigioso mineral arcano con el que conviven y el cual trabajan, los transformó para siempre.",
+					"Los morlocks tienen en común con otros miembros de su raza un aspecto bestial, piel azulada, cabelleras albas y grandes ojos maliciosos. Sin embargo, poco más se puede decir, pues algunos son anormalmente grandes, otros pequeños y con protuberancias por todo el cuerpo, y otros muy similares a los humanos. La luz solar les molesta, lo que los ha hecho convertirse en hábiles expedicionarios en su terreno predilecto: el subsuelo. En Voldor, los morlocks son quienes mejor conocen Vajra, el mundo dentro del mundo.",
+					"Su cultura recuerda remotamente a la humana. Es fácil ver el parecido entre ambas, en costumbres, nombres y ritos sociales. Sin embargo, la principal raza de la superficie con la que tienen trato son los elfos, con los que mantienen una enconada rivalidad. Las razones de esta enemistad se han perdido en el confín de los tiempos, al menos para los morlocks.",
+					"Los aventureros morlocks suelen ser bárbaros, exploradores, guerreros o pícaros",
+					{
+						"type": "entries",
+						"name": "Morlocks Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Abhos, Keuz, Zheor"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Dane, Beeda, Sona"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"str": 1
+				}
+			],
+			"darkvision": 120,
+			"size": "M",
+			"speed": {
+				"walk": 30,
+				"climb": 15
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los morlocks suelen vivir lo mismo que un humano, aunque son considerados adultos a partir de los 12 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Aunque muchos morlocks tienden a ser egoístas y crueles, la mayoría respeta las normas de su sociedad para evitar ser expulsados a vagar por Vajra durante el resto de sus días."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los morlocks miden de 5 a 6 pies de altura y tienen una constitución delgada."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies. Tu velocidad escalando es de 15 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sensibilidad a la luz solar",
+					"entries": [
+						"Mientras estés expuesto a la luz del sol, tienes desventaja en las tiradas de ataque y en las pruebas de Sabiduría ({@skill Perception})"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad mejorada",
+					"entries": [
+						"Al haberte criado en los túneles del mundo interior, tienes una visión superior en la oscuridad más absoluta. Puedes ver en la oscuridad a una distancia de 120 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cazador de los túneles",
+					"entries": [
+						"Cuando realices una prueba de Destreza ({@skill Stealth}) en el interior de un túnel o una cueva, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitua."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superviviente nato",
+					"entries": [
+						"Tienes competencia con la habilidad de Supervivencia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Emboscador",
+					"entries": [
+						"En la primera ronda de un combate, tienes ventaja en las tiradas de ataque que hagas contra cualquier criatura que hayas sorprendido. El objetivo recibe {@dice 1d6} puntos de daño adicional del ataque."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Entrenamiento morlock",
+					"entries": [
+						"Tienes competencia con la {@item dagger|phb}, la {@item longsword|phb}, la {@item shortsword|phb} y el {@item shortbow|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y morlock"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			]
+		},
+		{
+			"name": "Orco",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/orco.png",
+			"fluff": {
+				"entries": [
+					"De piel verdosa o negra y grandes colmillos que les sobresalen de la boca, los orcos son una raza tribal para la que la lucha es la única forma de vida, educada en torno a la batalla y el conflicto. Entre los orcos, los sabios son escasos: en su lugar veneran a aquel que es capaz de derrotar a los demás, sea mediante las armas o la magia. Bien es cierto que las capacidades mágicas no abundan entre los orcos, y justamente por eso le tienen un gran respeto. A lo largo de la historia de Voldor, los orcos han sido capaces de establecer alianzas temporales con otras razas que conciben el mundo como ellos, como los saurios y, en menor medida, los víperos. En cambio, es raro que un orco confíe en un enano, por sus ancestrales enemistades.",
+					"Como norma general, un orco es más grande y corpulento que un humano, pero su esperanza de vida es mucho más corta: pocos superan los 50 años, pues encuentran la muerte antes en alguna batalla o con alguna enfermedad derivada de una herida mal curada.",
+					"Las subrazas de orcos no tienen mucho trato entre sí, ya que se han desarrollado en lugares distantes, aunque seguramente llegarían a acuerdos entre sí antes que con otras razas: aquel que mostrase más fuerza subyugaría a los demás sin importar el color de su piel.",
+					"Los aventureros orcos suelen ser bárbaros, brujos, druidas o guerreros",
+					{
+						"type": "entries",
+						"name": "Orcos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Bathol, Grum, Kaarg"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Aklag, Igik, Lotka"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"darkvision": 60,
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los orcos maduran más rápido que los humanos: alcanzan la edad adulta a los 12 años. Envejecen bastante más rápido y rara vez viven más de 55 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los orcos tienden hacia el caos y el mal, aunque algunos son capaces de adaptarse a la vida civilizada trabajando como mercenarios o soldados."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los orcos son más grandes y corpulentos que los humanos y miden de 5 a 6 pies de altura."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Gracias a tu sangre orca, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Despiadado",
+					"entries": [
+						"Tienes ventaja en las tiradas de salvación para no {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ataques salvajes",
+					"entries": [
+						"Cuando saques un crítico en un ataque con un arma cuerpo a cuerpo, puedes volver a tirar uno de los dados de daño del arma y añadirlo al daño adicional del golpe crítico."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y orco"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"subraces": [
+				{
+					"name": "Orcos negros",
+					"ability": [
+						{
+							"con": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Orco negro",
+							"entries": [
+								"Naturales de Muzur, en el lejano norte, los orcos negros son salvajes acostumbrados a los climas gélidos. Viven en una lucha casi constante, no solo entre los diferentes clanes, sino también contra sus vecinos, a los que saquean siempre que ven una buena oportunidad.",
+								"Los aventureros orcos negros suelen ser bárbaros, brujos, druidas o guerreros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Entrenamiento salvaje",
+							"entries": [
+								"Tienes competencia con el hacha de mano, el hacha de batalla y la gran hacha"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resistente al frío",
+							"entries": [
+								"Tienes resistencia al daño por frío"
+							]
+						}
+					]
+				},
+				{
+					"name": "Orcos del Bosque de Ámbar",
+					"ability": [
+						{
+							"dex": 1
+						}
+					],
+					"skillProficiencies": [
+						{
+							"perception": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Orco del Bosque de Ámbar",
+							"entries": [
+								"En lo más profundo del Bosque de Ámbar, en Gurudas, se encuentran algunos de los clanes orcos más grandes de todo el continente. Son cazadores expertos que han aprendido a utilizar la sutilidad del bosque a su favor.",
+								"Los aventureros orcos del Bosque de Ámbar suelen ser bárbaros, brujos, guerreros o pícaros."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cazador experto",
+							"entries": [
+								"Tienes competencia con el {@item shortbow|phb}, la {@item javelin|phb}, la {@item spear|phb} y la {@item shortsword|phb}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Conocimiento del bosque",
+							"entries": [
+								"Cuando realices una prueba de Sabiduría ({@skill Survival}) en un bosque, se considera que tienes competencia con dicha habilidad y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Rakshasa",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/rakshasa.png",
+			"fluff": {
+				"entries": [
+					"Al igual que los karasu y los kitsune, los rakshasa son una de esas razas misteriosas y reservadas de cuya existencia muchos dudan. En el caso de los rakshasa, son confundidos con una subraza de felínidos",
+					"Pese a que los rakshasa son una raza poco fértil, han sabido sobrevivir. Se mueven por la penumbra, sigilosos, misteriosos y, en ocasiones, traicioneros. Seguramente por el recelo que despiertan en otras razas han aprendido a ser discretos, y lo más frecuente es que cuando un rakshasa se relaciona con otras razas lo haga sirviéndose de su capacidad innata para las ilusiones y así parecer felínido, mida, humano o cualquier otra raza semejante. Solo cuando alguien se gana toda su confianza se atreven a mostrarse tal cual son, pero, cuando lo hacen, pueden dejarse llevar hasta el punto de tener una relación amorosa. Que se aten a una sola persona para toda la vida, sin embargo, es infrecuente.",
+					"Los rakshasa son más altos y corpulentos que los humanos, cuya esperanza de vida superan ampliamente. En su forma verdadera difícilmente pueden ser confundidos con otra raza, ni siquiera con felínidos, ya que su volumen y su aspecto atigrado no dejan lugar a dudas.",
+					"Los aventureros rakshasa suelen ser bardos, hechiceros, magos o pícaros.",
+					{
+						"type": "entries",
+						"name": "Rakshasas Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Eliji, Katsuro, Soturo"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Anisha, Jezumi, Suzuko"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los rakshasa maduran al mismo ritmo que los humanos, aunque no se consideran adultos hasta los 50 años. Viven una media de 500 años y se rumorea que algunos han llegado a ser milenarios."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los rakshasa tienen una tendencia natural hacia los alineamientos malignos. Son criaturas solitarias y desconfiadas que prefieren mantener su presencia en secreto apoyándose en ilusiones y mentiras"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los rakshasa miden entre 6 y 7 pies de alto y pesan lo mismo que un humano."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Tienes una visión superior en la oscuridad y la penumbra, dado que estás acostumbrado a la luz crepuscular de los bosques y al cielo nocturno. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistencia mágica natural",
+					"entries": [
+						"Tienes ventaja en todas las tiradas de salvación contra conjuros y otros efectos de magia."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vulnerabilidad al daño",
+					"entries": [
+						"Eres vulnerable al daño perforante causado por armas empuñadas por criaturas buenas"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Embustero",
+					"entries": [
+						"Tienes competencia con la habilidad de {@skill deception}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magia rakshasa",
+					"entries": [
+						"Conoces el truco {@spell minor illusion}. Elige entre los conjuros: {@spell disguise self}, {@spell charm person} e {@spell silent image} puedes lanzarlo como un conjuro de nivel 1 una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. La característica para lanzar estos conjuros es Carisma"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común, infernal y gengo"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Spellcasting",
+				"Uncommon Race",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"tool": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"Minor Illusion",
+							"disguise self"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"innate": {
+						"1": [
+							"Minor Illusion",
+							"charm person"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"innate": {
+						"1": [
+							"Minor Illusion",
+							"silent image"
+						]
+					},
+					"ability": "cha"
+				}
+			]
+		},
+		{
+			"name": "Saurio",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/saurio.png",
+			"fluff": {
+				"entries": [
+					"No todas las razas inteligentes han abrazado la civilización. Para algunas es algo incluso detestable, un signo de debilidad. Tal es la situación de los saurios, el pueblo lagarto. Anclados en sus costumbres tribales, los saurios consideran a todos los que no son de su raza potenciales esclavos. Por ello es frecuente que otras razas vecinas se unan en su contra. Solo circunstancias extraordinarias, como la presencia de un dragón en la zona, podría convertir a los saurios en inesperados aliados.",
+					"Un saurio suele vivir la vida como si se le escapase de las manos: luchando por cada minuto de existencia. Suelen practicar la caza más que el cultivo, y robar a otras razas es para ellos un signo de fuerza. Esta es la razón por la que apenas hay saurios ancianos; el papel de guías que otras culturas otorgan a las personas de más edad es sustituido por la figura del caudillo, un líder combatiente que mantiene su poder con la fuerza.",
+					"Los aventureros saurios suelen ser bárbaros, hechiceros, druidas o guerreros",
+					{
+						"type": "entries",
+						"name": "Saurios Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Chax, Gorgox, Zzlaty"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Inssi, Nikai, Tajahui"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"size": "M",
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los saurios se consideran adultos a los 16 años y pueden llegar a vivir más allá de los 100, aunque es algo que raras veces ocurre en su cultura"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"La mayoría de tribus de saurios son de alineamiento caótico y muchas veces malignos. Algunos saurios acostumbrados al trato con otras razas pueden ser neutrales."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los saurios miden entre 5 y 6 pies de altura y alcanzan fácilmente las 200 libras de peso."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando y nadando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mordisco",
+					"entries": [
+						"Posees un arma natural de mordisco (arma cuerpo a cuerpo, alcance 5 pies, daño {@dice 1d6} perforante), con la que se considera que tienes competencia"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aguantar la respiración",
+					"entries": [
+						"Puedes aguantar la respiración tantos minutos como tu puntuación de Constitución."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Armas tribales",
+					"entries": [
+						"Tienes competencia con la {@item club|phb}, la {@item greatclub|phb}, la {@item spear|phb} y el {@item shield|phb}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Armadura de escamas",
+					"entries": [
+						"Mientras no lleves la armadura, tu CA es igual a 13 + tu modificador por Destreza. Sigues pudiendo utilizar escudo y recibir sus beneficios"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y saurio"
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Armor Proficiency",
+				"Natural Armor",
+				"Unarmed Strike",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"tool": true
+				}
+			]
+		},
+		{
+			"name": "Semielfos",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/semielfo.png",
+			"fluff": {
+				"entries": [
+					"Los semielfos son una raza bastarda, fruto del apareamiento de elfo y humano. A diferencia de los semiorcos, en los que el vástago manifiesta los rasgos de uno de los progenitores, los semielfos son humanos de orejas levemente puntiagudas y con muy escaso vello facial, lo que les da una apariencia única.",
+					"En la mayor parte de escenarios de fantasía los semielfos se encuentran entre dos culturas: son más longevos que los humanos, que suelen estar más dispuestos a aceptarlos, pero están condenados a ver cómo sus amigos se marchitan y mueren. Los elfos, en cambio, los miran como si fueran hijos del pecado. Por ello, muchos semielfos llevan vidas solitarias o se unen a grupos heterogéneos de aventureros, donde la raza es el menor de los problemas. En Voldor, el escenario de campaña presentado en el capítulo 6, las cosas son un poco diferentes: aunque se reconoce perfectamente la herencia mestiza, los semielfos han medrado y cuentan con poblaciones propias, con un estatus semejante al de otras razas.",
+					"Los aventureros semielfos suelen ser bardos, exploradores, magos o guerreros",
+					{
+						"type": "entries",
+						"name": "Semielfos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Delenor, Sandor, Sebesten"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Adamna, Fiessa, Lirenne"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2,
+						"amount": 1
+					}
+				}
+			],
+			"size": "M",
+			"darkvision": 60,
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los semielfos maduran al mismo ritmo que los humanos y alcanzan la edad adulta a los 20 años. Sin embargo, viven mucho más que estos y suelen superar los 180 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los semielfos comparten la inclinación caótica de su herencia élfica. Valoran tanto la libertad personal como la expresión de la creatividad y no demuestran ni amor por los líderes ni deseo de tener seguidores. Les irritan las reglas, se ofenden ante las exigencias de los demás y a veces son poco fiables o, al menos, impredecibles."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los semielfos tienen más o menos el mismo tamaño que los humanos, entre los 5 y los 6 pies de altura."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Gracias a tu sangre élfica, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ancestro feérico",
+					"entries": [
+						"Tienes ventaja en las tiradas de salvación para no quedar hechizado y no puedes quedarte dormido por ningún efecto mágico."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Versatilidad de habilidad",
+					"entries": [
+						"Tienes competencia con dos habilidades de tu elección"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común, élfico y un idioma adicional de tu elección"
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Armor Proficiency",
+				"Improved Resting",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"acrobatics",
+							"sleight of hand",
+							"stealth",
+							"arcana",
+							"history",
+							"investigation",
+							"nature",
+							"religion",
+							"animal handling",
+							"insight",
+							"medicine",
+							"perception",
+							"survival",
+							"deception",
+							"intimidation",
+							"performance",
+							"persuasion"
+						],
+						"count": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "Semiorco",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/semiorco.png",
+			"fluff": {
+				"entries": [
+					"Al igual que los semielfos, los semiorcos son testimonio viviente de la interacción entre dos razas. En este caso, además, dos que suelen tener un pasado como adversarios más que como aliados: humanos y orcos. Los semiorcos suelen tener rasgos que recuerdan más a una de las dos especies, aparentando ser o bien humanos anormalmente corpulentos y desgarbados, bien orcos achaparrados, de piel pálida y rasgos suavizados. Como raza bastarda pueden reproducirse tanto con humanos como con orcos, y normalmente su mayor anhelo es llevar una vida tranquila en una comunidad de miembros de alguna raza que los acepte. En Voldor, el escenario de campaña presentado en el capítulo 6, los semiorcos no son muy frecuentes y los existentes suelen estar integrados en la comunidad de uno de sus progenitores. Esta situación es muy habitual en otros escenarios de fantasía.",
+					"Los aventureros semiorcos suelen ser bárbaros, exploradores, guerreros o, en algunos casos, monjes.",
+					{
+						"type": "entries",
+						"name": "Semiorcos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Bato, Guner, Karl"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Ada, Igi, Loa"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"size": "M",
+			"darkvision": 60,
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los semiorcos maduran un poco más rápido que los humanos y alcanzan la edad adulta a los 14. Envejecen bastante más rápido y rara vez viven más de 75 años."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los semiorcos heredan la tendencia hacia el caos de sus progenitores orcos y no están muy inclinados hacia el bien. Los semiorcos que se crían entre orcos y que permanecen entre ellos suelen ser malignos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los semiorcos son algo más grandes y corpulentos que los humanos y miden de 5 a 6 pies de altura."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Gracias a tu sangre orca, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amenazador",
+					"entries": [
+						"Tienes competencia con la habilidad de Intimidar."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistencia implacable",
+					"entries": [
+						"Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes quedarte con 1 punto de golpe. No puedes volver a utilizar esta característica hasta que completes un descanso prolongado"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ataques salvajes",
+					"entries": [
+						"Cuando saques un crítico en un ataque con un arma cuerpo a cuerpo, puedes volver a tirar uno de los dados de daño del arma y añadirlo al daño adicional del golpe crítico"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y orco. El orco es un idioma áspero, chirriante y con consonantes duras. No tiene grafía propia, se escribe con la grafía enana"
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Armor Proficiency",
+				"Uncommon Race",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			]
+		},
+		{
+			"name": "Tiefling",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/tiefling.png",
+			"fluff": {
+				"entries": [
+					"Los tieflings son, posiblemente, una de las razas más peculiares de cuantas pueblan los universos de fantasía. Su apariencia es humana, al menos principalmente, pero todos ellos tienen algún rasgo que delata su parentesco con alguna clase de demonio: cuernos de muy variadas formas, ojos de algún color intenso que llena toda la cuenca ocular y, en ocasiones, algún que otro pequeño signo menos llamativo.",
+					"Por los tieflings corre sangre demoníaca. Puede que alguno de sus ancestros fuera una de estas criaturas o que uno de sus antepasados hiciera un pacto demoníaco, pero el caso es que tal era el poder de la criatura que alteró para siempre el linaje familiar. Dado su origen, es habitual que los tieflings sean una rara avis. Esto los suele convertir en criaturas apátridas, desconfiadas y solitarias que incluso adoptan la vida del aventurero al no encontrar ninguna alternativa. Por ello, en ocasiones valoran más los apodos que les dan sus compañeros de armas que sus propios nombres.",
+					"Los aventureros tieflings suelen ser brujos, hechiceros, magos o paladines.",
+					{
+						"type": "entries",
+						"name": "Tieflings Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Akón, Khados, Yedih"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Brysben, Neia, Oretta"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Tieflings Nicknames",
+						"entries": [
+							"Llamarada, Sabio, Tranquilo"
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"size": "M",
+			"darkvision": 60,
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Los tieflings maduran al mismo ritmo que los humanos, pero viven unos cuantos años más"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Puede que los tieflings no tengan una tendencia innata hacia el mal, pero muchos de ellos acaban ahí. Maligna o no, una fuerza externa inclina a muchos tieflings hacia un alineamiento caótico."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los tieflings tienen más o menos el tamaño y la complexión de los humanos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Gracias a tu herencia infernal, tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistencia infernal",
+					"entries": [
+						"Tienes resistencia al daño por fuego."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legado infernal",
+					"entries": [
+						"Conoces el truco {@spell thaumaturgy}. Cuando alcanzas el nivel 3, puedes lanzar el conjuro {@spell hellish rebuke} como un conjuro de nivel 2 una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. Cuando alcanzas el nivel 5, puedes lanzar el conjuro {@spell darkness} una vez con este rasgo y volver a utilizarlo cuando completes un descanso prolongado. La característica con la que lanzas estos conjuros es Carisma"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y orco. El orco es un idioma áspero, chirriante y con consonantes duras. No tiene grafía propia, se escribe con la grafía enana"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Spellcasting",
+				"Uncommon Race",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"thaumaturgy"
+						],
+						"3": [
+							"hellish rebuke"
+						],
+						"5": [
+							"darkness"
+						]
+					},
+					"ability": "cha"
+				}
+			]
+		},
+		{
+			"name": "Vípero",
+			"source": "ElResurgirDelDragon_Razas",
+			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/vipero.png",
+			"fluff": {
+				"entries": [
+					"Indudablemente emparentados con los saurios, los víperos, hombres serpiente, son mucho más inteligentes y avisados que sus homólogos lagarto: han establecido alianzas estratégicas en las que ellos siempre salen muy beneficiados. Su fama de ladinos es bien merecida, aunque ellos saben darles la vuelta a las circunstancias para que, después de todo, no quede sino reconocer que obraron tratando de beneficiar a todos por igual.",
+					"Su desarrollada inteligencia les ha hecho volcarse en el estudio de las artes arcanas, aunque también son expertos en el uso de los venenos. Por lo general, prefieren no mancharse las manos, pero si deben desenfundar un arma no se andan con florituras: «un enemigo sin cola sigue siendo un enemigo» es uno de sus dichos.",
+					"La sociedad vípera es tan retorcida como su personalidad, repleta de leyes asfixiantes que ellos retuercen para sacarles el máximo partido posible. Las intrigas palaciegas son el día a día en una gran población vípera, y morir de viejo es menos probable cuanto mayor es tu estatus.",
+					"Los aventureros víperos suelen ser bardos, hechiceros, magos o pícaros",
+					{
+						"type": "entries",
+						"name": "Víperos Names",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male Names",
+										"entries": [
+											"Serkazz, Sielsser, Sossek"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female Names",
+										"entries": [
+											"Siisza, Sessia, Sulezza"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"size": "M",
+			"darkvision": 60,
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Edad",
+					"entries": [
+						"Aunque los víperos alcanzan la madurez física más o menos a la misma edad que los humanos, su vida puede alargarse durante muchos más años. Normalmente, un vípero se considera maduro y recibe un nombre adulto con 70 años aproximadamente y puede vivir hasta 300 años"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alineamiento",
+					"entries": [
+						"Los víperos se organizan mediante una gran cantidad de leyes, por lo que tienden a respetarlas allí donde van. Sin embargo, muchos no sienten un especial respeto por el bien y tienden a la neutralidad e incluso al desprecio de otras razas"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tamaño",
+					"entries": [
+						"Mediano. Los víperos miden de 5 a 6 pies de altura y tienen una constitución delgada."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Velocidad",
+					"entries": [
+						"Tu velocidad caminando es de 30 pies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visión en la oscuridad",
+					"entries": [
+						"Tus ojos de serpiente están adaptados para cazar en la oscuridad mediante la detección de calor y movimiento. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistencia a venenos",
+					"entries": [
+						"Tienes ventaja en las tiradas de salvación contra venenos y eres resistente al daño por veneno."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Negociadores expertos",
+					"entries": [
+						"Tienes competencia con una habilidad de tu elección entre {@skill insight}, {@skill deception} o {@skill persuasion}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mordisco venenoso",
+					"entries": [
+						"Posees un arma natural de mordisco (arma cuerpo a cuerpo, alcance 5 pies, daño {@dice 1d4} perforante), con la que se considera que tienes competencia.",
+						"Cuando causes al menos 1 punto de daño a alguien con un ataque de mordisco, puedes aplicar tu veneno en su herida. El objetivo debe realizar una tirada de salvación de Constitución CD 8 + tu modificador por Constitución + tu bonificador por competencia; si falla, recibe {@dice 2d6} puntos de daño y, si tiene éxito, la mitad. El daño aumenta a {@dice 3d6} en el nivel 6, a {@dice 4d6} en el nivel 11 y a {@dice 5d6} en el nivel 16.",
+						"Puedes aplicar el veneno tantas veces como 1 + tu modificador de Constitución (mínimo 1), y los usos se recuperan completamente tras un descanso breve o prolongado"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Idiomas",
+					"entries": [
+						"Puedes hablar, leer y escribir común y saurio"
+					]
+				}
+			],
+			"traitTags": [
+				"Armor Proficiency",
+				"Skill Proficiency",
+				"Unarmed Strike",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"deception",
+							"persuasion"
+						],
+						"count": 1
+					}
 				}
 			]
 		}
