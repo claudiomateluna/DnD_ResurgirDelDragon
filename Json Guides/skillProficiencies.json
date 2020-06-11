@@ -30,13 +30,24 @@
 ],
 "skillProficiencies": [
 	{
-		"intimidation": true
-	}
-],
-"skillProficiencies": [
-	{
+		"acrobatics": true,
+		"animal handling": true,
+		"arcana": true,
+		"athletics": true,
+		"deception": true,
+		"history": true,
+		"insight": true,
+		"intimidation": true,
+		"investigation": true,
+		"medicine": true,
+		"nature": true,
+		"perception": true,
 		"performance": true,
 		"persuasion": true,
+		"religion": true,
+		"sleight of hand": true,
+		"stealth": true,
+		"survival": true,
 		"tool": true
 	}
 ],
@@ -48,19 +59,24 @@
 		],
 		"type": "entries"
 	}
-]
-
+],
 "skills": [
-	"{@skill History}",
-	"{@skill Perception}",
-	"{@skill Investigation}",
-	"{@skill History}",
-	"{@skill Acrobatics}",
-	"{@skill Medicine}",
-	"{@skill Persuasion}",
-	"{@skill Animal Handling}",
-	"{@skill Nature}",
-	"{@skill Perception}",
-	"{@skill Stealth}",
-	"{@skill Survival}"
+	"{@skill acrobatics}",
+	"{@skill animal handling}",
+	"{@skill arcana}",
+	"{@skill athletics}",
+	"{@skill deception}",
+	"{@skill history}",
+	"{@skill insight}",
+	"{@skill intimidation}",
+	"{@skill investigation}",
+	"{@skill medicine}",
+	"{@skill nature}",
+	"{@skill perception}",
+	"{@skill performance}",
+	"{@skill persuasion}",
+	"{@skill religion}",
+	"{@skill sleight of hand}",
+	"{@skill stealth}",
+	"{@skill survival}"
 ]
