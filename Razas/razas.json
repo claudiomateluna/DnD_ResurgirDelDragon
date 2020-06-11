@@ -1101,7 +1101,7 @@
 					"name": "Enanos de las colinas",
 					"ability": [
 						{
-							"wis": 1
+							"str": 2
 						}
 					],
 					"entries": [
@@ -3455,8 +3455,8 @@
 			},
 			"ability": [
 				{
-					"str": 2,
-					"con": 1
+					"strenght": 2,
+					"constitution": 1
 				}
 			],
 			"size": "M",
@@ -3502,7 +3502,7 @@
 					"type": "entries",
 					"name": "Amenazador",
 					"entries": [
-						"Tienes competencia con la habilidad de {@skill intimidation_prof}."
+						"Tienes competencia con la habilidad de {@skill intimidation}."
 					]
 				},
 				{
@@ -3541,7 +3541,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"intimidation_prof": true
+					"intimidation": true
 				}
 			]
 		},
