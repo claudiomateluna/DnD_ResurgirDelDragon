@@ -3502,7 +3502,7 @@
 					"type": "entries",
 					"name": "Amenazador",
 					"entries": [
-						"Tienes competencia con la habilidad de {@skill intimidation}."
+						"Tienes competencia con la habilidad de {@skill intimidación}."
 					]
 				},
 				{
@@ -3541,7 +3541,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"intimidation": true
+					"intimidación": true
 				}
 			]
 		},
