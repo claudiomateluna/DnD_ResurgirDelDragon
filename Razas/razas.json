@@ -28,6 +28,12 @@
 		{
 			"name": "Araina",
 			"source": "ElResurgirDelDragon_Razas",
+			"skillProficiencies": [
+				{
+					"stealth": true,
+					"tool": true
+				}
+			],
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/araina.png",
 			"fluff": {
 				"entries": [
@@ -189,12 +195,6 @@
 				{
 					"common": true,
 					"other": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"stealth": true,
-					"tool": true
 				}
 			]
 		},
