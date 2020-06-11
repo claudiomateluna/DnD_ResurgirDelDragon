@@ -81,6 +81,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Destreza aumenta en 2 y la de Inteligencia en 1."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los arainas alcanzan la edad adulta a los 20 años y generalmente viven poco más de un siglo."
@@ -245,6 +252,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Destreza aumenta en 2"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los batrok son una raza prematura. Sus individuos se consideran adultos a los 14 años y suelen vivir hasta los 60 años"
@@ -344,9 +358,16 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Civilizados",
+							"name": "Batrok Anuros",
 							"entries": [
 								"Los anuros evolucionaron al margen de sus parientes batrok. Son escasos, pero valoran el conocimiento y la amistad, por lo que no es raro encontrárselos en el camino, lejos de su hogar. No les gusta que los confundan con los batrok puros, a los que consideran unos incivilizados."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Anuros",
+							"entries": [
+								"Tu puntuación de Sabiduría aumenta en 1"
 							]
 						},
 						{
@@ -371,6 +392,13 @@
 							"name": "Rabia Interior",
 							"entries": [
 								"A diferencia de sus parientes más pequeños, los batrok puros poseen una rabia interior y un instinto de supervivencia que los hace grandes luchadores. No es raro que algunos lleguen a ser bandidos o incluso mercenarios capaces de ganarse la vida mediante las armas."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Batrok Puros",
+							"entries": [
+								"Tu puntuación de Fuerza aumenta en 1"
 							]
 						},
 						{
@@ -434,6 +462,13 @@
 			"size": "M",
 			"speed": 50,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Fuerza aumenta en 2 y tu puntuación de Sabiduría en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -595,6 +630,13 @@
 				"path": "races/dragonborn.mp3"
 			},
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Fuerza aumenta en 2 y tu puntuación de Carisma en 1"
+					]
+				},
 				{
 					"name": "Edad",
 					"type": "entries",
@@ -773,6 +815,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Destreza aumenta en 2"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Aunque los elfos alcanzan la madurez física más o menos a la misma edad que los humanos, la forma en que entienden la edad adulta va más allá del crecimiento físico y abarca la experiencia mundana. Normalmente, un elfo se considera maduro y recibe un nombre de adulto con 100 años aproximadamente y puede vivir hasta 750 años."
@@ -884,6 +933,13 @@
 						},
 						{
 							"type": "entries",
+							"name": "Mejora de características Banjora",
+							"entries": [
+								"Tu puntuación de Sabiduría aumenta en 1"
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Entrenamiento con armas élficas",
 							"entries": [
 								"Tienes competencia con la {@item scimitar|phb}, la {@item spear|phb}, el {@item shortbow|phb} y el {@item morningstar|phb}"
@@ -924,6 +980,13 @@
 							"entries": [
 								"Al contrario que sus parientes Banjora, los elfos Bastarre no se resignaron al abandono de los Peregrinos, sino que aguardan su regreso. Se consideran la raza verdaderamente digna de sus creadores y por eso evitan en la medida de lo posible mezclarse con las demás. Los Bastarre tienen una mente suspicaz y dominan al menos lo básico de la magia, que perfeccionan en sus hogares recluidos.",
 								"Los aventureros Bastarre suelen ser brujos, clérigos, magos o guerreros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Bastarre",
+							"entries": [
+								"Tu puntuación de Inteligencia aumenta en 1"
 							]
 						},
 						{
@@ -1001,6 +1064,13 @@
 			"darkvision": 60,
 			"speed": 25,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Constitución aumenta en 2"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -1101,7 +1171,7 @@
 					"name": "Enanos de las colinas",
 					"ability": [
 						{
-							"str": 2
+							"wis": 1
 						}
 					],
 					"entries": [
@@ -1111,6 +1181,13 @@
 							"entries": [
 								"Dentro del pueblo enano se conoce como enanos de las colinas a aquellos que tienen una relación más estrecha con la superficie, siendo prácticamente los únicos enanos que suele llegar a conocer a un miembro de otra raza. Los enanos de las colinas tienen unos sentidos agudos, una gran intuición y una fortaleza increíble.",
 								"Los aventureros enanos de las colinas suelen ser clérigos, exploradores, guerreros o paladines."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características de las colinas",
+							"entries": [
+								"Tu puntuación de Sabiduría aumenta en 1"
 							]
 						},
 						{
@@ -1140,6 +1217,13 @@
 							"entries": [
 								"Los duérgar son enanos que permanecen en las tinieblas de las profundidades, distanciados de sus hermanos. Con el devenir de las generaciones se tornaron más insidiosos y sibilinos, traicionándose unos a otros y recelando de otras razas. En ocasiones son capaces de engañar a algún miembro de otra raza para que crea en ellos el tiempo suficiente para poder aprovecharse de su ingenuidad.",
 								"Los aventureros duérgar suelen ser brujos, exploradores, guerreros o pícaros."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Duérgar",
+							"entries": [
+								"Tu puntuación de Carisma aumenta en 1"
 							]
 						},
 						{
@@ -1235,6 +1319,13 @@
 			"speed": 35,
 			"darkvision": 60,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Destreza aumenta en 2 y tu Sabiduría en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -1381,6 +1472,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Inteligencia aumenta en 2 y tu Sabiduría en 1"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						" Un fórmigo madura a la edad de 10 años y vive unos 35 años."
@@ -1493,6 +1591,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Inteligencia aumenta en 2"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los gnomos maduran al mismo ritmo que los humanos y se espera que la mayoría llegue a la edad adulta alrededor de los 40 años. Pueden vivir de 350 a casi 500 años."
@@ -1572,6 +1677,13 @@
 							"entries": [
 								"Como gnomo de las rocas, tienes una creatividad y una dureza naturales que superan las de otros gnomos.",
 								"Los aventureros gnomos suelen ser hechiceros, guerreros, magos o monjes."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características de las rocas",
+							"entries": [
+								"Tu puntuación de Constitución aumenta en 1"
 							]
 						},
 						{
@@ -1659,6 +1771,13 @@
 							"entries": [
 								"Los svirfneblins son gnomos que se ocultaron en las profundidades de Vajra para librarse del control de los Peregrinos. El paso del tiempo los ha convertido en criaturas solitarias, lóbregas y recelosas de las otras razas. Son expertos en camuflarse y evitar a los enemigos, ya sea mediante el sigilo o las ilusiones.",
 								"Los aventureros svirfneblins suelen ser brujos, magos, pícaros o guerreros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Svirfneblin",
+							"entries": [
+								"Tu puntuación de Fuerza aumenta en 1"
 							]
 						},
 						{
@@ -1793,6 +1912,13 @@
 				"swim": 25
 			},
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Constitución aumenta en 2 y la de Fuerza en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -1937,6 +2063,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Cada una de tus puntuaciones de características aumenta en 1"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los humanos alcanzan la edad adulta hacia los 19 años y viven menos de un siglo."
@@ -2039,6 +2172,13 @@
 			"speed": 30,
 			"darkvision": 60,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Sabiduría aumenta en 2 y tu puntuación de Carisma en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -2182,6 +2322,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Sabiduría aumenta en 2 y tu puntuación de Inteligencia aumenta en 1"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los kitsune maduran al mismo ritmo que los humanos, pero viven hasta alcanzar el siglo."
@@ -2308,6 +2455,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Destreza aumenta en 2"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Un mediano alcanza la edad adulta con 20 años y generalmente vive hasta la mitad de su segundo siglo."
@@ -2393,7 +2547,14 @@
 							"name": "Piesligero",
 							"entries": [
 								"Los piesligeros puedes ocultarse fácilmente, incluso utilizando a otras personas como cobertura. Son amables y se llevan bien con los demás. Son la variedad de mediano más propensa a tener un espíritu viajero, y a menudo viven con otras razas o emprenden una vida nómada.",
-								"Los aventureros piesligeros suelen ser bardos, hechiceros,pícaros o guerreros"
+								"Los aventureros piesligeros suelen ser bardos, hechiceros, pícaros o guerreros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Piesligeros",
+							"entries": [
+								"Tu puntuación de Carisma aumenta en 1"
 							]
 						},
 						{
@@ -2424,6 +2585,13 @@
 							"entries": [
 								"Los ribereños son aquellos medianos que viven en las regiones costeras de Voldor y que navegan por los ríos y canales como medio de vida. A diferencia de los demás medianos, los ribereños suelen pasar largas horas en el agua, tanto a bordo de embarcaciones como nadando.",
 								"Los aventureros ribereños suelen ser bardos, clérigos, guerreros o pícaros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Ribereños",
+							"entries": [
+								"Tu puntuación de Sabiduría aumenta en 1"
 							]
 						},
 						{
@@ -2497,6 +2665,13 @@
 				"climb": 30
 			},
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Inteligencia aumenta en 2 y el de Carisma en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -2662,6 +2837,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Destreza aumenta en 2 y el de Fuerza en 1"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los morlocks suelen vivir lo mismo que un humano, aunque son considerados adultos a partir de los 12 años."
@@ -2808,6 +2990,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Fuerza aumenta en 2"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los orcos maduran más rápido que los humanos: alcanzan la edad adulta a los 12 años. Envejecen bastante más rápido y rara vez viven más de 55 años."
@@ -2892,6 +3081,13 @@
 						},
 						{
 							"type": "entries",
+							"name": "Mejora de características",
+							"entries": [
+								"Tu puntuación de Constitución aumenta en 1"
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Entrenamiento salvaje",
 							"entries": [
 								"Tienes competencia con el hacha de mano, el hacha de batalla y la gran hacha"
@@ -2925,6 +3121,13 @@
 							"entries": [
 								"En lo más profundo del Bosque de Ámbar, en Gurudas, se encuentran algunos de los clanes orcos más grandes de todo el continente. Son cazadores expertos que han aprendido a utilizar la sutilidad del bosque a su favor.",
 								"Los aventureros orcos del Bosque de Ámbar suelen ser bárbaros, brujos, guerreros o pícaros."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características",
+							"entries": [
+								"Tu puntuación de Destreza aumenta en 1"
 							]
 						},
 						{
@@ -2997,6 +3200,13 @@
 			"speed": 30,
 			"darkvision": 60,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Carisma aumenta en 2 y tu puntuación de Inteligencia en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -3173,6 +3383,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Fuerza aumenta en 2 y tu puntuación de Destreza en 1"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los saurios se consideran adultos a los 16 años y pueden llegar a vivir más allá de los 100, aunque es algo que raras veces ocurre en su cultura"
@@ -3317,6 +3534,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Carisma aumenta en 2 y otras dos características de tu elección aumentan en 1"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los semielfos maduran al mismo ritmo que los humanos y alcanzan la edad adulta a los 20 años. Sin embargo, viven mucho más que estos y suelen superar los 180 años."
@@ -3455,14 +3679,21 @@
 			},
 			"ability": [
 				{
-					"strenght": 2,
-					"constitution": 1
+					"str": 2,
+					"con": 1
 				}
 			],
 			"size": "M",
 			"darkvision": 60,
 			"speed": 30,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Fuerza aumenta en 2 y tu puntuación de Constitución aumenta en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
@@ -3605,6 +3836,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Carisma aumenta en 2 y tu puntuación de Inteligencia aumenta en 1"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Edad",
 					"entries": [
 						"Los tieflings maduran al mismo ritmo que los humanos, pero viven unos cuantos años más"
@@ -3741,6 +3979,13 @@
 			"darkvision": 60,
 			"speed": 30,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Mejora de características",
+					"entries": [
+						"Tu puntuación de Carisma aumenta en 2 y tu puntuación de Destreza aumenta en 1"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Edad",
