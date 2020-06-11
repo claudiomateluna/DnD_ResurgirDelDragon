@@ -3502,7 +3502,7 @@
 					"type": "entries",
 					"name": "Amenazador",
 					"entries": [
-						"Tienes competencia con la habilidad de Intimidar."
+						"Tienes competencia con la habilidad de {@skill intimidation}."
 					]
 				},
 				{
@@ -3528,8 +3528,8 @@
 				}
 			],
 			"traitTags": [
-				"Skill Proficiency",
 				"Armor Proficiency",
+				"Skill Proficiency",
 				"Uncommon Race",
 				"Weapon Proficiency"
 			],
@@ -3656,7 +3656,7 @@
 					"type": "entries",
 					"name": "Idiomas",
 					"entries": [
-						"Puedes hablar, leer y escribir común y orco. El orco es un idioma áspero, chirriante y con consonantes duras. No tiene grafía propia, se escribe con la grafía enana"
+						"Puedes hablar, leer y escribir común e infernal"
 					]
 				}
 			],
