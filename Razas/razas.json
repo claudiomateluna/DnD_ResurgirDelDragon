@@ -30,8 +30,7 @@
 			"source": "ElResurgirDelDragon_Razas",
 			"skillProficiencies": [
 				{
-					"stealth": true,
-					"tool": true
+					"stealth": true
 				}
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/araina.png",
@@ -557,7 +556,6 @@
 			"skillProficiencies": [
 				{
 					"animal handling": true,
-					"tool": true
 				}
 			]
 		},
@@ -906,7 +904,6 @@
 			"skillProficiencies": [
 				{
 					"perception": true,
-					"tool": true
 				}
 			],
 			"subraces": [
@@ -1151,7 +1148,6 @@
 			],
 			"traitTags": [
 				"Damage Resistance",
-				"Skill Proficiency",
 				"Tool Proficiency",
 				"Weapon Proficiency"
 			],
@@ -1159,11 +1155,6 @@
 				{
 					"common": true,
 					"dwarvish": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"tool": true
 				}
 			],
 			"subraces": [
@@ -1412,7 +1403,6 @@
 			"skillProficiencies": [
 				{
 					"arcana": true,
-					"tool": true
 				}
 			]
 		},
@@ -1553,7 +1543,6 @@
 				"Armor Proficiency",
 				"Damage Resistance",
 				"Natural Armor",
-				"Skill Proficiency",
 				"Tool Proficiency",
 				"Weapon Proficiency"
 			],
@@ -1561,11 +1550,6 @@
 				{
 					"common": true,
 					"other": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"tool": true
 				}
 			]
 		},
@@ -1992,18 +1976,12 @@
 			],
 			"traitTags": [
 				"Armor Proficiency",
-				"Skill Proficiency",
 				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"other": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"tool": true
 				}
 			]
 		},
@@ -2106,18 +2084,12 @@
 			],
 			"traitTags": [
 				"Armor Proficiency",
-				"Skill Proficiency",
 				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"anyStandard": 1
-				}
-			],
-			"skillProficiencies": [
-				{
-					"tool": true
 				}
 			]
 		},
@@ -2265,7 +2237,6 @@
 			"skillProficiencies": [
 				{
 					"arcana": true,
-					"tool": true
 				}
 			]
 		},
@@ -2422,7 +2393,6 @@
 			"skillProficiencies": [
 				{
 					"arcana": true,
-					"tool": true
 				}
 			]
 		},
@@ -2519,18 +2489,12 @@
 			],
 			"traitTags": [
 				"Armor Proficiency",
-				"Skill Proficiency",
 				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"halfling": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"tool": true
 				}
 			],
 			"subraces": [
@@ -2739,7 +2703,6 @@
 			"traitTags": [
 				"Armor Proficiency",
 				"Skill Proficiency",
-				"Tool Proficiency",
 				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
@@ -2771,9 +2734,6 @@
 							"sleight of hand",
 							"stealth",
 							"survival",
-							{
-								"tool": true
-							}
 						],
 						"count": 2
 					}
@@ -3294,8 +3254,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"deception": true,
-					"tool": true
+					"deception": true
 				}
 			],
 			"additionalSpells": [
@@ -3453,7 +3412,6 @@
 				}
 			],
 			"traitTags": [
-				"Skill Proficiency",
 				"Armor Proficiency",
 				"Natural Armor",
 				"Unarmed Strike",
@@ -3463,11 +3421,6 @@
 				{
 					"common": true,
 					"other": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"tool": true
 				}
 			]
 		},
