@@ -555,7 +555,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"animal handling": true,
+					"animal handling": true
 				}
 			]
 		},
@@ -903,7 +903,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"perception": true,
+					"perception": true
 				}
 			],
 			"subraces": [
@@ -1402,7 +1402,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"arcana": true,
+					"arcana": true
 				}
 			]
 		},
@@ -2236,7 +2236,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"arcana": true,
+					"arcana": true
 				}
 			]
 		},
@@ -2392,7 +2392,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"arcana": true,
+					"arcana": true
 				}
 			]
 		},
@@ -2733,7 +2733,7 @@
 							"religion",
 							"sleight of hand",
 							"stealth",
-							"survival",
+							"survival"
 						],
 						"count": 2
 					}
