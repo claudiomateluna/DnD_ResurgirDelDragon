@@ -88,7 +88,17 @@
 					"type": "entries",
 					"name": "Mejora de características",
 					"entries": [
+						"{@b Nota:} DEBES AGREGARLAS MANUALMENTE",
 						"Tu puntuación de Destreza aumenta en 2 y la de Inteligencia en 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Habilidades y Herramientas de Raza",
+					"entries": [
+						"{@b Nota:} DEBES AGREGARLAS MANUALMENTE Y/O DESDE EL COMPENDIO",
+						"Tienes competencia con las siguientes habilidades",
+						"- Sigilo"
 					]
 				},
 				{
@@ -2381,18 +2391,12 @@
 			],
 			"traitTags": [
 				"Armor Proficiency",
-				"Skill Proficiency",
 				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"other": true
-				}
-			],
-			"skillProficiencies": [
-				{
-					"arcana": true
 				}
 			]
 		},
@@ -2855,7 +2859,7 @@
 					"type": "entries",
 					"name": "Superviviente nato",
 					"entries": [
-						"Tienes competencia con la habilidad de Supervivencia."
+						"Tienes competencia con la habilidad de {@skill survival}."
 					]
 				},
 				{
@@ -3067,11 +3071,6 @@
 					"ability": [
 						{
 							"dex": 1
-						}
-					],
-					"skillProficiencies": [
-						{
-							"perception": true
 						}
 					],
 					"entries": [
