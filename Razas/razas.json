@@ -88,17 +88,32 @@
 					"type": "entries",
 					"name": "Mejora de características",
 					"entries": [
-						"{@b Nota:} DEBES AGREGARLAS MANUALMENTE",
-						"Tu puntuación de Destreza aumenta en 2 y la de Inteligencia en 1."
+						"DEBES AGREGARLAS MANUALMENTE",
+						"Tu puntuación de Destreza aumenta en 2 y la de Inteligencia en 1.",
+						"BORRA ESTE ELEMENTO Después de hacer las modificaciones"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Habilidades y Herramientas de Raza",
+					"name": "Habilidades / Herramientas",
 					"entries": [
-						"{@b Nota:} DEBES AGREGARLAS MANUALMENTE Y/O DESDE EL COMPENDIO",
+						"DEBES AGREGARLAS MANUALMENTE Y/O DESDE EL COMPENDIO",
 						"Tienes competencia con las siguientes habilidades",
-						"- Sigilo"
+						{
+							"type": "list",
+							"items": [
+								"Sigilo. ({@skill stealth})"
+							]
+						},
+						"Tienes competencia con uno de las siguientes herramientas el kit de alquimista o el de envenenador",
+						{
+							"type": "list",
+							"items": [
+								"Kit del envenenador ({@item poisoner's kit|phb})",
+								"Kit de alquimista ({@item alchemist's supplies|phb})"
+							]
+						},
+						"BORRA ESTE ELEMENTO Después de hacer las modificaciones"
 					]
 				},
 				{
