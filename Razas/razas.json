@@ -1218,7 +1218,7 @@
 								"Hacha de mano ({@item handaxe|phb})",
 								"Martillo Ligero ({@item light hammer|phb})",
 								"Martillo de guerra ({@item warhammer|phb})"
-							],
+							]
 						},
 						"Tienes competencia con uno de las siguientes herramientas:",
 						{
@@ -1508,7 +1508,7 @@
 								"Guja ({@item glaive|phb})",
 								"Arco Corto ({@item shortbow|phb})",
 								"Lanza({@item spear|phb})"
-							],
+							]
 						},
 						"Tienes competencia con uno de las siguientes herramientas:",
 						{
@@ -1518,7 +1518,7 @@
 								"Herramientas de Cartografo ({@item cartographer's tools|phb})",
 								"Herramientas de Alfarero ({@item Potter's Tools|phb})",
 								"Herramientas de Pintor ({@item painter's supplies|phb})"
-							],
+							]
 						},
 						"BORRA ESTE ELEMENTO Después de hacer las modificaciones"
 					]
