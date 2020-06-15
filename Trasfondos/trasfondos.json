@@ -61,7 +61,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Competencia con habilidades",
+					"name": "Feature: Competencia con habilidades",
 					"entries": [
 						"(Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
 						{
@@ -71,7 +71,10 @@
 								"Religión ({@skill religion})"
 							]
 						}
-					]
+					],
+					"data": {
+						"isFeature": true
+					}
 				},
 				{
 					"type": "entries",
