@@ -26,8 +26,14 @@
 	},
 	"background": [
 		{
-			"name": "Acolito",
+			"name": "Farmer",
 			"source": "ElResurgirDelDragon_Trasfondos",
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"animal handling": true
+				}
+			],
 			"entries": [
 				{
 					"type": "list",
@@ -35,82 +41,81 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Competencia con habilidades",
-							"entry": "Perspicacia ({@skill insight}), Religión ({@skill religion})"
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Athletics}, {@skill Animal Handling}"
 						},
 						{
 							"type": "item",
-							"name": "Idiomas",
-							"entry": "Dos de tu elección"
+							"name": "Tool Proficiencies",
+							"entry": "Herbalism kit, vehicles (land)"
 						},
 						{
 							"type": "item",
-							"name": "Equipo",
-							"entry": "Un símbolo sagrado ({@item holy symbol|phb}) (un regalo de cuando entraste en el sacerdocio), un libro de oraciones o una rueda de plegaria, 5 varillas de incienso, ropas, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+							"name": "Equipment",
+							"entry": "A handaxe or sickle, a set of common clothes, and a pouch containing 5 gp"
 						}
 					]
 				},
 				{
-					"name": "Rasgo: Refugio de los fieles",
-                    "type": "entries",
-                    "entries": [
-                        "Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida moderado (pero solo a ti).",
-                        "También puedes tener vínculos con un templo específico dedicado a la deidad o panteón que hayas elegido y tener una residencia ahí. Puede ser el templo en que solías servir, si quedaste en buenos términos con ellos, o uno donde hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes recurrir a sus sacerdotes para pedir ayuda, siempre y cuando lo que pidas no sea peligroso y quedes bien con tu templo."
+					"name": "Feature: Plowshares to Swords",
+					"type": "entries",
+					"entries": [
+						"You're a simple, hard-working individual, trying to make ends meet in this crazy world. Some (possibly abstract) authority figure took everything from you, and you've had enough. Common folk are sympathetic to your plight, and you can find a place to hide, rest, or recuperate among them, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
 					],
 					"data": {
 						"isFeature": true
 					}
 				},
 				{
-					"name": "Características sugeridas",
-                    "type": "entries",
-                    "entries": [
-                        "Los acólitos se forman a través de la experiencia en los templos y en otras comunidades religiosas. Su estudio de la historia y de los dogmas de su fe, así como su relación con los templos, santuarios y jerarquías, afectan a sus costumbres e ideales. Sus desventajas pueden ser alguna idea hipócrita o sacrílega, o un ideal o un vínculo llevado al extremo.",
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d8",
-                                "Rasgo de personalidad"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "Idolatro a un héroe en particular de mi fe y hablo constantemente de sus hazañas y su ejemplo."
-                                ],
-                                [
-                                    "2",
-                                    "Puedo encontrar intereses comunes con mis enemigos más fieros, empatizar con ellos y trabajar por la paz."
-                                ],
-                                [
-                                    "3",
-                                    "Veo presagios en todos los eventos y acciones. Los dioses intentan hablar con nosotros, simplemente tenemos que escucharlos."
-                                ],
-                                [
-                                    "4",
-                                    "Nada puede turbar mi optimismo."
-                                ],
-                                [
-                                    "5",
-                                    "Cito (a veces mal) textos y proverbios sagrados en casi todas las situaciones."
-                                ],
-                                [
-                                    "6",
-                                    "Tolero (o no) otras fes y respeto (o condeno) que se adoren otros dioses."
-                                ],
-                                [
-                                    "7",
-                                    "He disfrutado de buena comida y bebida, y de la alta sociedad entre la élite de mi templo. La vida agreste me pone de los nervios."
-                                ],
-                                [
-                                    "8",
-                                    "He pasado tanto tiempo en el templo que tengo poca experiencia tratando con gente del mundo exterior."
-                                ]
-                            ]
-                        },
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"A farmer is one of the common people, for better or for worse. Most farmers look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I judge people by their actions, not their words."
+								],
+								[
+									"2",
+									"If someone is in trouble, I'm always ready to lend help."
+								],
+								[
+									"3",
+									"When I set my mind to something, I follow through no matter what gets in my way."
+								],
+								[
+									"4",
+									"I have a strong sense of fair play and always try to find the most equitable solution to arguments."
+								],
+								[
+									"5",
+									"I'm confident in my own abilities and do what I can to instill confidence in others."
+								],
+								[
+									"6",
+									"Thinking is for other people. I prefer action."
+								],
+								[
+									"7",
+									"I misuse long words in an attempt to sound smarter."
+								],
+								[
+									"8",
+									"I get bored easily. When am I going to get on with my destiny?"
+								]
+							]
+						},
 						{
 							"type": "table",
 							"colLabels": [
@@ -124,27 +129,27 @@
 							"rows": [
 								[
 									"1",
-									"Tradición. Las antiguas tradiciones de la veneración y el sacrificio deben preservarse y defenderse (legal)"
+									"Respect. People deserve to be treated with dignity and respect. (Good)"
 								],
 								[
 									"2",
-									"Caridad. Siempre intento ayudar a los que lo necesitan, sin importar el coste personal (bueno)"
+									"Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)"
 								],
 								[
 									"3",
-									"Cambio. Debemos ayudar a provocar los cambios que los dioses introducen en el mundo (caótico)"
+									"Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)"
 								],
 								[
 									"4",
-									"Poder. Espero llegar un día a lo más alto de la jerarquía religiosa de mi fe (legal)"
+									"Might. If I become strong, I can take what I want\u2014what I deserve. (Evil)"
 								],
 								[
 									"5",
-									"Fe. Creo en que mi deidad guiará mis acciones. Tengo fe en el trabajo duro, todo irá bien (legal)"
+									"Sincerity. There's no good in pretending to be something I'm not. (Neutral)"
 								],
 								[
 									"6",
-									"Aspiración. Mi intención es demostrarme a mí mismo que merezco el favor de mi dios actuando según sus enseñanzas (cualquiera)"
+									"Destiny. Nothing and no one can steer me away from my higher calling. (Any)"
 								]
 							]
 						},
@@ -152,7 +157,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Vínculo"
+								"Bond"
 							],
 							"colStyles": [
 								"col-1 text-center",
@@ -161,27 +166,27 @@
 							"rows": [
 								[
 									"1",
-									"Moriría por recuperar una antigua reliquia de mi fe que se perdió hace mucho."
+									"I have a family, but I have no idea where they are. One day, I hope to see them again."
 								],
 								[
 									"2",
-									"Algún día me vengaré de la jerarquía corrupta del templo que me tachó de hereje."
+									"I worked the land, I love the land, and I will protect the land."
 								],
 								[
 									"3",
-									"Le debo mi vida al sacerdote que me acogió cuando murieron mis padres."
+									"A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter."
 								],
 								[
 									"4",
-									"Todo lo que hago es por el pueblo llano."
+									"My tools are symbols of my past life, and I carry them so that I will never forget my roots."
 								],
 								[
 									"5",
-									"Haré cualquier cosa por proteger el templo al que he servido"
+									"I protect those who cannot protect themselves."
 								],
 								[
 									"6",
-									"Pretendo preservar un texto sagrado que mis enemigos consideran sacrílego y que quieren destruir."
+									"I wish my childhood sweetheart had come with me to pursue my destiny."
 								]
 							]
 						},
@@ -189,7 +194,7 @@
 							"type": "table",
 							"colLabels": [
 								"d6",
-								"Desventaja"
+								"Flaw"
 							],
 							"colStyles": [
 								"col-1 text-center",
@@ -198,255 +203,37 @@
 							"rows": [
 								[
 									"1",
-									"Juzgo a los demás con dureza y a mí mismo con aún más severidad."
+									"The tyrant who rules my land will stop at nothing to see me killed."
 								],
 								[
 									"2",
-									"Confío demasiado en los que tienen poder dentro de la jerarquía de mi templo."
+									"I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure."
 								],
 								[
 									"3",
-									"A veces mi piedad me lleva a confiar a ciegas en los que profesan la fe de mi dios."
+									"The people who knew me when I was young know my shameful secret, so I can never go home again."
 								],
 								[
 									"4",
-									"Soy inflexible en mis opiniones."
+									"I have a weakness for the vices of the city, especially hard drink."
 								],
 								[
 									"5",
-									"Sospecho de los extraños y espero que les suceda lo peor."
+									"Secretly, I believe that things would be better if I were a tyrant lording over the land."
 								],
 								[
 									"6",
-									"Una vez elijo una meta, me obsesiono con ella en detrimento de todo lo demás."
+									"I have trouble trusting in my allies."
 								]
 							]
 						}
 					]
-				}
-			],
-			"skillProficiencies": [
-				{
-					"insight": true,
-					"religion": true
-				}
-			],
-            "languageProficiencies": [
-                {
-                    "anyStandard": 2
-                }
-            ]
-		},
-		{
-			"name": "Discípulo del Peregrino",
-			"source": "ElResurgirDelDragon_Trasfondos",
-			"skillProficiencies": [
-				{
-					"arcana": true,
-					"religion": true
 				}
 			],
 			"toolProficiencies": [
 				{
 					"herbalism kit": true,
 					"vehicles (land)": true
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Competencia con habilidades",
-							"entry": "Conocimiento Arcano ({@skill arcana}), Religión ({@skill religion})"
-						},
-						{
-							"type": "item",
-							"name": "Idiomas",
-							"entry": "Dos de tu elección"
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "Un símbolo sagrado de xion ({@item holy symbol|phb}) (un regalo de cuando entraste en el sacerdocio), un libro de oraciones o una rueda de plegaria, 5 varillas de incienso, ropas, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
-						}
-					]
-				},
-				{
-					"name": "Variante del acólito: discípulo del Peregrino",
-                    "type": "entries",
-                    "entries": [
-                        "A medida que las razas de Voldor se relacionaban con sus amos, los Peregrinos, más se asustaban de sus poderes. Servir a criaturas tan cercanas a la divinidad, así como observar las consecuencias de la magia, provocó una revolución espiritual en las razas inferiores. Algunas culturas comenzaron a adorar a toda clase de dioses, pero pronto surgió una religión que ganó adeptos entre todas las especies con rapidez: el culto a El Peregrino. Esta religión, impulsada por los propios Peregrinos, coloca en el panteón un único dios todopoderoso y no permite la adoración de otras deidades.",
-                        "Aunque los Peregrinos partieron hace mucho de este mundo, aún puede encontrarse gente que adora a El Peregrino y que reconoce la divinidad de los propios. Si compartes esta creencia, sustituye la competencia con la habilidad Perspicacia con la competencia con Arcanos, pues la magia de los Peregrinos es una pieza fundamental de las obras de El Peregrino. Además, cuentas con un símbolo sagrado, una elaborada pieza de xion rescatada de Vajra, en tu equipo inicial."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Características sugeridas",
-                    "type": "entries",
-                    "entries": [
-                        "Los acólitos se forman a través de la experiencia en los templos y en otras comunidades religiosas. Su estudio de la historia y de los dogmas de su fe, así como su relación con los templos, santuarios y jerarquías, afectan a sus costumbres e ideales. Sus desventajas pueden ser alguna idea hipócrita o sacrílega, o un ideal o un vínculo llevado al extremo.",
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "d8",
-                                "Rasgo de personalidad"
-                            ],
-                            "colStyles": [
-                                "col-1 text-center",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "1",
-                                    "Idolatro a un héroe en particular de mi fe y hablo constantemente de sus hazañas y su ejemplo."
-                                ],
-                                [
-                                    "2",
-                                    "Puedo encontrar intereses comunes con mis enemigos más fieros, empatizar con ellos y trabajar por la paz."
-                                ],
-                                [
-                                    "3",
-                                    "Veo presagios en todos los eventos y acciones. Los dioses intentan hablar con nosotros, simplemente tenemos que escucharlos."
-                                ],
-                                [
-                                    "4",
-                                    "Nada puede turbar mi optimismo."
-                                ],
-                                [
-                                    "5",
-                                    "Cito (a veces mal) textos y proverbios sagrados en casi todas las situaciones."
-                                ],
-                                [
-                                    "6",
-                                    "Tolero (o no) otras fes y respeto (o condeno) que se adoren otros dioses."
-                                ],
-                                [
-                                    "7",
-                                    "He disfrutado de buena comida y bebida, y de la alta sociedad entre la élite de mi templo. La vida agreste me pone de los nervios."
-                                ],
-                                [
-                                    "8",
-                                    "He pasado tanto tiempo en el templo que tengo poca experiencia tratando con gente del mundo exterior."
-                                ]
-                            ]
-                        },
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Tradición. Las antiguas tradiciones de la veneración y el sacrificio deben preservarse y defenderse (legal)"
-								],
-								[
-									"2",
-									"Caridad. Siempre intento ayudar a los que lo necesitan, sin importar el coste personal (bueno)"
-								],
-								[
-									"3",
-									"Cambio. Debemos ayudar a provocar los cambios que los dioses introducen en el mundo (caótico)"
-								],
-								[
-									"4",
-									"Poder. Espero llegar un día a lo más alto de la jerarquía religiosa de mi fe (legal)"
-								],
-								[
-									"5",
-									"Fe. Creo en que mi deidad guiará mis acciones. Tengo fe en el trabajo duro, todo irá bien (legal)"
-								],
-								[
-									"6",
-									"Aspiración. Mi intención es demostrarme a mí mismo que merezco el favor de mi dios actuando según sus enseñanzas (cualquiera)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Vínculo"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Moriría por recuperar una antigua reliquia de mi fe que se perdió hace mucho."
-								],
-								[
-									"2",
-									"Algún día me vengaré de la jerarquía corrupta del templo que me tachó de hereje."
-								],
-								[
-									"3",
-									"Le debo mi vida al sacerdote que me acogió cuando murieron mis padres."
-								],
-								[
-									"4",
-									"Todo lo que hago es por el pueblo llano."
-								],
-								[
-									"5",
-									"Haré cualquier cosa por proteger el templo al que he servido"
-								],
-								[
-									"6",
-									"Pretendo preservar un texto sagrado que mis enemigos consideran sacrílego y que quieren destruir."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Desventaja"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Juzgo a los demás con dureza y a mí mismo con aún más severidad."
-								],
-								[
-									"2",
-									"Confío demasiado en los que tienen poder dentro de la jerarquía de mi templo."
-								],
-								[
-									"3",
-									"A veces mi piedad me lleva a confiar a ciegas en los que profesan la fe de mi dios."
-								],
-								[
-									"4",
-									"Soy inflexible en mis opiniones."
-								],
-								[
-									"5",
-									"Sospecho de los extraños y espero que les suceda lo peor."
-								],
-								[
-									"6",
-									"Una vez elijo una meta, me obsesiono con ella en detrimento de todo lo demás."
-								]
-							]
-						}
-					]
 				}
 			]
 		}
