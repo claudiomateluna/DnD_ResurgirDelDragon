@@ -63,7 +63,7 @@
 						"Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida moderado (pero solo a ti).",
                         "También puedes tener vínculos con un templo específico dedicado a la deidad o panteón que hayas elegido y tener una residencia ahí. Puede ser el templo en que solías servir, si quedaste en buenos términos con ellos, o uno donde hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes recurrir a sus sacerdotes para pedir ayuda, siempre y cuando lo que pidas no sea peligroso y quedes bien con tu templo.",
                         "Los acólitos se forman a través de la experiencia en los templos y en otras comunidades religiosas. Su estudio de la historia y de los dogmas de su fe, así como su relación con los templos, santuarios y jerarquías, afectan a sus costumbres e ideales. Sus desventajas pueden ser alguna idea hipócrita o sacrílega, o un ideal o un vínculo llevado al extremo.",
-                        "__COMPETENCIA CON HABILIDADES__ (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+                        "<b>COMPETENCIA CON HABILIDADES</b> (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
 						{
 							"type": "list",
 							"items": [
@@ -101,115 +101,40 @@
 								"(8) - He pasado tanto tiempo en el templo que tengo poca experiencia tratando con gente del mundo exterior."
 							]
 						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
 						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideales (Escoge uno y ubicalo en la casilla correspondiente)"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Tradición. Las antiguas tradiciones de la veneración y el sacrificio deben preservarse y defenderse (legal)"
-								],
-								[
-									"2",
-									"Caridad. Siempre intento ayudar a los que lo necesitan, sin importar el coste personal (bueno)"
-								],
-								[
-									"3",
-									"Cambio. Debemos ayudar a provocar los cambios que los dioses introducen en el mundo (caótico)"
-								],
-								[
-									"4",
-									"Poder. Espero llegar un día a lo más alto de la jerarquía religiosa de mi fe (legal)"
-								],
-								[
-									"5",
-									"Fe. Creo en que mi deidad guiará mis acciones. Tengo fe en el trabajo duro, todo irá bien (legal)"
-								],
-								[
-									"6",
-									"Aspiración. Mi intención es demostrarme a mí mismo que merezco el favor de mi dios actuando según sus enseñanzas (cualquiera)"
-								]
+							"type": "list",
+							"items": [
+								"(1) - Tradición. Las antiguas tradiciones de la veneración y el sacrificio deben preservarse y defenderse (legal)",
+								"(2) - Caridad. Siempre intento ayudar a los que lo necesitan, sin importar el coste personal (bueno)",
+								"(3) - Cambio. Debemos ayudar a provocar los cambios que los dioses introducen en el mundo (caótico)",
+								"(4) - Poder. Espero llegar un día a lo más alto de la jerarquía religiosa de mi fe (legal)",
+								"(5) - Fe. Creo en que mi deidad guiará mis acciones. Tengo fe en el trabajo duro, todo irá bien (legal)",
+								"(6) - Aspiración. Mi intención es demostrarme a mí mismo que merezco el favor de mi dios actuando según sus enseñanzas (cualquiera)"
 							]
 						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
 						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Vínculo (Escoge uno y ubicalo en la casilla correspondiente)"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Moriría por recuperar una antigua reliquia de mi fe que se perdió hace mucho."
-								],
-								[
-									"2",
-									"Algún día me vengaré de la jerarquía corrupta del templo que me tachó de hereje."
-								],
-								[
-									"3",
-									"Le debo mi vida al sacerdote que me acogió cuando murieron mis padres."
-								],
-								[
-									"4",
-									"Todo lo que hago es por el pueblo llano."
-								],
-								[
-									"5",
-									"Haré cualquier cosa por proteger el templo al que he servido"
-								],
-								[
-									"6",
-									"Pretendo preservar un texto sagrado que mis enemigos consideran sacrílego y que quieren destruir."
-								]
+							"type": "list",
+							"items": [
+								"(1) - Moriría por recuperar una antigua reliquia de mi fe que se perdió hace mucho.",
+								"(2) - Algún día me vengaré de la jerarquía corrupta del templo que me tachó de hereje.",
+								"(3) - Le debo mi vida al sacerdote que me acogió cuando murieron mis padres.",
+								"(4) - Todo lo que hago es por el pueblo llano.",
+								"(5) - Haré cualquier cosa por proteger el templo al que he servido.",
+								"(6) - Pretendo preservar un texto sagrado que mis enemigos consideran sacrílego y que quieren destruir."
 							]
 						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
 						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Defecto (Escoge uno y ubicalo en la casilla correspondiente)"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Juzgo a los demás con dureza y a mí mismo con aún más severidad."
-								],
-								[
-									"2",
-									"Confío demasiado en los que tienen poder dentro de la jerarquía de mi templo."
-								],
-								[
-									"3",
-									"A veces mi piedad me lleva a confiar a ciegas en los que profesan la fe de mi dios."
-								],
-								[
-									"4",
-									"Soy inflexible en mis opiniones."
-								],
-								[
-									"5",
-									"Sospecho de los extraños y espero que les suceda lo peor."
-								],
-								[
-									"6",
-									"Una vez elijo una meta, me obsesiono con ella en detrimento de todo lo demás."
-								]
+							"type": "list",
+							"items": [
+								"(1) - Juzgo a los demás con dureza y a mí mismo con aún más severidad.",
+								"(2) - Confío demasiado en los que tienen poder dentro de la jerarquía de mi templo.",
+								"(3) - A veces mi piedad me lleva a confiar a ciegas en los que profesan la fe de mi dios.",
+								"(4) - Soy inflexible en mis opiniones.",
+								"(5) - Sospecho de los extraños y espero que les suceda lo peor.",
+								"(6) - Una vez elijo una meta, me obsesiono con ella en detrimento de todo lo demás."
 							]
 						}
 					],
@@ -233,39 +158,39 @@
 								"col-11"
 							],
 							"rows": [
-                                [
-                                    "1",
-                                    "Idolatro a un héroe en particular de mi fe y hablo constantemente de sus hazañas y su ejemplo."
-                                ],
-                                [
-                                    "2",
-                                    "Puedo encontrar intereses comunes con mis enemigos más fieros, empatizar con ellos y trabajar por la paz."
-                                ],
-                                [
-                                    "3",
-                                    "Veo presagios en todos los eventos y acciones. Los dioses intentan hablar con nosotros, simplemente tenemos que escucharlos."
-                                ],
-                                [
-                                    "4",
-                                    "Nada puede turbar mi optimismo."
-                                ],
-                                [
-                                    "5",
-                                    "Cito (a veces mal) textos y proverbios sagrados en casi todas las situaciones."
-                                ],
-                                [
-                                    "6",
-                                    "Tolero (o no) otras fes y respeto (o condeno) que se adoren otros dioses."
-                                ],
-                                [
-                                    "7",
-                                    "He disfrutado de buena comida y bebida, y de la alta sociedad entre la élite de mi templo. La vida agreste me pone de los nervios."
-                                ],
-                                [
-                                    "8",
-                                    "He pasado tanto tiempo en el templo que tengo poca experiencia tratando con gente del mundo exterior."
-                                ]
-                            ]
+								[
+									"1",
+									"Idolatro a un héroe en particular de mi fe y hablo constantemente de sus hazañas y su ejemplo."
+								],
+								[
+									"2",
+									"Puedo encontrar intereses comunes con mis enemigos más fieros, empatizar con ellos y trabajar por la paz."
+								],
+								[
+									"3",
+									"Veo presagios en todos los eventos y acciones. Los dioses intentan hablar con nosotros, simplemente tenemos que escucharlos."
+								],
+								[
+									"4",
+									"Nada puede turbar mi optimismo."
+								],
+								[
+									"5",
+									"Cito (a veces mal) textos y proverbios sagrados en casi todas las situaciones."
+								],
+								[
+									"6",
+									"Tolero (o no) otras fes y respeto (o condeno) que se adoren otros dioses."
+								],
+								[
+									"7",
+									"He disfrutado de buena comida y bebida, y de la alta sociedad entre la élite de mi templo. La vida agreste me pone de los nervios."
+								],
+								[
+									"8",
+									"He pasado tanto tiempo en el templo que tengo poca experiencia tratando con gente del mundo exterior."
+								]
+							]
 						},
 						{
 							"type": "table",
@@ -387,11 +312,11 @@
 					"vehicles (land)": true
 				}
 			],
-            "languageProficiencies": [
-                {
-                    "anyStandard": 2
-                }
-            ]
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			]
 		},
 		{
 			"name": "Discípulo del Peregrino",
