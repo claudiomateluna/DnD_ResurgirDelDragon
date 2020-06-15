@@ -28,18 +28,6 @@
 		{
 			"name": "Acolito",
 			"source": "ElResurgirDelDragon_Trasfondos",
-			"skillProficiencies": [
-				{
-					"insight": true,
-					"religion": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"herbalism kit": true,
-					"smith's tools": true
-				}
-			],
 			"entries": [
 				{
 					"type": "list",
@@ -57,7 +45,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Equipment",
+							"name": "Equipo",
 							"entry": "Un símbolo sagrado ({@item holy symbol|phb}) (un regalo de cuando entraste en el sacerdocio), un libro de oraciones o una rueda de plegaria, 5 varillas de incienso, ropas, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
 						}
 					]
@@ -236,7 +224,18 @@
 						}
 					]
 				}
-			]
+			],
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"religion": true
+				}
+			],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 2
+                }
+            ],
 		},
 		{
 			"name": "Discípulo del Peregrino",
