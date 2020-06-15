@@ -71,8 +71,8 @@
 					}
 				},
 				{
-					"name": "Suggested Characteristics",
 					"type": "entries",
+					"name": "Feature: Suggested Characteristics",
 					"entries": [
 						"A farmer is one of the common people, for better or for worse. Most farmers look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
 						{
