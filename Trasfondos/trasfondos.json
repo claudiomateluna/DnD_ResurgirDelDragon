@@ -26,12 +26,12 @@
 	},
 	"background": [
 		{
-			"name": "Farmer",
+			"name": "Acolito",
 			"source": "ElResurgirDelDragon_Trasfondos",
 			"skillProficiencies": [
 				{
-					"athletics": true,
-					"animal handling": true
+					"insight": true,
+					"religion": true
 				}
 			],
 			"entries": [
@@ -42,25 +42,29 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "{@skill Athletics}, {@skill Animal Handling}"
+							"entry": "Perspicacia {@skill insight}, Religión {@skill religion}"
 						},
 						{
 							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "Herbalism kit, vehicles (land)"
+							"name": "Languages",
+							"entry": "Dos idiomas a tu elección (Two of your choice)"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A handaxe or sickle, a set of common clothes, and a pouch containing 5 gp"
+							"entry": "Un símbolo sagrado ({@item holy symbol|phb}) (un regalo de cuando entraste en el sacerdocio), un libro de oraciones o una rueda de plegaria, 5 varillas de incienso, ropas, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
 						}
-					]
+					],
+					"data": {
+						"isFeature": true
+					}
 				},
 				{
-					"name": "Feature: Plowshares to Swords",
 					"type": "entries",
+					"name": "Feature: Refugio de los fieles",
 					"entries": [
-						"You're a simple, hard-working individual, trying to make ends meet in this crazy world. Some (possibly abstract) authority figure took everything from you, and you've had enough. Common folk are sympathetic to your plight, and you can find a place to hide, rest, or recuperate among them, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+						"Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida moderado (pero solo a ti).",
+                        "También puedes tener vínculos con un templo específico dedicado a la deidad o panteón que hayas elegido y tener una residencia ahí. Puede ser el templo en que solías servir, si quedaste en buenos términos con ellos, o uno donde hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes recurrir a sus sacerdotes para pedir ayuda, siempre y cuando lo que pidas no sea peligroso y quedes bien con tu templo."
 					],
 					"data": {
 						"isFeature": true
@@ -235,7 +239,12 @@
 					"herbalism kit": true,
 					"vehicles (land)": true
 				}
-			]
+			],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 2
+                }
+            ]
 		}
 	]
 }
