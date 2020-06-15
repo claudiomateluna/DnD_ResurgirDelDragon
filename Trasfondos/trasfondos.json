@@ -61,6 +61,20 @@
 				},
 				{
 					"type": "entries",
+					"name": "Competencia con habilidades",
+					"entries": [
+						"(Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Perspicacia ({@skill insight})",
+								"Religión ({@skill religion})"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Feature: Refugio de los fieles",
 					"entries": [
 						"Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida moderado (pero solo a ti).",
