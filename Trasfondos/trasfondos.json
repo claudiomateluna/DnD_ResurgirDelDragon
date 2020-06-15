@@ -231,7 +231,10 @@
 								]
 							]
 						}
-					]
+					],
+					"data": {
+						"isFeature": true
+					}
 				}
 			],
 			"toolProficiencies": [
