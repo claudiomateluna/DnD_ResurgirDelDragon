@@ -47,34 +47,14 @@
 						{
 							"type": "item",
 							"name": "Idiomas",
-							"entry": "Dos idiomas a tu elección (Two of your choice)"
+							"entry": "Dos idiomas a tu elección"
 						},
 						{
 							"type": "item",
 							"name": "Equipo",
 							"entry": "Un símbolo sagrado ({@item holy symbol|phb}) (un regalo de cuando entraste en el sacerdocio), un libro de oraciones o una rueda de plegaria, 5 varillas de incienso, ropas, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
 						}
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"type": "entries",
-					"name": "Feature: Competencia con habilidades",
-					"entries": [
-						"(Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
-						{
-							"type": "list",
-							"items": [
-								"Perspicacia ({@skill insight})",
-								"Religión ({@skill religion})"
-							]
-						}
-					],
-					"data": {
-						"isFeature": true
-					}
+					]
 				},
 				{
 					"type": "entries",
@@ -83,7 +63,7 @@
 						"Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida moderado (pero solo a ti).",
                         "También puedes tener vínculos con un templo específico dedicado a la deidad o panteón que hayas elegido y tener una residencia ahí. Puede ser el templo en que solías servir, si quedaste en buenos términos con ellos, o uno donde hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes recurrir a sus sacerdotes para pedir ayuda, siempre y cuando lo que pidas no sea peligroso y quedes bien con tu templo.",
                         "Los acólitos se forman a través de la experiencia en los templos y en otras comunidades religiosas. Su estudio de la historia y de los dogmas de su fe, así como su relación con los templos, santuarios y jerarquías, afectan a sus costumbres e ideales. Sus desventajas pueden ser alguna idea hipócrita o sacrílega, o un ideal o un vínculo llevado al extremo.",
-                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+                        "__COMPETENCIA CON HABILIDADES__ (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
 						{
 							"type": "list",
 							"items": [
