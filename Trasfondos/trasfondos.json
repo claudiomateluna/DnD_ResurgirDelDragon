@@ -276,7 +276,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "Un símbolo sagrado ({@item holy symbol|phb}) (un regalo de cuando entraste en el sacerdocio), un libro de oraciones o una rueda de plegaria, 5 varillas de incienso, ropas, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+							"entry": "Un símbolo sagrado ({@item holy symbol|phb}) (una pieza de xion rescatada de Vajra), un libro de oraciones o una rueda de plegaria, 5 varillas de incienso, ropas, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
 						}
 					],
 					"data": {
@@ -287,8 +287,8 @@
 					"type": "entries",
 					"name": "Feature: Refugio de los fieles",
 					"entries": [
-						"Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida moderado (pero solo a ti).",
-                        "También puedes tener vínculos con un templo específico dedicado a la deidad o panteón que hayas elegido y tener una residencia ahí. Puede ser el templo en que solías servir, si quedaste en buenos términos con ellos, o uno donde hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes recurrir a sus sacerdotes para pedir ayuda, siempre y cuando lo que pidas no sea peligroso y quedes bien con tu templo."
+						"A medida que las razas de Voldor se relacionaban con sus amos, los Peregrinos, más se asustaban de sus poderes. Servir a criaturas tan cercanas a la divinidad, así como observar las consecuencias de la magia, provocó una revolución espiritual en las razas inferiores. Algunas culturas comenzaron a adorar a toda clase de dioses, pero pronto surgió una religión que ganó adeptos entre todas las especies con rapidez: el culto a El Peregrino. Esta religión, impulsada por los propios Peregrinos, coloca en el panteón un único dios todopoderoso y no permite la adoración de otras deidades.",
+                        "Aunque los Peregrinos partieron hace mucho de este mundo, aún puede encontrarse gente que adora a El Peregrino y que reconoce la divinidad de los propios. Si compartes esta creencia, sustituye la competencia con la habilidad Perspicacia con la competencia con Arcanos, pues la magia de los Peregrinos es una pieza fundamental de las obras de El Peregrino. Además, cuentas con un símbolo sagrado, una elaborada pieza de xion rescatada de Vajra, en tu equipo inicial."
 					],
 					"data": {
 						"isFeature": true
