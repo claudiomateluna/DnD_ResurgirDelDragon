@@ -306,12 +306,6 @@
 					]
 				}
 			],
-			"toolProficiencies": [
-				{
-					"herbalism kit": true,
-					"vehicles (land)": true
-				}
-			],
 			"languageProficiencies": [
 				{
 					"anyStandard": 2
@@ -604,6 +598,633 @@
 					"anyStandard": 2
 				}
 			]
+		},
+		{
+			"name": "Artesano",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Perspicacia ({@skill arcana}), Percepción ({@skill perception})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Herramientas de artesano (de tu elección)"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Herramientas de artesano (una de tu elección), una muestra de un trabajo propio, un sello de pertenencia a un gremio, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Mirada experta",
+					"entries": [
+						"Desde siempre te has ganado la vida trabajando con las manos, no empuñando un arma como un soldado ni labrando la tierra como un campesino, sino creando cosas. Los artesanos como tú elaboráis productos y ahora ocupáis un lugar destacado en la mayoría de pueblos y ciudades. Desde tallar la madera o la roca con un cincel hasta elaborar complicados mapas, todos estos trabajos los llevan a cabo artesanos. Durante tu infancia fuiste aprendiz en algún gremio, o puede que hayas aprendido el oficio de tus padres, pero ya has demostrado tu maestría y se te reconoce como un maestro en una artesanía"
+						"Para ser un gran artesano no solo es necesario una gran habilidad con las manos, también se necesita ser atento a los detalles y contar con una buena memoria. Al fin y al cabo, fuiste aprendiz antes de experto. Es por ello que has aprendido toda cantidad de datos y curiosidades sobre los objetos artesanales. Cuando estudies una pieza elaborada durante el tiempo que el director de juego considere adecuado, podrás averiguar detalles sobre su elaboración, tales como los materiales, el lugar en el que se elaboró, la cultura o raza del artesano y puede que incluso el artesano o gremio que se encargó de su fabricación. Si no eres capaz de descubrirlo por ti mismo, seguro que tus compañeros de gremio pueden ayudarte con ello y darte consejo.",
+                        "Aunque los artesanos normalmente están asentados en un único lugar, puede que la curiosidad de ver mundo o la necesidad de aprender de otras culturas les haga salir de sus hogares y echarse a los caminos. También pueden hacerlo movidos por la codicia o por su orgullo de artesanos.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Perspicacia ({@skill arcana})",
+								"Percepción ({@skill perception})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Herramientas de artesano (una de tu elección) escoge desde el compendio una de las siguientes: Suministros de alquimista ({@item alchemist's supplies|phb}), Suministros de cervecero ({@item brewer's supplies|phb}), Suministros de calígrafo ({@item calligrapher's supplies|PHB}), Herramientas de carpintero ({@item carpenter's Tools|phb}), Herramientas de cartógrafo ({@item cartographer's tools|phb}), Herramientas de zapatero ({@item cobbler's tools|phb}), Utensilios de cocinero ({@item cook's utensils|PHB}), Herramientas de soplador de vidrio ({@item glassblower's tools|PHB}), Herramientas de joyero ({@item jeweler's tools|PHB}), Herramientas de peletero ({@item leatherworker's tools|PHB}), Herramientas de albañil ({@item mason's tools|PHB}), Herramientas de pintor ({@item painter's supplies|PHB}), herramientas de alfarero ({@item potter's tools|PHB}), Herramientas de herrero ({@item smith's tools|PHB}), Herramientas de constructor({@item tinker's tools|PHB}), Herramientas de tejedor ({@item weaver's tools|PHB}), Herramientas de tallador de madera ({@item woodcarver's tools|PHB})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Herramientas de artesano (una de tu elección)",
+								"muestra de un trabajo propio",
+								"sello de pertenencia a un gremio",
+								"Set de ropa común ({@item common clothes|phb})",
+								"Saco ({@item pouch|phb}) con 15 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Soy incapaz de guardarme las preguntas que me surgen; si algo lo desconozco, tendré que buscar la respuesta.",
+								"(2) - Tengo un pasatiempo que me encanta y suelo hablar de él a todo el que conozco.",
+								"(3) - Doy mucha importancia al orden y la limpieza, mi equipo debe estar impoluto.",
+								"(4) - Me gusta mucho hablar de mi trabajo y explicar en detalle en qué consiste.",
+								"(5) - No juzgo a la gente por sus posesiones o aspecto, sino por su forma de ser y sus acciones.",
+								"(6) - Suelo entretenerme fijándome en el paisaje cuando viajo de un sitio a otro.",
+								"(7) - Juzgo con dureza a aquellos que no se han ganado las cosas con su trabajo y esfuerzo.",
+								"(8) - No hay nada que me agrade más que una buena jarra de cerveza y una chimenea encendida."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Riqueza. El oro, las joyas y otros tesoros son lo más importante para mí (maligno).",
+								"(2) - Fama. Mis obras son lo que me representan. Algún día todos verán lo magnificas que son (ninguno).",
+								"(3) - Cambio. No puedo aceptar que las cosas son como son; siento el deseo de luchar contra lo establecido (caótico)",
+								"(4) - Descubrimiento. El mundo está lleno de maravillas que aún no han sido descubiertas; ojalá pudiese contemplarlas (neutral)",
+								"(5) - Generosidad. Mis creaciones ayudan a la gente a llevar una vida mejor. Debo hacer lo posible por mis semejantes (bueno).",
+								"(6) - Respeto. El trabajo de los demás merece mi respeto; he aprendido a valorar el esfuerzo más que el resultado (bueno)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi maestro me transmitió todo lo que sabía antes de morir, ahora haré que se sienta orgulloso de mí.",
+								"(2) - No puedo regresar a mi hogar hasta que sea lo suficientemente rico como para que todos allí me respeten y envidien.",
+								"(3) - La guerra me obligó a abandonar mi lugar de trabajo y ahora busco un nuevo hogar.",
+								"(4) - Mi aprendizaje aún no está completo, por lo que busco al mayor maestro posible para perfeccionar mi trabajo.",
+								"(5) - El deseo de conocer otras culturas me ha hecho comenzar un largo viaje.",
+								"(6) - He emprendido la búsqueda de alguien lo suficientemente digno como para que trabaje para él."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Soy demasiado cobarde como para arriesgar mi vida y morir, aunque sea por una buena causa.",
+								"(2) - Por culpa de gente que ha intentado engañarme, ahora soy incapaz de confiar en los desconocidos.",
+								"(3) - Odio gastar el dinero, aunque sea en cosas necesarias. Ni una sola moneda puede desperdiciarse.",
+								"(4) - Mi curiosidad suele ponerme en peligro en multitud de ocasiones. Algún día ocurrirá una desgracia.",
+								"(5) - Las monedas de oro me queman en los bolsillos. Adoro gastarlas en caprichos y lujos para mí y mis amigos.",
+								"(6) - Me encanta que la gente hable de mí y de mis logros. Trato de llevarme la gloria de todo, aunque a veces no la merezca."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aunque los artesanos normalmente están asentados en un único lugar, puede que la curiosidad de ver mundo o la necesidad de aprender de otras culturas les haga salir de sus hogares y echarse a los caminos. También pueden hacerlo movidos por la codicia o por su orgullo de artesanos.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Características sugeridas"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Soy incapaz de guardarme las preguntas que me surgen; si algo lo desconozco, tendré que buscar la respuesta."
+								],
+								[
+									"2",
+									"Tengo un pasatiempo que me encanta y suelo hablar de él a todo el que conozco."
+								],
+								[
+									"3",
+									"Doy mucha importancia al orden y la limpieza, mi equipo debe estar impoluto."
+								],
+								[
+									"4",
+									"Me gusta mucho hablar de mi trabajo y explicar en detalle en qué consiste."
+								],
+								[
+									"5",
+									"No juzgo a la gente por sus posesiones o aspecto, sino por su forma de ser y sus acciones."
+								],
+								[
+									"6",
+									"Suelo entretenerme fijándome en el paisaje cuando viajo de un sitio a otro"
+								],
+								[
+									"7",
+									"Juzgo con dureza a aquellos que no se han ganado las cosas con su trabajo y esfuerzo."
+								],
+								[
+									"8",
+									"No hay nada que me agrade más que una buena jarra de cerveza y una chimenea encendida."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Riqueza. El oro, las joyas y otros tesoros son lo más importante para mí (maligno)."
+								],
+								[
+									"2",
+									"Fama. Mis obras son lo que me representan. Algún día todos verán lo magnificas que son (ninguno)."
+								],
+								[
+									"3",
+									"Cambio. No puedo aceptar que las cosas son como son; siento el deseo de luchar contra lo establecido (caótico)"
+								],
+								[
+									"4",
+									"Descubrimiento. El mundo está lleno de maravillas que aún no han sido descubiertas; ojalá pudiese contemplarlas (neutral)"
+								],
+								[
+									"5",
+									"Generosidad. Mis creaciones ayudan a la gente a llevar una vida mejor. Debo hacer lo posible por mis semejantes (bueno)."
+								],
+								[
+									"6",
+									"Respeto. El trabajo de los demás merece mi respeto; he aprendido a valorar el esfuerzo más que el resultado (bueno)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi maestro me transmitió todo lo que sabía antes de morir, ahora haré que se sienta orgulloso de mí."
+								],
+								[
+									"2",
+									"No puedo regresar a mi hogar hasta que sea lo suficientemente rico como para que todos allí me respeten y envidien."
+								],
+								[
+									"3",
+									"La guerra me obligó a abandonar mi lugar de trabajo y ahora busco un nuevo hogar."
+								],
+								[
+									"4",
+									"Mi aprendizaje aún no está completo, por lo que busco al mayor maestro posible para perfeccionar mi trabajo."
+								],
+								[
+									"5",
+									"El deseo de conocer otras culturas me ha hecho comenzar un largo viaje."
+								],
+								[
+									"6",
+									"He emprendido la búsqueda de alguien lo suficientemente digno como para que trabaje para él."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Soy demasiado cobarde como para arriesgar mi vida y morir, aunque sea por una buena causa."
+								],
+								[
+									"2",
+									"Por culpa de gente que ha intentado engañarme, ahora soy incapaz de confiar en los desconocidos."
+								],
+								[
+									"3",
+									"Odio gastar el dinero, aunque sea en cosas necesarias. Ni una sola moneda puede desperdiciarse."
+								],
+								[
+									"4",
+									"Mi curiosidad suele ponerme en peligro en multitud de ocasiones. Algún día ocurrirá una desgracia."
+								],
+								[
+									"5",
+									"Las monedas de oro me queman en los bolsillos. Adoro gastarlas en caprichos y lujos para mí y mis amigos."
+								],
+								[
+									"6",
+									"Me encanta que la gente hable de mí y de mis logros. Trato de llevarme la gloria de todo, aunque a veces no la merezca."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"alchemist's supplies",
+							"brewer's supplies",
+							"calligrapher's supplies",
+							"carpenter's Tools",
+							"cartographer's tools",
+							"cobbler's tools",
+							"cook's utensils",
+							"glassblower's tools",
+							"jeweler's tools",
+							"leatherworker's tools",
+							"mason's tools",
+							"painter's supplies",
+							"potter's tools",
+							"smith's tools",
+							"tinker's tools",
+							"weaver's tools",
+							"woodcarver's tools"
+						],
+						"count": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Colono",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"skillProficiencies": [
+				{
+					"survival": true,
+					"medicine": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Supervivencia ({@skill survival}), Medicina ({@skill medicine})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Vehiculos (Terrestres ({@item vehicles (land)|phb})), herramientas de artesano (de tu elección)"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Herramientas de artesano (una de tu elección), un mapa ({@item map or scroll case|phb}) de una región lejana, lata de yesca ({@item tinderbox|phb}), un set de ropa común ({@item traveler's clothes|phb}), un carro ({@item cart|phb}), una mula ({@item mule|phb}) y un saco ({@item pouch|phb}) que contiene 10 po"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Un alto en el viaje",
+					"entries": [
+						"El lugar en el que naciste ya es parte del pasado: hace tiempo que decidiste abandonarlo y buscar un lugar en el que empezar una nueva vida. Puede que lo hicieses de manera voluntaria, alentado por las ganas de aventura o de riqueza, o quizás fueron las circunstancias las que te obligaron a echarte a los caminos. Sea cual sea la razón, emprendiste un viaje con el fin de fundar una nueva ciudad junto a otros compañeros o de aumentar la población de un asentamiento reciente. Aunque no olvidas tus raíces y llevas contigo parte de tu cultura, cada lugar por el que has pasado ha dejado una huella en ti.",
+						"Puede que ya te hayas establecido y hayas completado tu viaje, logrando una vida lejos de tu gente, cultura y puede que incluso lejos de tu raza. O quizás aún no has llegado al final del camino y sigues siendo un viajero",
+                        "Gracias a haber llevado una vida itinerante y a haber recorrido tantos caminos, ahora tienes experiencia en encontrar sitios adecuados en los que descansar entre las jornadas de marcha. Cuando realices descansos en sitios agrestes, lejos de las ciudades, puedes encontrar un campo en el que los caballos pasten y un arroyo en el que calmar la sed. De esta manera estarán frescos para continuar la marcha",
+                        "Los colonos son gente que ha dejado todo atrás y busca empezar de nuevo, por lo que suelen ser atrevidos y optimistas, dispuestos a enfrentar el cambio sin miedo a perder, pero también con facilidad para dejar atrás cosas importantes y, en ocasiones, volubles e impacientes",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Supervivencia ({@skill survival})",
+								"Medicina ({@skill medicine})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Vehiculos (Terrestres ({@item vehicles (land)|phb}))",
+								"Herramientas de artesano (una de tu elección) escoge desde el compendio una de las siguientes: Suministros de alquimista ({@item alchemist's supplies|phb}), Suministros de cervecero ({@item brewer's supplies|phb}), Suministros de calígrafo ({@item calligrapher's supplies|PHB}), Herramientas de carpintero ({@item carpenter's Tools|phb}), Herramientas de cartógrafo ({@item cartographer's tools|phb}), Herramientas de zapatero ({@item cobbler's tools|phb}), Utensilios de cocinero ({@item cook's utensils|PHB}), Herramientas de soplador de vidrio ({@item glassblower's tools|PHB}), Herramientas de joyero ({@item jeweler's tools|PHB}), Herramientas de peletero ({@item leatherworker's tools|PHB}), Herramientas de albañil ({@item mason's tools|PHB}), Herramientas de pintor ({@item painter's supplies|PHB}), herramientas de alfarero ({@item potter's tools|PHB}), Herramientas de herrero ({@item smith's tools|PHB}), Herramientas de constructor({@item tinker's tools|PHB}), Herramientas de tejedor ({@item weaver's tools|PHB}), Herramientas de tallador de madera ({@item woodcarver's tools|PHB})"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Herramientas de artesano (una de tu elección)",
+								"un mapa ({@item map or scroll case|phb}) de una región lejana",
+								"lata de yesca ({@item tinderbox|phb})",
+								"un set de ropa común ({@item traveler's clothes|phb})",
+								"un carro ({@item cart|phb})",
+								"una mula ({@item mule|phb})",
+								"Saco ({@item pouch|phb}) con 10 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - En la naturaleza encuentro la paz y tranquilidad que no puedo tener en las ciudades.",
+								"(2) - No me gusta permanecer mucho tiempo en el mismo sitio, prefiero ir de aquí para allá.",
+								"(3) - No soporto viajar en solitario, por lo que cualquiera es bienvenido a compartir mi camino.",
+								"(4) - Me paso el día pensando en todas las cosas que podrían salir mal y en formas de poder evitarlo.",
+								"(5) - Soy reacio a confiar en las autoridades; la gente con poder suele acabar corrompiéndose.",
+								"(6) - A veces estoy más cómodo en compañía de animales que de personas.",
+								"(7) - En ocasiones tengo la sensación de que todo lo que me ocurre es parte de un plan orquestado por el destino o los dioses.",
+								"(8) - Me cuesta mucho estar enfadado o triste. Mi buen humor puede más que lo que pase a mi alrededor."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Destino. Todo lo que ocurre es con una razón. No somos más que piezas en manos del destino (neutral).",
+								"(2) - Libertad. No soporto que mi vida sea controlada por otros, ya sean reyes o clérigos (caótico).",
+								"(3) - Lealtad. Tengo una deuda con mi señor y mi pueblo, haré todo lo posible por beneficiarlos (legal).",
+								"(4) - Descubrimiento. No puedo conformarme con lo que tengo cuando hay tantas cosas en otros lugares (neutral).",
+								"(5) - Poder. En una comunidad pequeña podré obtener un puesto de autoridad fácilmente (maligno).",
+								"(6) - Generosidad. Si con mis acciones logró mejorar la vida de mi pueblo, habrá merecido la pena el esfuerzo (bueno)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Jamás me perdonaré no haber estado en mi hogar junto a los míos cuando fue destruido.",
+								"(2) - No voy a permitir que se cometan los mismos errores que en mi pueblo natal.",
+								"(3) - Algún día encontraré ese lugar que mi estirpe lleva siglos buscando.",
+								"(4) - Siento que mi comunidad depende exclusivamente de mí. Debo ser su guardián.",
+								"(5) - Paso las noches pensando en vengarme de aquellos que me obligaron a abandonar mi hogar.",
+								"(6) - Durante mi viaje perdí a alguien muy importante para mí y ansío encontrarlo."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Tuve que huir de mi hogar porque allí me condenaron a muerte.",
+								"(2) - Me obsesiona descubrir los secretos e historia de la región.",
+								"(3) - Suelo ponerme en peligro para que los demás vean mi valía.",
+								"(4) - No puedo confiar en nadie que no sea de mi pueblo o cultura.",
+								"(5) - No puedo rechazar a nadie que necesite mi ayuda, aunque me ponga en peligro.",
+								"(6) - Mis acciones me han enemistado con los habitantes de mi hogar actual."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aunque los artesanos normalmente están asentados en un único lugar, puede que la curiosidad de ver mundo o la necesidad de aprender de otras culturas les haga salir de sus hogares y echarse a los caminos. También pueden hacerlo movidos por la codicia o por su orgullo de artesanos.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Características sugeridas"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"En la naturaleza encuentro la paz y tranquilidad que no puedo tener en las ciudades."
+								],
+								[
+									"2",
+									"No me gusta permanecer mucho tiempo en el mismo sitio, prefiero ir de aquí para allá."
+								],
+								[
+									"3",
+									"No soporto viajar en solitario, por lo que cualquiera es bienvenido a compartir mi camino."
+								],
+								[
+									"4",
+									"Me paso el día pensando en todas las cosas que podrían salir mal y en formas de poder evitarlo."
+								],
+								[
+									"5",
+									"Soy reacio a confiar en las autoridades; la gente con poder suele acabar corrompiéndose."
+								],
+								[
+									"6",
+									"A veces estoy más cómodo en compañía de animales que de personas."
+								],
+								[
+									"7",
+									"En ocasiones tengo la sensación de que todo lo que me ocurre es parte de un plan orquestado por el destino o los dioses."
+								],
+								[
+									"8",
+									"Me cuesta mucho estar enfadado o triste. Mi buen humor puede más que lo que pase a mi alrededor."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Destino. Todo lo que ocurre es con una razón. No somos más que piezas en manos del destino (neutral)."
+								],
+								[
+									"2",
+									"Libertad. No soporto que mi vida sea controlada por otros, ya sean reyes o clérigos (caótico)."
+								],
+								[
+									"3",
+									"Lealtad. Tengo una deuda con mi señor y mi pueblo, haré todo lo posible por beneficiarlos (legal)."
+								],
+								[
+									"4",
+									"Descubrimiento. No puedo conformarme con lo que tengo cuando hay tantas cosas en otros lugares (neutral)."
+								],
+								[
+									"5",
+									"Poder. En una comunidad pequeña podré obtener un puesto de autoridad fácilmente (maligno)."
+								],
+								[
+									"6",
+									"Generosidad. Si con mis acciones logró mejorar la vida de mi pueblo, habrá merecido la pena el esfuerzo (bueno)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Jamás me perdonaré no haber estado en mi hogar junto a los míos cuando fue destruido."
+								],
+								[
+									"2",
+									"No voy a permitir que se cometan los mismos errores que en mi pueblo natal."
+								],
+								[
+									"3",
+									"Algún día encontraré ese lugar que mi estirpe lleva siglos buscando."
+								],
+								[
+									"4",
+									"Siento que mi comunidad depende exclusivamente de mí. Debo ser su guardián."
+								],
+								[
+									"5",
+									"Paso las noches pensando en vengarme de aquellos que me obligaron a abandonar mi hogar."
+								],
+								[
+									"6",
+									"He emprendido la búsqueda de alguien lo suficientemente digno como para que trabaje para él."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Tuve que huir de mi hogar porque allí me condenaron a muerte."
+								],
+								[
+									"2",
+									"Me obsesiona descubrir los secretos e historia de la región."
+								],
+								[
+									"3",
+									"Suelo ponerme en peligro para que los demás vean mi valía."
+								],
+								[
+									"4",
+									"No puedo confiar en nadie que no sea de mi pueblo o cultura."
+								],
+								[
+									"5",
+									"No puedo rechazar a nadie que necesite mi ayuda, aunque me ponga en peligro."
+								],
+								[
+									"6",
+									"Mis acciones me han enemistado con los habitantes de mi hogar actual."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true,
+					"vehicles (land)": true
+				}
+			]
 		}
+		
 	]
 }

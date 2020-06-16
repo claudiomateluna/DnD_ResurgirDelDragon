@@ -51,3 +51,43 @@ You have proficiency with
 	"{@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
 	"{@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
 }
+
+{
+	"({@item alchemist's supplies|phb})"
+	"({@item brewer's supplies|phb})"
+	"({@item calligrapher's supplies|PHB})"
+	"({@item carpenter's Tools|phb})"
+	"({@item cartographer's tools|phb})"
+	"({@item cobbler's tools|phb})"
+	"({@item cook's utensils|PHB})"
+	"({@item glassblower's tools|PHB})"
+	"({@item jeweler's tools|PHB})"
+	"({@item leatherworker's tools|PHB})"
+	"({@item mason's tools|PHB})"
+	"({@item painter's supplies|PHB})"
+	"({@item potter's tools|PHB})"
+	"({@item smith's tools|PHB})"
+	"({@item tinker's tools|PHB})"
+	"({@item weaver's tools|PHB})"
+	"({@item woodcarver's tools|PHB})"
+}
+
+{
+	"Suministros de alquimista ({@item alchemist's supplies|phb})"
+	"Suministros de cervecero ({@item brewer's supplies|phb})"
+	"Suministros de calígrafo ({@item calligrapher's supplies|PHB})"
+	"Herramientas de carpintero ({@item carpenter's Tools|phb})"
+	"Herramientas de cartógrafo ({@item cartographer's tools|phb})"
+	"Herramientas de zapatero ({@item cobbler's tools|phb})"
+	"Utensilios de cocinero ({@item cook's utensils|PHB})"
+	"Herramientas de soplador de vidrio ({@item glassblower's tools|PHB})"
+	"Herramientas de joyero ({@item jeweler's tools|PHB})"
+	"Herramientas de peletero ({@item leatherworker's tools|PHB})"
+	"Herramientas de albañil ({@item mason's tools|PHB})"
+	"Herramientas de pintor ({@item painter's supplies|PHB})"
+	"herramientas de alfarero ({@item potter's tools|PHB})"
+	"Herramientas de herrero ({@item smith's tools|PHB})"
+	"Herramientas de constructor({@item tinker's tools|PHB})"
+	"Herramientas de tejedor ({@item weaver's tools|PHB})"
+	"Herramientas de tallador de madera ({@item woodcarver's tools|PHB})"
+}

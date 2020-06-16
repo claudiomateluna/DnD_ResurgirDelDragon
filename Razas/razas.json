@@ -69,6 +69,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/araina.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -260,6 +269,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/batrok.png"
+						}
 					}
 				]
 			},
@@ -489,6 +507,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/centauro.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -672,6 +699,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/draconido.png"
+						}
 					}
 				]
 			},
@@ -877,6 +913,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/elfo.png"
+						}
 					}
 				]
 			},
@@ -1185,6 +1230,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/enano.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -1466,6 +1520,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/felinido.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -1651,6 +1714,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/formigo.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -1769,6 +1841,15 @@
 					"Pequeños y optimistas, los gnomos son criaturas con gran voluntad. Sus orejas puntiagudas son como las de los elfos, pero su rostro recuerda más al de un niño humano. Tras esta apariencia inofensiva se encuentran unas criaturas sumamente inteligentes y con un talento extraordinario para el saber, la creación y la magia. Esta ansia de conocimiento es la que los ha abierto a otras razas. Las poblaciones de gnomos suelen ser sitios vibrantes, donde se suceden ruidos de maquinaria y, de cuando en cuando, alguna explosión. Cuando los gnomos viajan a territorios lejanos, les invade una sana curiosidad, que satisfacen haciendo preguntas de toda índole.",
 					"Una subraza de gnomo numerosa son los gnomos de las rocas, más robustos que el resto de sus hermanos. Sin embargo, no todos los gnomos son afables: en las profundidades de la tierra moran los svirfneblins, una subraza con el tono de piel azulado y naturaleza malvada, que suele aliarse con otras criaturas subterráneas antes que con sus parientes de la superficie.",
 					"Los aventureros gnomos suelen ser bardos, hechiceros, pícaros o magos"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/gnomo.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -2095,6 +2176,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/hipotido.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -2239,6 +2329,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/humano.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -2348,6 +2447,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/karasu.png"
+						}
 					}
 				]
 			},
@@ -2514,6 +2622,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/kitsune.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -2642,6 +2759,15 @@
 						"entries": [
 							"Destripacerrojos, Pecas, Zampabollos"
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/mediano.png"
+						}
 					}
 				]
 			},
@@ -2866,6 +2992,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/mida.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -3032,6 +3167,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/morlock.png"
+						}
 					}
 				]
 			},
@@ -3217,6 +3361,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/orco.png"
+						}
 					}
 				]
 			},
@@ -3465,6 +3618,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/rakshasa.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -3660,6 +3822,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/saurio.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -3816,6 +3987,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/semielfo.png"
+						}
 					}
 				]
 			},
@@ -3999,6 +4179,15 @@
 							}
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/semiorco.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -4163,6 +4352,15 @@
 							"Llamarada, Sabio, Tranquilo"
 						]
 					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/tiefling.png"
+						}
+					}
 				]
 			},
 			"ability": [
@@ -4309,6 +4507,15 @@
 								]
 							}
 						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/vipero.png"
+						}
 					}
 				]
 			},
