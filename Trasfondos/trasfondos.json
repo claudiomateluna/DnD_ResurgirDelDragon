@@ -28,6 +28,7 @@
 		{
 			"name": "Acolito",
 			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 104,
 			"skillProficiencies": [
 				{
 					"insight": true,
@@ -35,6 +36,14 @@
 				}
 			],
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Acolitos",
+					"entries": [
+						"Has dedicado tu vida al servicio de un templo de un dios específico o un panteón de dioses. Actúas como intermediario entre el reino de lo sagrado y el mundo mortal, realizando ritos sagrados y ofreciendo sacrificios para conducir a los adoradores a la presencia de lo divino. No eres un clérigo necesariamente; realizar ritos sagrados no es lo mismo que canalizar el poder de una divinidad.",
+						"Elige un dios, un panteón de dioses o cualquier otro ser casi divino de entre los que se indican en «Panteones» (página 343) o los que especifique el director de juego, y acuerda con él la naturaleza de tu servicio religioso. ¿Eras un funcionario menor del templo? ¿Fuiste criado desde la infancia para ayudar al sacerdote en los ritos sagrados? O ¿eras un alto sacerdote que de repente escuchó la llamada para servir a tu dios de una forma diferente? Quizás eras el líder de una pequeña secta fuera de cualquier estructura establecida de un templo, o incluso de un grupo ocultista que servía a un maestro infernal del que ahora reniegas."
+					]
+				},
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -60,6 +69,8 @@
 					"type": "entries",
 					"name": "Feature: Refugio de los fieles",
 					"entries": [
+						"Has dedicado tu vida al servicio de un templo de un dios específico o un panteón de dioses. Actúas como intermediario entre el reino de lo sagrado y el mundo mortal, realizando ritos sagrados y ofreciendo sacrificios para conducir a los adoradores a la presencia de lo divino. No eres un clérigo necesariamente; realizar ritos sagrados no es lo mismo que canalizar el poder de una divinidad.",
+						"Elige un dios, un panteón de dioses o cualquier otro ser casi divino de entre los que se indican en «Panteones» (página 343) o los que especifique el director de juego, y acuerda con él la naturaleza de tu servicio religioso. ¿Eras un funcionario menor del templo? ¿Fuiste criado desde la infancia para ayudar al sacerdote en los ritos sagrados? O ¿eras un alto sacerdote que de repente escuchó la llamada para servir a tu dios de una forma diferente? Quizás eras el líder de una pequeña secta fuera de cualquier estructura establecida de un templo, o incluso de un grupo ocultista que servía a un maestro infernal del que ahora reniegas.",
 						"Como acólito, inspiras respeto en los que comparten tu fe y puedes realizar las ceremonias religiosas de tu deidad. Tus compañeros de aventuras y tú podéis esperar recibir curación y cuidados gratis en un templo, santuario o cualquier establecimiento de tu fe, aunque debéis aportar los componentes materiales necesarios. Quienes compartan tu religión te financiarán un estilo de vida moderado (pero solo a ti).",
                         "También puedes tener vínculos con un templo específico dedicado a la deidad o panteón que hayas elegido y tener una residencia ahí. Puede ser el templo en que solías servir, si quedaste en buenos términos con ellos, o uno donde hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes recurrir a sus sacerdotes para pedir ayuda, siempre y cuando lo que pidas no sea peligroso y quedes bien con tu templo.",
                         "Los acólitos se forman a través de la experiencia en los templos y en otras comunidades religiosas. Su estudio de la historia y de los dogmas de su fe, así como su relación con los templos, santuarios y jerarquías, afectan a sus costumbres e ideales. Sus desventajas pueden ser alguna idea hipócrita o sacrílega, o un ideal o un vínculo llevado al extremo.",
@@ -315,6 +326,7 @@
 		{
 			"name": "Discípulo del Peregrino",
 			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 105,
 			"skillProficiencies": [
 				{
 					"arcana": true,
@@ -322,6 +334,14 @@
 				}
 			],
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Acolitos",
+					"entries": [
+						"Has dedicado tu vida al servicio de un templo de un dios específico o un panteón de dioses. Actúas como intermediario entre el reino de lo sagrado y el mundo mortal, realizando ritos sagrados y ofreciendo sacrificios para conducir a los adoradores a la presencia de lo divino. No eres un clérigo necesariamente; realizar ritos sagrados no es lo mismo que canalizar el poder de una divinidad.",
+						"Elige un dios, un panteón de dioses o cualquier otro ser casi divino de entre los que se indican en «Panteones» (página 343) o los que especifique el director de juego, y acuerda con él la naturaleza de tu servicio religioso. ¿Eras un funcionario menor del templo? ¿Fuiste criado desde la infancia para ayudar al sacerdote en los ritos sagrados? O ¿eras un alto sacerdote que de repente escuchó la llamada para servir a tu dios de una forma diferente? Quizás eras el líder de una pequeña secta fuera de cualquier estructura establecida de un templo, o incluso de un grupo ocultista que servía a un maestro infernal del que ahora reniegas."
+					]
+				},
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -602,6 +622,7 @@
 		{
 			"name": "Artesano",
 			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 105,
 			"skillProficiencies": [
 				{
 					"insight": true,
@@ -609,6 +630,14 @@
 				}
 			],
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Artesanos",
+					"entries": [
+						"Desde siempre te has ganado la vida trabajando con las manos, no empuñando un arma como un soldado ni labrando la tierra como un campesino, sino creando cosas. Los artesanos como tú elaboráis productos y ahora ocupáis un lugar destacado en la mayoría de pueblos y ciudades. Desde tallar la madera o la roca con un cincel hasta elaborar complicados mapas, todos estos trabajos los llevan a cabo artesanos. Durante tu infancia fuiste aprendiz en algún gremio, o puede que hayas aprendido el oficio de tus padres, pero ya has demostrado tu maestría y se te reconoce como un maestro en una artesanía.",
+						"Cuando elijas este trasfondo, decide junto al director de juego en qué artesanía estás especializado. Asimismo, puedes añadir detalles sobre cómo aprendiste el oficio o cómo es el gremio al que perteneces."
+					]
+				},
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -621,7 +650,7 @@
 						{
 							"type": "item",
 							"name": "Competencia con herramientas",
-							"entry": "Herramientas de artesano (de tu elección)"
+							"entry": "Herramientas de artesano (una de tu elección entre {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools})"
 						},
 						{
 							"type": "item",
@@ -631,7 +660,7 @@
 						{
 							"type": "item",
 							"name": "Equipo",
-							"entry": "Herramientas de artesano (una de tu elección), una muestra de un trabajo propio, un sello de pertenencia a un gremio, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+							"entry": "Herramientas de artesano (una de tu elección entre {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}), una muestra de un trabajo propio, un sello de pertenencia a un gremio, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
 						}
 					]
 				},
@@ -639,7 +668,7 @@
 					"type": "entries",
 					"name": "Feature: Mirada experta",
 					"entries": [
-						"Desde siempre te has ganado la vida trabajando con las manos, no empuñando un arma como un soldado ni labrando la tierra como un campesino, sino creando cosas. Los artesanos como tú elaboráis productos y ahora ocupáis un lugar destacado en la mayoría de pueblos y ciudades. Desde tallar la madera o la roca con un cincel hasta elaborar complicados mapas, todos estos trabajos los llevan a cabo artesanos. Durante tu infancia fuiste aprendiz en algún gremio, o puede que hayas aprendido el oficio de tus padres, pero ya has demostrado tu maestría y se te reconoce como un maestro en una artesanía"
+						"Desde siempre te has ganado la vida trabajando con las manos, no empuñando un arma como un soldado ni labrando la tierra como un campesino, sino creando cosas. Los artesanos como tú elaboráis productos y ahora ocupáis un lugar destacado en la mayoría de pueblos y ciudades. Desde tallar la madera o la roca con un cincel hasta elaborar complicados mapas, todos estos trabajos los llevan a cabo artesanos. Durante tu infancia fuiste aprendiz en algún gremio, o puede que hayas aprendido el oficio de tus padres, pero ya has demostrado tu maestría y se te reconoce como un maestro en una artesanía",
 						"Para ser un gran artesano no solo es necesario una gran habilidad con las manos, también se necesita ser atento a los detalles y contar con una buena memoria. Al fin y al cabo, fuiste aprendiz antes de experto. Es por ello que has aprendido toda cantidad de datos y curiosidades sobre los objetos artesanales. Cuando estudies una pieza elaborada durante el tiempo que el director de juego considere adecuado, podrás averiguar detalles sobre su elaboración, tales como los materiales, el lugar en el que se elaboró, la cultura o raza del artesano y puede que incluso el artesano o gremio que se encargó de su fabricación. Si no eres capaz de descubrirlo por ti mismo, seguro que tus compañeros de gremio pueden ayudarte con ello y darte consejo.",
                         "Aunque los artesanos normalmente están asentados en un único lugar, puede que la curiosidad de ver mundo o la necesidad de aprender de otras culturas les haga salir de sus hogares y echarse a los caminos. También pueden hacerlo movidos por la codicia o por su orgullo de artesanos.",
                         "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
@@ -929,6 +958,7 @@
 		{
 			"name": "Colono",
 			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 106,
 			"skillProficiencies": [
 				{
 					"survival": true,
@@ -936,6 +966,14 @@
 				}
 			],
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Colonos",
+					"entries": [
+						"El lugar en el que naciste ya es parte del pasado: hace tiempo que decidiste abandonarlo y buscar un lugar en el que empezar una nueva vida. Puede que lo hicieses de manera voluntaria, alentado por las ganas de aventura o de riqueza, o quizás fueron las circunstancias las que te obligaron a echarte a los caminos. Sea cual sea la razón, emprendiste un viaje con el fin de fundar una nueva ciudad junto a otros compañeros o de aumentar la población de un asentamiento reciente. Aunque no olvidas tus raíces y llevas contigo parte de tu cultura, cada lugar por el que has pasado ha dejado una huella en ti.",
+						"Puede que ya te hayas establecido y hayas completado tu viaje, logrando una vida lejos de tu gente, cultura y puede que incluso lejos de tu raza. O quizás aún no has llegado al final del camino y sigues siendo un viajero."
+					]
+				},
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -948,12 +986,12 @@
 						{
 							"type": "item",
 							"name": "Competencia con herramientas",
-							"entry": "Vehiculos (Terrestres ({@item vehicles (land)|phb})), herramientas de artesano (de tu elección)"
+							"entry": "Vehiculos (Terrestres ({@item vehicles (land)|phb})), herramientas de artesano (de tu elección) {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
 						},
 						{
 							"type": "item",
 							"name": "Equipo",
-							"entry": "Herramientas de artesano (una de tu elección), un mapa ({@item map or scroll case|phb}) de una región lejana, lata de yesca ({@item tinderbox|phb}), un set de ropa común ({@item traveler's clothes|phb}), un carro ({@item cart|phb}), una mula ({@item mule|phb}) y un saco ({@item pouch|phb}) que contiene 10 po"
+							"entry": "Herramientas de artesano (una de tu elección), un mapa ({@item map or scroll case|phb}) de una región lejana, lata de yesca ({@item tinderbox|phb}), un set de ropa de viaje ({@item traveler's clothes|phb}), un carro ({@item cart|phb}), una mula ({@item mule|phb}) y un saco ({@item pouch|phb}) que contiene 10 po"
 						}
 					]
 				},
@@ -964,7 +1002,7 @@
 						"El lugar en el que naciste ya es parte del pasado: hace tiempo que decidiste abandonarlo y buscar un lugar en el que empezar una nueva vida. Puede que lo hicieses de manera voluntaria, alentado por las ganas de aventura o de riqueza, o quizás fueron las circunstancias las que te obligaron a echarte a los caminos. Sea cual sea la razón, emprendiste un viaje con el fin de fundar una nueva ciudad junto a otros compañeros o de aumentar la población de un asentamiento reciente. Aunque no olvidas tus raíces y llevas contigo parte de tu cultura, cada lugar por el que has pasado ha dejado una huella en ti.",
 						"Puede que ya te hayas establecido y hayas completado tu viaje, logrando una vida lejos de tu gente, cultura y puede que incluso lejos de tu raza. O quizás aún no has llegado al final del camino y sigues siendo un viajero",
                         "Gracias a haber llevado una vida itinerante y a haber recorrido tantos caminos, ahora tienes experiencia en encontrar sitios adecuados en los que descansar entre las jornadas de marcha. Cuando realices descansos en sitios agrestes, lejos de las ciudades, puedes encontrar un campo en el que los caballos pasten y un arroyo en el que calmar la sed. De esta manera estarán frescos para continuar la marcha",
-                        "Los colonos son gente que ha dejado todo atrás y busca empezar de nuevo, por lo que suelen ser atrevidos y optimistas, dispuestos a enfrentar el cambio sin miedo a perder, pero también con facilidad para dejar atrás cosas importantes y, en ocasiones, volubles e impacientes",
+                        "Los colonos son gente que ha dejado todo atrás y busca empezar de nuevo, por lo que suelen ser atrevidos y optimistas, dispuestos a enfrentar el cambio sin miedo a perder, pero también con facilidad para dejar atrás cosas importantes y, en ocasiones, volubles e impacientes.",
                         "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
 						{
 							"type": "list",
@@ -1053,7 +1091,7 @@
 					"type": "entries",
 					"name": "Características sugeridas",
 					"entries": [
-						"Aunque los artesanos normalmente están asentados en un único lugar, puede que la curiosidad de ver mundo o la necesidad de aprender de otras culturas les haga salir de sus hogares y echarse a los caminos. También pueden hacerlo movidos por la codicia o por su orgullo de artesanos.",
+						"Los colonos son gente que ha dejado todo atrás y busca empezar de nuevo, por lo que suelen ser atrevidos y optimistas, dispuestos a enfrentar el cambio sin miedo a perder, pero también con facilidad para dejar atrás cosas importantes y, en ocasiones, volubles e impacientes.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -1224,7 +1262,1009 @@
 					"vehicles (land)": true
 				}
 			]
+		},
+		{
+			"name": "Combatiente",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 107,
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Combatiente",
+					"entries": [
+						"La guerra es una forma de vida para ti. Puede que por elección propia o porque te viste obligado, pero en el pasado has formado parte de una organización militar y el combate no te es desconocido. Ya sea luchando en grandes batallas junto a tu unidad o como guardia a cambio de unas monedas, tu mano está acostumbrada a empuñar un arma y ya conoces el miedo a perder la vida si te descuidas un solo instante.",
+						"Cuando elijas este trasfondo, determina junto con el director de juego los detalles de tu pasado como combatiente, tales como al servicio de quién combatías o qué te hizo ponerte bajo sus órdenes. Puede que lucharas por un rey o un noble o que simplemente fueras el capitán de la guardia de una pequeña villa. ¿Te alistaste porque creías que era lo correcto o porque necesitabas con urgencia unas monedas? Tal vez ni siquiera te alistases de manera voluntaria, sino por la fuerza. Hay muchas razones para que acabases viéndote obligado a empuñar las armas."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pasado Militar",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"1d6",
+								"Pasado militar"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Guardia de la ciudad"
+								],
+								[
+									"2",
+									"Guardia fronterizo"
+								],
+								[
+									"3",
+									"Soldado regular"
+								],
+								[
+									"4",
+									"Combatiente rebelde"
+								],
+								[
+									"5",
+									"Mercenario"
+								],
+								[
+									"6",
+									"Miliciano"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Atletismo ({@skill athletics}), Intimidación ({@skill intimidation})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Kit de Juegos ({@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un kit de juegos (uno de tu elección {@item dice set|phb} o {@item playing card set|phb}), un viejo trofeo de guerra, piedra de afilar, un set de ropas de viaje ({@item traveler's clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Cicatrices de guerra",
+					"entries": [
+						"La guerra es una forma de vida para ti. Puede que por elección propia o porque te viste obligado, pero en el pasado has formado parte de una organización militar y el combate no te es desconocido. Ya sea luchando en grandes batallas junto a tu unidad o como guardia a cambio de unas monedas, tu mano está acostumbrada a empuñar un arma y ya conoces el miedo a perder la vida si te descuidas un solo instante.",
+						"Cuando elijas este trasfondo, determina junto con el director de juego los detalles de tu pasado como combatiente, tales como al servicio de quién combatías o qué te hizo ponerte bajo sus órdenes. Puede que lucharas por un rey o un noble o que simplemente fueras el capitán de la guardia de una pequeña villa. ¿Te alistaste porque creías que era lo correcto o porque necesitabas con urgencia unas monedas? Tal vez ni siquiera te alistases de manera voluntaria, sino por la fuerza. Hay muchas razones para que acabases viéndote obligado a empuñar las armas.",
+						"PASADO MILITAR",
+						"Existen distintos cargos que puedes haber ostentado cuando formabas parte de una fuerza militar. Elige un pasado militar de tu agrado o haz una tirada en la siguiente tabla de pasado militar.",
+						{
+							"type": "list",
+							"items": [
+								"(1d6) - Pasado militar",
+								"( 1 ) - Guardia de la ciudad",
+								"( 2 ) - Guardia fronterizo",
+								"( 3 ) - Soldado regular",
+								"( 4 ) - Combatiente rebelde",
+								"( 5 ) - Mercenario",
+								"( 6 ) - Miliciano"
+							]
+						},
+						"Has dejado tu vida militar detrás y ya no perteneces a ningún ejército, pero lo que has sido ha dejado su marca en ti. La pose firme, el gesto duro o las cicatrices en tu cuerpo son una huella indeleble de tu antigua vida, y otros las reconocen con facilidad. Cuando conoces a alguien que también es militar, ya sea un soldado o un guardia, la complicidad o el respeto surgen con facilidad, incluso aunque combatierais en bandos enfrentados, y un poco de conversación o una partida de dados es suficiente para ganarte su confianza. Puede que te cuente lo que se dice entre la guardia de la ciudad o cómo avanza la guerra en el territorio, o que te haga algún pequeño favor que no ponga en peligro su puesto.", 
+						"Además, conoces dónde suelen ofrecerse los soldados y mercenarios, por lo que tienes facilidad para encontrar espadas de alquiler, aunque seguramente no salga barato.",
+						"Ganarse la vida combatiendo es una opción que suele tomar la gente con pocos recursos que no tiene otra salida, aunque algunos lo deciden por su ansia de aventuras, de combatir o de proteger su nación o servir a su señor. Sea como sea, cualquier combatiente entiende la necesidad de la disciplina y el sacrificio personal.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Atletismo ({@skill athletics})",
+								"Intimidación ({@skill intimidation})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Kit de Juegos ({@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Kit de juegos (uno de tu elección: )",
+									{
+										"type": "list",
+										"items": [
+											"Juego de dados ({@item dice set|phb})",
+											"Juegos de Cartas ({@item playing card set|phb})"
+										]
+									},
+								"Viejo trofeo de guerra",
+								"Piedra de afilar",
+								"Set de ropas de viaje ({@item traveler's clothes|phb})",
+								"Saco ({@item pouch|phb}) con 15 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - El respeto y la obediencia a un superior son la base del buen soldado.",
+								"(2) - Creo que la violencia es el último recurso en una confrontación.",
+								"(3) - El mundo es un lugar lleno de sufrimiento; es mi deber proteger a los débiles.",
+								"(4) - A veces es mejor acabar rápido y de golpe con los problemas. Pensar demasiado impide llegar a tiempo de actuar.",
+								"(5) - No hay nada mejor que una buena broma para romper la tensión en la batalla.",
+								"(6) - Mi momento favorito de la batalla es el saqueo, el reparto del botín siempre me levanta el ánimo.",
+								"(7) - Los horrores que he visto realizar en nombre de reyes y naciones me han hecho perder la fe en las personas.",
+								"(8) - Adoro la sensación que siento cuando escucho entrechocar armas y escudos."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Lealtad. Debo llevar a cabo los designios de mi señor, se lo debo (legal).",
+								"(2) - Avaricia. La guerra es un negocio como otro cualquiera (neutral).",
+								"(3) - Libertad. La gente no se merece vivir bajo el dominio de un tirano, merecen ser libres (caótico).",
+								"(4) - Paz. Si combatimos ahora contra los crueles y los malvados, nuestros hijos tendrán una vida en paz (bueno).",
+								"(5) - Pueblo. Es mi deber proteger a mi gente cueste lo que cueste (bueno).",
+								"(6) - Gloria. En el campo de batalla puedo demostrar a todos mi valía y mi habilidad (cualquiera)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Perdí a muchos amigos en el campo de batalla, no voy a permitirme perder a ninguno más.",
+								"(2) - La sabiduría de mi capitán nos permitió a ambos salir con vida de aquella batalla. Desde entonces siempre escucho los consejos de los más experimentados.",
+								"(3) - No tengo miedo a interponerme para proteger a alguien indefenso.",
+								"(4) - Jamás olvidaré al hombre que nos traicionó; por su culpa perdí a mis compañeros de armas.Jamás olvidaré al hombre que nos traicionó; por su culpa perdí a mis compañeros de armas.",
+								"(5) - Desdé que mi señor me perdonó por aquel terrible error, trato de demostrar en todo momento que soy digno de su confianza.",
+								"(6) - Me he prometido a mí mismo que me recordarán por mis hazañas décadas después de mi muerte."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Aunque sean injustos o crueles, no soy capaz de oponerme a lo que dictan los gobernantes.",
+								"(2) - Solo la cerveza y los licores me hacen olvidar los desgarradores recuerdos de las batallas pasadas.",
+								"(3) - No puedo permitirme parecer débil o cansado, seguiré adelante aunque eso ponga mi vida en peligro.",
+								"(4) - Me cuesta mantener la boca cerrada. Mis chistes o bravuconadas siempre surgen en mal momento.",
+								"(5) - Aunque trato de mantenerme sereno y tranquilo, el ruido de armas y el olor de la sangre sacan mi lado más salvaje.",
+								"(6) - Tras tanto tiempo en el campo de batalla, no puedo resistirme a una sonrisa bonita."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Ganarse la vida combatiendo es una opción que suele tomar la gente con pocos recursos que no tiene otra salida, aunque algunos lo deciden por su ansia de aventuras, de combatir o de proteger su nación o servir a su señor. Sea como sea, cualquier combatiente entiende la necesidad de la disciplina y el sacrificio personal.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"El respeto y la obediencia a un superior son la base del buen soldado."
+								],
+								[
+									"2",
+									"Creo que la violencia es el último recurso en una confrontación."
+								],
+								[
+									"3",
+									"El mundo es un lugar lleno de sufrimiento; es mi deber proteger a los débiles."
+								],
+								[
+									"4",
+									"A veces es mejor acabar rápido y de golpe con los problemas. Pensar demasiado impide llegar a tiempo de actuar."
+								],
+								[
+									"5",
+									"No hay nada mejor que una buena broma para romper la tensión en la batalla."
+								],
+								[
+									"6",
+									"Mi momento favorito de la batalla es el saqueo, el reparto del botín siempre me levanta el ánimo."
+								],
+								[
+									"7",
+									"Los horrores que he visto realizar en nombre de reyes y naciones me han hecho perder la fe en las personas."
+								],
+								[
+									"8",
+									"Adoro la sensación que siento cuando escucho entrechocar armas y escudos."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Lealtad. Debo llevar a cabo los designios de mi señor, se lo debo (legal)."
+								],
+								[
+									"2",
+									"Avaricia. La guerra es un negocio como otro cualquiera (neutral)."
+								],
+								[
+									"3",
+									"Libertad. La gente no se merece vivir bajo el dominio de un tirano, merecen ser libres (caótico)."
+								],
+								[
+									"4",
+									"Paz. Si combatimos ahora contra los crueles y los malvados, nuestros hijos tendrán una vida en paz (bueno)."
+								],
+								[
+									"5",
+									"Pueblo. Es mi deber proteger a mi gente cueste lo que cueste (bueno)."
+								],
+								[
+									"6",
+									"Gloria. En el campo de batalla puedo demostrar a todos mi valía y mi habilidad (cualquiera)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Perdí a muchos amigos en el campo de batalla, no voy a permitirme perder a ninguno más."
+								],
+								[
+									"2",
+									"La sabiduría de mi capitán nos permitió a ambos salir con vida de aquella batalla. Desde entonces siempre escucho los consejos de los más experimentados."
+								],
+								[
+									"3",
+									"No tengo miedo a interponerme para proteger a alguien indefenso."
+								],
+								[
+									"4",
+									"Jamás olvidaré al hombre que nos traicionó; por su culpa perdí a mis compañeros de armas.Jamás olvidaré al hombre que nos traicionó; por su culpa perdí a mis compañeros de armas."
+								],
+								[
+									"5",
+									"Desdé que mi señor me perdonó por aquel terrible error, trato de demostrar en todo momento que soy digno de su confianza."
+								],
+								[
+									"6",
+									"Me he prometido a mí mismo que me recordarán por mis hazañas décadas después de mi muerte."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Aunque sean injustos o crueles, no soy capaz de oponerme a lo que dictan los gobernantes."
+								],
+								[
+									"2",
+									"Solo la cerveza y los licores me hacen olvidar los desgarradores recuerdos de las batallas pasadas."
+								],
+								[
+									"3",
+									"No puedo permitirme parecer débil o cansado, seguiré adelante aunque eso ponga mi vida en peligro."
+								],
+								[
+									"4",
+									"Me cuesta mantener la boca cerrada. Mis chistes o bravuconadas siempre surgen en mal momento."
+								],
+								[
+									"5",
+									"Aunque trato de mantenerme sereno y tranquilo, el ruido de armas y el olor de la sangre sacan mi lado más salvaje."
+								],
+								[
+									"6",
+									"Tras tanto tiempo en el campo de batalla, no puedo resistirme a una sonrisa bonita."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"gaming set": true
+				}
+			]
+		},
+		{
+			"name": "Comerciante",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 108,
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Comerciantes",
+					"entries": [
+						"Allá donde hay dinero, hay gente dispuesta a gastarlo: ese es tu negocio. Tu forma de ganarte la vida no pasa por fabricar bienes para la venta, sino en comprar lo más barato que seas capaz y de venderlo por un precio mayor, generando así tus beneficios. A veces simplemente es cuestión de esperar una buena oferta, en otras ocasiones te ves obligado a desplazarte de un sitio a otro, comprando y vendiendo de aquí para allá.",
+						"A pesar de que muchos lo consideran un negocio fácil y seguro, obtener una buena cantidad de dinero en tu profesión no es nada fácil. Muchos comerciantes han caído a manos de bandidos en el camino y otros han perdido toda su fortuna por arriesgar demasiado o confiar en quien no debían."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Engaño ({@skill deception}), Persuasión ({@skill persuasion})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Vehiculos (Terrestres ({@item vehicles (land)|phb}))"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un ábaco ({@item abacus|phb}), un libro ({@item book|phb}) de cuentas, una balanza de mercader ({@item merchant's scale|phb}), un carro ({@item cart|phb}), una mula ({@item mule|phb}), un set de ropa elegante ({@item fine clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Olfato para los negocios",
+					"entries": [
+						"Allá donde hay dinero, hay gente dispuesta a gastarlo: ese es tu negocio. Tu forma de ganarte la vida no pasa por fabricar bienes para la venta, sino en comprar lo más barato que seas capaz y de venderlo por un precio mayor, generando así tus beneficios. A veces simplemente es cuestión de esperar una buena oferta, en otras ocasiones te ves obligado a desplazarte de un sitio a otro, comprando y vendiendo de aquí para allá.",
+						"A pesar de que muchos lo consideran un negocio fácil y seguro, obtener una buena cantidad de dinero en tu profesión no es nada fácil. Muchos comerciantes han caído a manos de bandidos en el camino y otros han perdido toda su fortuna por arriesgar demasiado o confiar en quien no debían.",
+						"Como todo buen comerciante sabe, los mercados son el corazón de las ciudades. El estado del mercado es un reflejo de la situación de la ciudad, pues una guerra en ciernes, un gran número de bandidos en las inmediaciones o los rumores de una virulenta plaga provocan desajustes en los precios y la demanda. Tu experiencia como comprador y vendedor te permite ver con detalle estas alteraciones. Con solo pasear por un mercado, puedes ver el estado de la ciudad o pueblo y hacerte una idea de su situación social, política y económica.",
+						"También puedes emplear esta información para sacar beneficio económico, pues has aprendido a encontrar el momento oportuno para comprar lo más barato posible. Cuando compres cualquier objeto de la lista de equipo de aventuras (página 151), conseguirás un descuento de una quinta parte del precio si dedicas varias horas o días en realizar la compra, el tiempo que el director de juego requiera en función de la rareza del producto.",
+						"Aquellos que se dedican al mundo de los negocios son personas sosegadas, dotadas de una gran paciencia que les permite esperar el momento adecuado y con un don natural para las personas. Sin embargo, hay algunos mercaderes que, dejándose llevar por la avaricia o la paranoia, han acabado solos.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Engaño ({@skill deception})",
+								"Persuasión ({@skill persuasion})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Vehiculos (Terrestres ({@item vehicles (land)|phb}))"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Ábaco ({@item abacus|phb})",
+								"Libro ({@item book|phb}) de cuentas",
+								"Balanza de mercader ({@item merchant's scale|phb})",
+								"Carro ({@item cart|phb})",
+								"Mula ({@item mule|phb})",
+								"ropa elegante ({@item fine clothes|phb})",
+								"Saco ({@item pouch|phb}) con 15 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Siempre me ha atraído el arte en todas sus formas. Compro nuevas adquisiciones para mi colección cuando que tengo ocasión.",
+								"(2) - Considero que la apariencia es la representación del estatus. Siempre porto joyas y adornos, aunque se me considere estridente o recargado.",
+								"(3) - Durante mis viajes me aficioné a comidas exóticas y ahora siempre busco probar nuevos sabores.",
+								"(4) - Si algo tiene que hacerse, que sea cuanto antes. No soporto a la gente que deja el trabajo y el deber para el último momento.",
+								"(5) - Siempre tengo un rumor o un chisme interesante que contar, aunque a veces ni siquiera sea cierto.",
+								"(6) - Tengo la mala costumbre de meterme en conversaciones ajenas. Sé que es de mala educación, pero yo tengo mucho que aportar a ellas.",
+								"(7) - Conozco lo mucho que cuesta ganar el dinero, por eso no voy a pagar una moneda de más por algo, pero tampoco una moneda de menos.",
+								"(8) - A pesar de que todo a mi alrededor sea peligroso o serio, no puedo tomarme la vida de manera negativa. Siempre tengo una sonrisa en la cara."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Avaricia. Tener mi bolsa llena de monedas es lo único que me importa (maligno).",
+								"(2) - Gloria. Mis negocios me otorgan el reconocimiento y el estatus que no he podido obtener por nacimiento (neutral).",
+								"(3) - Cambio. No puedo aceptar que las cosas son como son; siento el deseo de luchar contra lo establecido (caótico)",
+								"(4) - Poder. Mucha gente ansía mis exóticas mercancías y hacen lo que sea para conseguirlas. Saben que su suministro depende exclusivamente de mí (maligno).",
+								"(5) - Libertad. Mis negocios son la excusa perfecta para alejarme de mi hogar y ver otras ciudades y lugares (caótico).",
+								"(6) - Familia. Mis éxitos personales son los éxitos de mi familia. Todo lo hago para aumentar el respeto y honor de los míos (neutral)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Tuve que pedir una enorme suma de dinero a un noble para comenzar mis negocios y aún mantengo esa deuda con él.",
+								"(2) - Hace años me vendieron una baratija supuestamente muy valiosa y perdí mucho dinero. Aún busco al granuja que me estafó para devolvérsela.",
+								"(3) - He emprendido un largo viaje en busca de una gran cantidad de provisiones en nombre de mi señor. Mi pueblo las necesita para sobrevivir a la hambruna.",
+								"(4) - Me he prometido no volver a casa hasta que no encuentre una forma de sanar la extraña enfermedad de uno de mis seres queridos.",
+								"(5) - No siempre me dediqué a los negocios y el comercio. Durante mi juventud me metí en negocios turbios e hice algunos enemigos.",
+								"(6) - Un gremio de mercaderes hundió el negocio de mi familia con prácticas nada honradas. Espero el momento de poder vengarme de ellos."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Adoro vivir como los reyes y nobles, rodeado de lujos, aunque no pueda mantener mucho tiempo ese nivel de vida.",
+								"(2) - Odio profundamente a los que están en mejor posición social que yo por derecho de sangre. Solo verlos me hierve la sangre.",
+								"(3) - Me apasionan las historias de tesoros y botines de guerra perdidos. Siempre ando detrás de algún tesoro olvidado que seguramente no exista.",
+								"(4) - La gente con capacidades extrañas siempre ocultan intenciones malignas. Lo mejor es no confiar nunca en un hechicero.",
+								"(5) - Unos negocios poco claros en mi tierra natal me dieron una fama de embustero que aún me persigue.",
+								"(6) - Un hombre vale tanto como su palabra. Nunca rompo un contrato, por muchos problemas que me cause."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellos que se dedican al mundo de los negocios son personas sosegadas, dotadas de una gran paciencia que les permite esperar el momento adecuado y con un don natural para las personas. Sin embargo, hay algunos mercaderes que, dejándose llevar por la avaricia o la paranoia, han acabado solos.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgos de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Siempre me ha atraído el arte en todas sus formas. Compro nuevas adquisiciones para mi colección cuando que tengo ocasión."
+								],
+								[
+									"2",
+									"Considero que la apariencia es la representación del estatus. Siempre porto joyas y adornos, aunque se me considere estridente o recargado."
+								],
+								[
+									"3",
+									"Durante mis viajes me aficioné a comidas exóticas y ahora siempre busco probar nuevos sabores."
+								],
+								[
+									"4",
+									"Si algo tiene que hacerse, que sea cuanto antes. No soporto a la gente que deja el trabajo y el deber para el último momento."
+								],
+								[
+									"5",
+									"Siempre tengo un rumor o un chisme interesante que contar, aunque a veces ni siquiera sea cierto."
+								],
+								[
+									"6",
+									"Tengo la mala costumbre de meterme en conversaciones ajenas. Sé que es de mala educación, pero yo tengo mucho que aportar a ellas."
+								],
+								[
+									"7",
+									"Conozco lo mucho que cuesta ganar el dinero, por eso no voy a pagar una moneda de más por algo, pero tampoco una moneda de menos."
+								],
+								[
+									"8",
+									"A pesar de que todo a mi alrededor sea peligroso o serio, no puedo tomarme la vida de manera negativa. Siempre tengo una sonrisa en la cara."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Avaricia. Tener mi bolsa llena de monedas es lo único que me importa (maligno)."
+								],
+								[
+									"2",
+									"Gloria. Mis negocios me otorgan el reconocimiento y el estatus que no he podido obtener por nacimiento (neutral)."
+								],
+								[
+									"3",
+									"Cambio. No puedo aceptar que las cosas son como son; siento el deseo de luchar contra lo establecido (caótico)"
+								],
+								[
+									"4",
+									"Poder. Mucha gente ansía mis exóticas mercancías y hacen lo que sea para conseguirlas. Saben que su suministro depende exclusivamente de mí (maligno)."
+								],
+								[
+									"5",
+									"Libertad. Mis negocios son la excusa perfecta para alejarme de mi hogar y ver otras ciudades y lugares (caótico)."
+								],
+								[
+									"6",
+									"Familia. Mis éxitos personales son los éxitos de mi familia. Todo lo hago para aumentar el respeto y honor de los míos (neutral)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Tuve que pedir una enorme suma de dinero a un noble para comenzar mis negocios y aún mantengo esa deuda con él."
+								],
+								[
+									"2",
+									"Hace años me vendieron una baratija supuestamente muy valiosa y perdí mucho dinero. Aún busco al granuja que me estafó para devolvérsela."
+								],
+								[
+									"3",
+									"He emprendido un largo viaje en busca de una gran cantidad de provisiones en nombre de mi señor. Mi pueblo las necesita para sobrevivir a la hambruna."
+								],
+								[
+									"4",
+									"Me he prometido no volver a casa hasta que no encuentre una forma de sanar la extraña enfermedad de uno de mis seres queridos."
+								],
+								[
+									"5",
+									"No siempre me dediqué a los negocios y el comercio. Durante mi juventud me metí en negocios turbios e hice algunos enemigos."
+								],
+								[
+									"6",
+									"Un gremio de mercaderes hundió el negocio de mi familia con prácticas nada honradas. Espero el momento de poder vengarme de ellos."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Adoro vivir como los reyes y nobles, rodeado de lujos, aunque no pueda mantener mucho tiempo ese nivel de vida."
+								],
+								[
+									"2",
+									"Odio profundamente a los que están en mejor posición social que yo por derecho de sangre. Solo verlos me hierve la sangre."
+								],
+								[
+									"3",
+									"Me apasionan las historias de tesoros y botines de guerra perdidos. Siempre ando detrás de algún tesoro olvidado que seguramente no exista."
+								],
+								[
+									"4",
+									"La gente con capacidades extrañas siempre ocultan intenciones malignas. Lo mejor es no confiar nunca en un hechicero."
+								],
+								[
+									"5",
+									"Unos negocios poco claros en mi tierra natal me dieron una fama de embustero que aún me persigue."
+								],
+								[
+									"6",
+									"Un hombre vale tanto como su palabra. Nunca rompo un contrato, por muchos problemas que me cause."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				}
+			]
+		},
+		{
+			"name": "Vendedor de los Canales de Voldor",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 109,
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Comerciantes",
+					"entries": [
+						"Allá donde hay dinero, hay gente dispuesta a gastarlo: ese es tu negocio. Tu forma de ganarte la vida no pasa por fabricar bienes para la venta, sino en comprar lo más barato que seas capaz y de venderlo por un precio mayor, generando así tus beneficios. A veces simplemente es cuestión de esperar una buena oferta, en otras ocasiones te ves obligado a desplazarte de un sitio a otro, comprando y vendiendo de aquí para allá.",
+						"A pesar de que muchos lo consideran un negocio fácil y seguro, obtener una buena cantidad de dinero en tu profesión no es nada fácil. Muchos comerciantes han caído a manos de bandidos en el camino y otros han perdido toda su fortuna por arriesgar demasiado o confiar en quien no debían."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Engaño ({@skill deception}), Persuasión ({@skill persuasion})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Vehiculos (Acuaticos ({@item vehicles (water)|phb})), Herramientas del navegante ({@item navigator's tools|PHB})"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un ábaco ({@item abacus|phb}), un libro ({@item book|phb}) de cuentas, una balanza de mercader ({@item merchant's scale|phb}), un bote ({@item rowboat|phb}), un set de ropa elegante ({@item fine clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Vendedor de los Canales de Voldor",
+					"entries": [
+						"Allá donde hay dinero, hay gente dispuesta a gastarlo: ese es tu negocio. Tu forma de ganarte la vida no pasa por fabricar bienes para la venta, sino en comprar lo más barato que seas capaz y de venderlo por un precio mayor, generando así tus beneficios. A veces simplemente es cuestión de esperar una buena oferta, en otras ocasiones te ves obligado a desplazarte de un sitio a otro, comprando y vendiendo de aquí para allá.",
+						"A pesar de que muchos lo consideran un negocio fácil y seguro, obtener una buena cantidad de dinero en tu profesión no es nada fácil. Muchos comerciantes han caído a manos de bandidos en el camino y otros han perdido toda su fortuna por arriesgar demasiado o confiar en quien no debían.",
+						"Como es bien sabido, la forma más segura y rápida de desplazarse por Voldor es navegando los canales que conectan los grandes núcleos de comercio. A pesar de que los gremios de comerciantes fletan enormes galeras cargadas de hombres y mercancías, también existe toda clase de mercaderes menores que tratan de sacar beneficio de viajes cortos y seguros. Si optas por este trasfondo, es probable que hayas decidido que las rutas por tierra son demasiado largas o duras y prefieras ganarte la vida en los canales, comerciando con otros navegantes y mercadeando de puerto en puerto.",
+						"Aquellos que se dedican al mundo de los negocios son personas sosegadas, dotadas de una gran paciencia que les permite esperar el momento adecuado y con un don natural para las personas. Sin embargo, hay algunos mercaderes que, dejándose llevar por la avaricia o la paranoia, han acabado solos.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Engaño ({@skill deception})",
+								"Persuasión ({@skill persuasion})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Vehiculos (Acuaticos ({@item vehicles (water)|phb}))",
+								"Herramientas del navegante ({@item navigator's tools|PHB})"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Ábaco ({@item abacus|phb})",
+								"Libro ({@item book|phb}) de cuentas",
+								"Balanza de mercader ({@item merchant's scale|phb})",
+								"un bote ({@item rowboat|phb})",
+								"ropa elegante ({@item fine clothes|phb})",
+								"Saco ({@item pouch|phb}) con 15 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Siempre me ha atraído el arte en todas sus formas. Compro nuevas adquisiciones para mi colección cuando que tengo ocasión.",
+								"(2) - Considero que la apariencia es la representación del estatus. Siempre porto joyas y adornos, aunque se me considere estridente o recargado.",
+								"(3) - Durante mis viajes me aficioné a comidas exóticas y ahora siempre busco probar nuevos sabores.",
+								"(4) - Si algo tiene que hacerse, que sea cuanto antes. No soporto a la gente que deja el trabajo y el deber para el último momento.",
+								"(5) - Siempre tengo un rumor o un chisme interesante que contar, aunque a veces ni siquiera sea cierto.",
+								"(6) - Tengo la mala costumbre de meterme en conversaciones ajenas. Sé que es de mala educación, pero yo tengo mucho que aportar a ellas.",
+								"(7) - Conozco lo mucho que cuesta ganar el dinero, por eso no voy a pagar una moneda de más por algo, pero tampoco una moneda de menos.",
+								"(8) - A pesar de que todo a mi alrededor sea peligroso o serio, no puedo tomarme la vida de manera negativa. Siempre tengo una sonrisa en la cara."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Avaricia. Tener mi bolsa llena de monedas es lo único que me importa (maligno).",
+								"(2) - Gloria. Mis negocios me otorgan el reconocimiento y el estatus que no he podido obtener por nacimiento (neutral).",
+								"(3) - Cambio. No puedo aceptar que las cosas son como son; siento el deseo de luchar contra lo establecido (caótico)",
+								"(4) - Poder. Mucha gente ansía mis exóticas mercancías y hacen lo que sea para conseguirlas. Saben que su suministro depende exclusivamente de mí (maligno).",
+								"(5) - Libertad. Mis negocios son la excusa perfecta para alejarme de mi hogar y ver otras ciudades y lugares (caótico).",
+								"(6) - Familia. Mis éxitos personales son los éxitos de mi familia. Todo lo hago para aumentar el respeto y honor de los míos (neutral)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Tuve que pedir una enorme suma de dinero a un noble para comenzar mis negocios y aún mantengo esa deuda con él.",
+								"(2) - Hace años me vendieron una baratija supuestamente muy valiosa y perdí mucho dinero. Aún busco al granuja que me estafó para devolvérsela.",
+								"(3) - He emprendido un largo viaje en busca de una gran cantidad de provisiones en nombre de mi señor. Mi pueblo las necesita para sobrevivir a la hambruna.",
+								"(4) - Me he prometido no volver a casa hasta que no encuentre una forma de sanar la extraña enfermedad de uno de mis seres queridos.",
+								"(5) - No siempre me dediqué a los negocios y el comercio. Durante mi juventud me metí en negocios turbios e hice algunos enemigos.",
+								"(6) - Un gremio de mercaderes hundió el negocio de mi familia con prácticas nada honradas. Espero el momento de poder vengarme de ellos."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Adoro vivir como los reyes y nobles, rodeado de lujos, aunque no pueda mantener mucho tiempo ese nivel de vida.",
+								"(2) - Odio profundamente a los que están en mejor posición social que yo por derecho de sangre. Solo verlos me hierve la sangre.",
+								"(3) - Me apasionan las historias de tesoros y botines de guerra perdidos. Siempre ando detrás de algún tesoro olvidado que seguramente no exista.",
+								"(4) - La gente con capacidades extrañas siempre ocultan intenciones malignas. Lo mejor es no confiar nunca en un hechicero.",
+								"(5) - Unos negocios poco claros en mi tierra natal me dieron una fama de embustero que aún me persigue.",
+								"(6) - Un hombre vale tanto como su palabra. Nunca rompo un contrato, por muchos problemas que me cause."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellos que se dedican al mundo de los negocios son personas sosegadas, dotadas de una gran paciencia que les permite esperar el momento adecuado y con un don natural para las personas. Sin embargo, hay algunos mercaderes que, dejándose llevar por la avaricia o la paranoia, han acabado solos.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgos de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Siempre me ha atraído el arte en todas sus formas. Compro nuevas adquisiciones para mi colección cuando que tengo ocasión."
+								],
+								[
+									"2",
+									"Considero que la apariencia es la representación del estatus. Siempre porto joyas y adornos, aunque se me considere estridente o recargado."
+								],
+								[
+									"3",
+									"Durante mis viajes me aficioné a comidas exóticas y ahora siempre busco probar nuevos sabores."
+								],
+								[
+									"4",
+									"Si algo tiene que hacerse, que sea cuanto antes. No soporto a la gente que deja el trabajo y el deber para el último momento."
+								],
+								[
+									"5",
+									"Siempre tengo un rumor o un chisme interesante que contar, aunque a veces ni siquiera sea cierto."
+								],
+								[
+									"6",
+									"Tengo la mala costumbre de meterme en conversaciones ajenas. Sé que es de mala educación, pero yo tengo mucho que aportar a ellas."
+								],
+								[
+									"7",
+									"Conozco lo mucho que cuesta ganar el dinero, por eso no voy a pagar una moneda de más por algo, pero tampoco una moneda de menos."
+								],
+								[
+									"8",
+									"A pesar de que todo a mi alrededor sea peligroso o serio, no puedo tomarme la vida de manera negativa. Siempre tengo una sonrisa en la cara."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Avaricia. Tener mi bolsa llena de monedas es lo único que me importa (maligno)."
+								],
+								[
+									"2",
+									"Gloria. Mis negocios me otorgan el reconocimiento y el estatus que no he podido obtener por nacimiento (neutral)."
+								],
+								[
+									"3",
+									"Cambio. No puedo aceptar que las cosas son como son; siento el deseo de luchar contra lo establecido (caótico)"
+								],
+								[
+									"4",
+									"Poder. Mucha gente ansía mis exóticas mercancías y hacen lo que sea para conseguirlas. Saben que su suministro depende exclusivamente de mí (maligno)."
+								],
+								[
+									"5",
+									"Libertad. Mis negocios son la excusa perfecta para alejarme de mi hogar y ver otras ciudades y lugares (caótico)."
+								],
+								[
+									"6",
+									"Familia. Mis éxitos personales son los éxitos de mi familia. Todo lo hago para aumentar el respeto y honor de los míos (neutral)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Tuve que pedir una enorme suma de dinero a un noble para comenzar mis negocios y aún mantengo esa deuda con él."
+								],
+								[
+									"2",
+									"Hace años me vendieron una baratija supuestamente muy valiosa y perdí mucho dinero. Aún busco al granuja que me estafó para devolvérsela."
+								],
+								[
+									"3",
+									"He emprendido un largo viaje en busca de una gran cantidad de provisiones en nombre de mi señor. Mi pueblo las necesita para sobrevivir a la hambruna."
+								],
+								[
+									"4",
+									"Me he prometido no volver a casa hasta que no encuentre una forma de sanar la extraña enfermedad de uno de mis seres queridos."
+								],
+								[
+									"5",
+									"No siempre me dediqué a los negocios y el comercio. Durante mi juventud me metí en negocios turbios e hice algunos enemigos."
+								],
+								[
+									"6",
+									"Un gremio de mercaderes hundió el negocio de mi familia con prácticas nada honradas. Espero el momento de poder vengarme de ellos."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Adoro vivir como los reyes y nobles, rodeado de lujos, aunque no pueda mantener mucho tiempo ese nivel de vida."
+								],
+								[
+									"2",
+									"Odio profundamente a los que están en mejor posición social que yo por derecho de sangre. Solo verlos me hierve la sangre."
+								],
+								[
+									"3",
+									"Me apasionan las historias de tesoros y botines de guerra perdidos. Siempre ando detrás de algún tesoro olvidado que seguramente no exista."
+								],
+								[
+									"4",
+									"La gente con capacidades extrañas siempre ocultan intenciones malignas. Lo mejor es no confiar nunca en un hechicero."
+								],
+								[
+									"5",
+									"Unos negocios poco claros en mi tierra natal me dieron una fama de embustero que aún me persigue."
+								],
+								[
+									"6",
+									"Un hombre vale tanto como su palabra. Nunca rompo un contrato, por muchos problemas que me cause."
+								]
+							]
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (water)": true,
+					"navigator's tools": true
+				}
+			]
 		}
-		
+
 	]
 }
