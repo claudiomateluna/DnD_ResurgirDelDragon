@@ -15,7 +15,7 @@
 					"Antonio Vázquez", 
 					"Esther Sanz"
 				],
-				"convertedBy": "Vlad Drakul",
+				"convertedBy": "Claudio Mateluna",
 				"version": "1.0.0",
 				"url": "https://www.nosolorol.com/es/el-resurgir-del-dragon/507/el-resurgir-del-dragon-papel",
 				"targetSchema": "1.0.0"
@@ -5090,7 +5090,629 @@
 					"herbalism kit": true
 				}
 			]
-		}
+		},
+		{
+			"name": "Marinero fluvial",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 119,
+			"skillProficiencies": [
+				{
+					"perception": true,
+					"athletics": true,
+					"tool": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Marineros fluviales",
+					"entries": [
+						"Uno de los accidentes geográficos que más impresionan tanto en la superficie de Voldor como en su subsuelo son los enormes canales de agua dulce que crearon los Peregrinos. Recorriendo cientos de millas y con un caudal suficiente para ser navegable, estos canales se han convertido en la base de una gran cantidad de ciudades y pueblos, así como en una formidable red de comercio. Enormes galeras recorren estos canales cargando mercancías de un lugar a otro, siempre con cuidado de no terminar en alguna de las caídas que guían al agua hasta las profundidades de Vajra.",
+						"Esta dependencia de los canales ha atraído a la mayoría de pueblos hacia ellos, por lo que la navegación es el destino de la mayoría de los que quieren viajar o comerciar por Voldor. Los marineros fluviales os encargáis de las embarcaciones, sean grandes galeras de los gremios de comercio, sean pequeñas barcas con las que cruzar de una orilla a otra. Aunque a simple vista parezcan canales calmados y navegables, toda clase de criaturas habitan sus aguas y las construcciones de los Peregrinos son tan útiles como peligrosas.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego en cómo ha sido tu pasado a bordo de un navío: puede que fueras un grumete en un buque mercante de algún gremio, un soldado de una flota militar al servicio del rey o simplemente un trotamundos que ha servido en decenas de navíos para poder ver mundo."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Percepción ({@skill perception}), Atletismo ({@skill athletics})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Vehículos (acuáticos ({@item vehicles (water)|phb})), herramientas de navegante ({@item navigator's tools|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un set de herramientas de navegante ({@item navigator's tools|phb}), un viejo catalejo ({@item spyglass|phb}), una moneda de una tierra lejana, un set de ropa común ({@item common clothes|phb}), un set de ropa de viaje ({@item traveler's clothes|phb}) y un saco ({@item pouch|phb}) que contiene 10 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Redes de información",
+					"entries": [
+						"Uno de los accidentes geográficos que más impresionan tanto en la superficie de Voldor como en su subsuelo son los enormes canales de agua dulce que crearon los Peregrinos. Recorriendo cientos de millas y con un caudal suficiente para ser navegable, estos canales se han convertido en la base de una gran cantidad de ciudades y pueblos, así como en una formidable red de comercio. Enormes galeras recorren estos canales cargando mercancías de un lugar a otro, siempre con cuidado de no terminar en alguna de las caídas que guían al agua hasta las profundidades de Vajra.",
+						"Esta dependencia de los canales ha atraído a la mayoría de pueblos hacia ellos, por lo que la navegación es el destino de la mayoría de los que quieren viajar o comerciar por Voldor. Los marineros fluviales os encargáis de las embarcaciones, sean grandes galeras de los gremios de comercio, sean pequeñas barcas con las que cruzar de una orilla a otra. Aunque a simple vista parezcan canales calmados y navegables, toda clase de criaturas habitan sus aguas y las construcciones de los Peregrinos son tan útiles como peligrosas.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego en cómo ha sido tu pasado a bordo de un navío: puede que fueras un grumete en un buque mercante de algún gremio, un soldado de una flota militar al servicio del rey o simplemente un trotamundos que ha servido en decenas de navíos para poder ver mundo.",
+						"Desplazarse a bordo de un barco es la manera más rápida de moverse en Voldor. La mayoría de información se transmite por los canales, viajando desde la superficie hasta el interior y viceversa, y por eso las tabernas de los puertos son uno de los lugares donde más rumores pueden encontrarse. Como experto marino de los canales que eres, tienes una larga lista de historias que contar y sabes a quién preguntar para averiguar lo que necesites, como el estado de una ruta, el clima político de un lugar lejano o si alguien en concreto viaja por alguno de los canales. En función de lo común que sea la información, el director de juego establecerá cuánto tiempo y oro te costará dar con la respuesta.",
+						"Los marineros fluviales suelen ser hombres y mujeres ariscos, conocidos por su temperamento y sus blasfemias, de las que proviene la expresión «maldecir como un marino del cañón de Xerecron». También son personas disciplinadas, conscientes de que un despiste puede tener conclusiones nefastas.",
+						"COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Percepción ({@skill perception})",
+								"Atletismo ({@skill athletics})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Vehículos (acuáticos ({@item vehicles (water)|phb})), herramientas de navegante ({@item navigator's tools|phb})"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Herramientas de navegante ({@item navigator's tools|phb})",
+								"Viejo catalejo ({@item spyglass|phb})",
+								"Una moneda de una tierra lejana",
+								"Ropa de viaje ({@item traveler's clothes|phb})",
+								"Ropa común ({@item common clothes|phb})",
+								"Saco ({@item pouch|phb}) con 10 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Cuando algo me hace gracia, mis carcajadas resuenan por toda la cubierta.",
+								"(2) - Siempre que subo a bordo llevo a cabo unos pequeños rituales para que la suerte me acompañe durante el viaje.",
+								"(3) - No hay excusa cuando hay tareas por hacer. Mis compañeros pueden contar conmigo.",
+								"(4) - Cada vez que alguien cuenta una batallita, yo tengo una mejor.",
+								"(5) - Cualquier momento y lugar es adecuado para un escarceo amoroso.",
+								"(6) - Durante las tormentas a bordo disfruto de contemplar la fuerza de la naturaleza en la cubierta del navío.",
+								"(7) - Siempre que llego a un nuevo lugar, me gusta relacionarme con las gentes de allí y aprender todo lo posible de su cultura.",
+								"(8) - No soporto que me de órdenes gente mucho menos capaz que yo, con un cargo que se han ganado por su fortuna o linaje."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Libertad. Mi trabajo a bordo me permite vivir sin ataduras hacia ninguna persona ni lugar, libre para ir donde me plazca (caótico).",
+								"(2) - Riqueza. En los canales se pueden encontrar grandes cantidades de oro y sal, las dos cosas más valiosas que uno puede desear (maligno).",
+								"(3) - Pueblo. Los bienes que trasportamos ayudan a que prosperen pueblos y ciudades. Sin mi trabajo la vida sería mucho más complicada (bueno).",
+								"(4) - Destino. La vida es como el agua de los canales, viaja por un sendero marcado y no puede escapar por mucho que lo intente (neutral).",
+								"(5) - Disciplina. Para que el barco llegue a buen puerto, todos los miembros de la tripulación deben seguir las órdenes y cumplir su parte (legal).",
+								"(6) - Diversión. En los puertos de los grandes canales puede encontrarse todo lo que una persona puede desear (caótico)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Hace años una hechicera karasu leyó mi destino en las cartas en una taberna de mala muerte. Aún espero que se cumpla su predicción.",
+								"(2) - Hui a tiempo de una enorme galera comercial que se precipitó a lo profundo de Vajra. Sus restos y la mercancía que transportaba deben de seguir allí.",
+								"(3) - He servido durante años en una galera para evitar que me encarcelaran en mi tierra natal.",
+								"(4) - Aprecio a mi capitán y al resto de la tripulación más que a ninguna otra cosa en el mundo; ellos son mi familia.",
+								"(5) - Aún tengo pesadillas con los relatos de horribles criaturas submarinas que contaban los escasos supervivientes del naufragio.",
+								"(6) - Mi antiguo capitán se quitó la vida tras asegurar que el navío estaba maldito. Desde entonces la tripulación nos sentimos inquietos a bordo."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - La vida recompensa a quienes más se arriesgan. Nunca rechazo una apuesta, por descabellada que sea.",
+								"(2) - Cuando no me encuentro a bordo de un navío, el lugar más fácil para encontrarme es la taberna.",
+								"(3) - Mi pasado como pirata podría ponerme en muchos aprietos si me reconociesen en algún puerto.",
+								"(4) - Mis constantes bravuconadas e insultos me han conducido a muchas peleas.",
+								"(5) - Jamás se debe romper la cadena de mando. Si alguien da una orden, es con una razón, aunque a veces no lo parezca.",
+								"(6) - Por culpa de mis ardientes y efímeras relaciones, tengo enemigos en multitud de puertos a lo largo del canal."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellas personas que se crían o viven aislados de la sociedad suelen dejarse llevar por sus instintos, por lo que pueden parecer demasiado directas. Aunque a veces se comporten de manera violenta, la soledad les ha enseñado a respetar y vivir en paz.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Cuando algo me hace gracia, mis carcajadas resuenan por toda la cubierta."
+								],
+								[
+									"2",
+									"Siempre que subo a bordo llevo a cabo unos pequeños rituales para que la suerte me acompañe durante el viaje."
+								],
+								[
+									"3",
+									"No hay excusa cuando hay tareas por hacer. Mis compañeros pueden contar conmigo."
+								],
+								[
+									"4",
+									"Cada vez que alguien cuenta una batallita, yo tengo una mejor."
+								],
+								[
+									"5",
+									"Cualquier momento y lugar es adecuado para un escarceo amoroso."
+								],
+								[
+									"6",
+									"Durante las tormentas a bordo disfruto de contemplar la fuerza de la naturaleza en la cubierta del navío."
+								],
+								[
+									"7",
+									"Siempre que llego a un nuevo lugar, me gusta relacionarme con las gentes de allí y aprender todo lo posible de su cultura."
+								],
+								[
+									"8",
+									"No soporto que me de órdenes gente mucho menos capaz que yo, con un cargo que se han ganado por su fortuna o linaje."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Libertad. Mi trabajo a bordo me permite vivir sin ataduras hacia ninguna persona ni lugar, libre para ir donde me plazca (caótico)."
+								],
+								[
+									"2",
+									"Riqueza. En los canales se pueden encontrar grandes cantidades de oro y sal, las dos cosas más valiosas que uno puede desear (maligno)."
+								],
+								[
+									"3",
+									"Pueblo. Los bienes que trasportamos ayudan a que prosperen pueblos y ciudades. Sin mi trabajo la vida sería mucho más complicada (bueno)."
+								],
+								[
+									"4",
+									"Destino. La vida es como el agua de los canales, viaja por un sendero marcado y no puede escapar por mucho que lo intente (neutral)."
+								],
+								[
+									"5",
+									"Disciplina. Para que el barco llegue a buen puerto, todos los miembros de la tripulación deben seguir las órdenes y cumplir su parte (legal)."
+								],
+								[
+									"6",
+									"Diversión. En los puertos de los grandes canales puede encontrarse todo lo que una persona puede desear (caótico)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Hace años una hechicera karasu leyó mi destino en las cartas en una taberna de mala muerte. Aún espero que se cumpla su predicción."
+								],
+								[
+									"2",
+									"Hui a tiempo de una enorme galera comercial que se precipitó a lo profundo de Vajra. Sus restos y la mercancía que transportaba deben de seguir allí."
+								],
+								[
+									"3",
+									"He servido durante años en una galera para evitar que me encarcelaran en mi tierra natal."
+								],
+								[
+									"4",
+									"Aprecio a mi capitán y al resto de la tripulación más que a ninguna otra cosa en el mundo; ellos son mi familia."
+								],
+								[
+									"5",
+									"Aún tengo pesadillas con los relatos de horribles criaturas submarinas que contaban los escasos supervivientes del naufragio."
+								],
+								[
+									"6",
+									"Mi antiguo capitán se quitó la vida tras asegurar que el navío estaba maldito. Desde entonces la tripulación nos sentimos inquietos a bordo."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"La vida recompensa a quienes más se arriesgan. Nunca rechazo una apuesta, por descabellada que sea."
+								],
+								[
+									"2",
+									"Cuando no me encuentro a bordo de un navío, el lugar más fácil para encontrarme es la taberna."
+								],
+								[
+									"3",
+									"Mi pasado como pirata podría ponerme en muchos aprietos si me reconociesen en algún puerto."
+								],
+								[
+									"4",
+									"Mis constantes bravuconadas e insultos me han conducido a muchas peleas."
+								],
+								[
+									"5",
+									"Jamás se debe romper la cadena de mando. Si alguien da una orden, es con una razón, aunque a veces no lo parezca."
+								],
+								[
+									"6",
+									"Por culpa de mis ardientes y efímeras relaciones, tengo enemigos en multitud de puertos a lo largo del canal."
+								]
+							]
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true,
+					"navigator's tools": true
+				}
+			]
+		},
+		{
+			"name": "Miembro de una tribu",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 120,
+			"skillProficiencies": [
+				{
+					"animal handling": true,
+					"survival": true,
+					"tool": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Miembros de una tribu",
+					"entries": [
+						"Desde el origen de las civilizaciones, los seres vivos se han agrupado para sobrevivir. De esta manera es como surgieron los asentamientos que, con el tiempo, se convertirían en esplendorosas ciudades. Pero no todos evolucionarían de esa manera, sino que aún hay pequeñas comunidades en las que todos los miembros son importantes. Tú, como miembro de una tribu, clan o pueblo, trabajas la tierra junto a tus congéneres y convivís con la naturaleza en armonía.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego a qué tipo de tribu perteneces. Puedes definir aspectos tales como el idioma, la cultura, la religión que seguís o el sistema para tomar decisiones que tenéis: por consenso o siguiendo los dictados de un líder. También es recomendable tener claro cuál es tu posición en la tribu y qué trabajo realizas para ella."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Trato con Animales ({@skill animal handling}), Supervivencia ({@skill survival})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Un instrumento (de tu elección)"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un instrumento de tu elección, yesca y pedernal ({@item tinderbox|phb}), un pequeño símbolo de tu fe hecho por ti mismo, raciones para tres días ({@item rations (1 day)|phb}), un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Aprendizaje Cultural",
+					"entries": [
+						"Desde el origen de las civilizaciones, los seres vivos se han agrupado para sobrevivir. De esta manera es como surgieron los asentamientos que, con el tiempo, se convertirían en esplendorosas ciudades. Pero no todos evolucionarían de esa manera, sino que aún hay pequeñas comunidades en las que todos los miembros son importantes. Tú, como miembro de una tribu, clan o pueblo, trabajas la tierra junto a tus congéneres y convivís con la naturaleza en armonía.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego a qué tipo de tribu perteneces. Puedes definir aspectos tales como el idioma, la cultura, la religión que seguís o el sistema para tomar decisiones que tenéis: por consenso o siguiendo los dictados de un líder. También es recomendable tener claro cuál es tu posición en la tribu y qué trabajo realizas para ella.",
+						"Las tribus de la región habéis desarrollado una serie de creencias y costumbres que os definen, y sabéis que una falta de respeto hacía un líder puede acabar en guerra y un malentendido religioso, desencadenar una ejecución. Has desarrollado una cierta habilidad para comprender con rapidez los detalles más básicos de las sociedades con las que te encuentras. Cada vez que te reúnas con gente de otras culturas o de regiones lejanas, tendrás una idea de qué cosas no deberías decir delante de su líder, qué podrían considerar una herejía, cuál es el protocolo para presentar respetos ante sus ancianos…",
+						"La gente que pertenece a una tribu suele estar acostumbrada al trabajo comunitario al aire libre, como la agricultura y la ganadería, y tener un gran respeto tanto hacia la naturaleza como hacia los dioses. En algunos casos también pueden recelar de los extranjeros y estar demasiado centrados en su comunidad como para preocuparse de lo que ocurre más allá.",
+						"COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Trato con Animales ({@skill animal handling})",
+								"Supervivencia ({@skill survival})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un Instrumento (de tu elección: {@item bagpipes|phb}, {@item drum|phb}, {@item dulcimer|phb}, {@item flute set|phb}, {@item horn|phb}, {@item lute|phb}, {@item lyre|phb}, {@item pan flute|phb}, {@item shawm|phb}, {@item viol|phb})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Un instrumento de tu elección",
+								"yesca y pedernal ({@item tinderbox|phb})",
+								"un pequeño símbolo de tu fe hecho por ti mismo",
+								"raciones para tres días ({@item rations (1 day)|phb})",
+								"Ropa común ({@item common clothes|phb})",
+								"Saco ({@item pouch|phb}) con 10 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Para cualquier cosa que me ocurre tengo una cita o enseñanza de mis ancestros que puedo aplicar.",
+								"(2) - Por las noches disfruto de mirar el fuego y buscar sentido a las formas que toman las llamas.",
+								"(3) - Mi seguridad y la de los míos es una prioridad. Nunca dejo de vigilarme las espaldas.",
+								"(4) - Los bienes materiales nos distraen de las cosas importantes de la vida. Nunca me dejo llevar por el dinero o la ambición.",
+								"(5) - Cualquier momento y lugar es adecuado para un escarceo amoroso.",
+								"(6) - Tengo un tono de voz suave y tranquilo, no alzo la voz ocurra lo que ocurra.",
+								"(7) - Me encuentro más cómodo rodeado de árboles y animales que de personas.",
+								"(8) - Mi curiosidad y ansia de conocimiento me lleva a los lugares más insospechados."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Dioses. Existe una autoridad superior a nosotros y es nuestro deber honrarla, servirla y seguir sus designios (legal).",
+								"(2) - Paz. Alejando los conflictos de nuestra vida es como logramos crecer y desarrollar nuestro potencial (bueno).",
+								"(3) - Libertad. Las normas y reglas no son más que unas indicaciones de cómo vivir, no algo que deba seguirse al pie de la letra (caótico).",
+								"(4) - Comunidad. De manera individual tengo mucho menos valor que como parte de un grupo. Los míos cuentan conmigo y yo con ellos (neutral).",
+								"(5) - Poder. La mayoría de gente no puede valerse por sí misma si no cuenta con alguien que la guíe, y quién mejor que yo para hacerlo (maligno).",
+								"(6) - Supremacía. El resto de culturas viven acorde a unas creencias y formas de vida erróneas. Es mi deber llevarles el verdadero camino (maligno)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi tribu me ha encomendado una tarea de vital importancia y no puedo faltar a mi deber.",
+								"(2) - Mis sueños sobre una inminente catástrofe son cada vez más recurrentes.",
+								"(3) - Tras la destrucción de mi tribu, soy el único que puede lograr que nuestras tradiciones no se pierdan para siempre.",
+								"(4) - He jurado acabar con aquellos salvajes que saquearon nuestro hogar y no descansaré hasta encontrarlos.",
+								"(5) - He emprendido mi viaje para pacificar la región y lograr que mi hogar no corra peligro.",
+								"(6) - Hace años un desconocido me salvó la vida y aún no he pagado mi deuda con él."
 
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi tranquilidad y pasividad se suelen confundir con cobardía.",
+								"(2) - Jamás podré confiar en quienes no comparten mis creencias religiosas.",
+								"(3) - Mi idioma natal debe ser respetado, ya que es un idioma ancestral. No soporto manchar mi lengua hablando otros idiomas.",
+								"(4) - Las grotescas ceremonias de mi pueblo provocan rechazo entre el resto de culturas.",
+								"(5) - Suelo consumir grandes cantidades de plantas alucinógenas para que me ayuden en mis momentos de oración.",
+								"(6) - Fui expulsado de mi tribu por un terrible crimen y no puedo dejar que ninguno de mis actuales compañeros lo descubra."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellas personas que se crían o viven aislados de la sociedad suelen dejarse llevar por sus instintos, por lo que pueden parecer demasiado directas. Aunque a veces se comporten de manera violenta, la soledad les ha enseñado a respetar y vivir en paz.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Para cualquier cosa que me ocurre tengo una cita o enseñanza de mis ancestros que puedo aplicar."
+								],
+								[
+									"2",
+									"Por las noches disfruto de mirar el fuego y buscar sentido a las formas que toman las llamas."
+								],
+								[
+									"3",
+									"Mi seguridad y la de los míos es una prioridad. Nunca dejo de vigilarme las espaldas."
+								],
+								[
+									"4",
+									"Los bienes materiales nos distraen de las cosas importantes de la vida. Nunca me dejo llevar por el dinero o la ambición."
+								],
+								[
+									"5",
+									"Cualquier momento y lugar es adecuado para un escarceo amoroso."
+								],
+								[
+									"6",
+									"Tengo un tono de voz suave y tranquilo, no alzo la voz ocurra lo que ocurra."
+								],
+								[
+									"7",
+									"Me encuentro más cómodo rodeado de árboles y animales que de personas."
+								],
+								[
+									"8",
+									"Mi curiosidad y ansia de conocimiento me lleva a los lugares más insospechados."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Dioses. Existe una autoridad superior a nosotros y es nuestro deber honrarla, servirla y seguir sus designios (legal)."
+								],
+								[
+									"2",
+									"Paz. Alejando los conflictos de nuestra vida es como logramos crecer y desarrollar nuestro potencial (bueno)."
+								],
+								[
+									"3",
+									"Libertad. Las normas y reglas no son más que unas indicaciones de cómo vivir, no algo que deba seguirse al pie de la letra (caótico)."
+								],
+								[
+									"4",
+									"Comunidad. De manera individual tengo mucho menos valor que como parte de un grupo. Los míos cuentan conmigo y yo con ellos (neutral)."
+								],
+								[
+									"5",
+									"Poder. La mayoría de gente no puede valerse por sí misma si no cuenta con alguien que la guíe, y quién mejor que yo para hacerlo (maligno)."
+								],
+								[
+									"6",
+									"Supremacía. El resto de culturas viven acorde a unas creencias y formas de vida erróneas. Es mi deber llevarles el verdadero camino (maligno)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi tribu me ha encomendado una tarea de vital importancia y no puedo faltar a mi deber."
+								],
+								[
+									"2",
+									"Mis sueños sobre una inminente catástrofe son cada vez más recurrentes."
+								],
+								[
+									"3",
+									"Tras la destrucción de mi tribu, soy el único que puede lograr que nuestras tradiciones no se pierdan para siempre."
+								],
+								[
+									"4",
+									"He jurado acabar con aquellos salvajes que saquearon nuestro hogar y no descansaré hasta encontrarlos."
+								],
+								[
+									"5",
+									"He emprendido mi viaje para pacificar la región y lograr que mi hogar no corra peligro."
+								],
+								[
+									"6",
+									"Hace años un desconocido me salvó la vida y aún no he pagado mi deuda con él."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi tranquilidad y pasividad se suelen confundir con cobardía."
+								],
+								[
+									"2",
+									"Jamás podré confiar en quienes no comparten mis creencias religiosas."
+								],
+								[
+									"3",
+									"Mi idioma natal debe ser respetado, ya que es un idioma ancestral. No soporto manchar mi lengua hablando otros idiomas."
+								],
+								[
+									"4",
+									"Las grotescas ceremonias de mi pueblo provocan rechazo entre el resto de culturas."
+								],
+								[
+									"5",
+									"Suelo consumir grandes cantidades de plantas alucinógenas para que me ayuden en mis momentos de oración."
+								],
+								[
+									"6",
+									"Fui expulsado de mi tribu por un terrible crimen y no puedo dejar que ninguno de mis actuales compañeros lo descubra."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"musical instrument": true
+				}
+			]
+		}
 	]
 }
