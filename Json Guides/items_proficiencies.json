@@ -5,11 +5,11 @@ You have proficiency with
 	"{@item battleaxe|phb}"
 	"{@item blowgun needle|phb|blowgun needles}"
 	"{@item brewer's supplies|phb}"
-	"{@item calligrapher's supplies|PHB}"
+	"{@item calligrapher's supplies|phb}"
 	"{@item carpenter's Tools|phb}"
 	"{@item cartographer's tools|phb}"
 	"{@item club|phb}"
-	"{@item cook's utensils|PHB}"
+	"{@item cook's utensils|phb}"
 	"{@item dagger|phb}"
 	"{@item dart|phb|darts}"
 	"{@item disguise Kit|phb}"
@@ -26,7 +26,7 @@ You have proficiency with
 	"{@item longsword|phb}"
 	"{@item mason's tools|phb}"
 	"{@item morningstar|phb}"
-	"{@item navigator's tools|PHB}"
+	"{@item navigator's tools|phb}"
 	"{@item net|phb}"
 	"{@item painter's supplies|phb}"
 	"{@item poisoner's kit|phb}"
@@ -44,50 +44,67 @@ You have proficiency with
 	"{@item trident|phb}"
 	"{@item warhammer|phb}"
 	"{@item woodcarver's Tools|phb}"
+	"{@item artisan's tools|phb}"
+    "{@item vehicles (land)|phb}"
 	
 }
 
 {
 	"{@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}"
 	"{@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}"
+	"{@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set}"
 }
 
 {
 	"({@item alchemist's supplies|phb})"
 	"({@item brewer's supplies|phb})"
-	"({@item calligrapher's supplies|PHB})"
+	"({@item calligrapher's supplies|phb})"
 	"({@item carpenter's Tools|phb})"
 	"({@item cartographer's tools|phb})"
 	"({@item cobbler's tools|phb})"
-	"({@item cook's utensils|PHB})"
-	"({@item glassblower's tools|PHB})"
-	"({@item jeweler's tools|PHB})"
-	"({@item leatherworker's tools|PHB})"
-	"({@item mason's tools|PHB})"
-	"({@item painter's supplies|PHB})"
-	"({@item potter's tools|PHB})"
-	"({@item smith's tools|PHB})"
-	"({@item tinker's tools|PHB})"
-	"({@item weaver's tools|PHB})"
-	"({@item woodcarver's tools|PHB})"
+	"({@item cook's utensils|phb})"
+	"({@item glassblower's tools|phb})"
+	"({@item jeweler's tools|phb})"
+	"({@item leatherworker's tools|phb})"
+	"({@item mason's tools|phb})"
+	"({@item painter's supplies|phb})"
+	"({@item potter's tools|phb})"
+	"({@item smith's tools|phb})"
+	"({@item tinker's tools|phb})"
+	"({@item weaver's tools|phb})"
+	"({@item woodcarver's tools|phb})"
 }
 
 {
 	"Suministros de alquimista ({@item alchemist's supplies|phb})"
 	"Suministros de cervecero ({@item brewer's supplies|phb})"
-	"Suministros de calígrafo ({@item calligrapher's supplies|PHB})"
+	"Suministros de calígrafo ({@item calligrapher's supplies|phb})"
 	"Herramientas de carpintero ({@item carpenter's Tools|phb})"
 	"Herramientas de cartógrafo ({@item cartographer's tools|phb})"
 	"Herramientas de zapatero ({@item cobbler's tools|phb})"
-	"Utensilios de cocinero ({@item cook's utensils|PHB})"
-	"Herramientas de soplador de vidrio ({@item glassblower's tools|PHB})"
-	"Herramientas de joyero ({@item jeweler's tools|PHB})"
-	"Herramientas de peletero ({@item leatherworker's tools|PHB})"
-	"Herramientas de albañil ({@item mason's tools|PHB})"
-	"Herramientas de pintor ({@item painter's supplies|PHB})"
-	"herramientas de alfarero ({@item potter's tools|PHB})"
-	"Herramientas de herrero ({@item smith's tools|PHB})"
-	"Herramientas de constructor({@item tinker's tools|PHB})"
-	"Herramientas de tejedor ({@item weaver's tools|PHB})"
-	"Herramientas de tallador de madera ({@item woodcarver's tools|PHB})"
+	"Utensilios de cocinero ({@item cook's utensils|phb})"
+	"Herramientas de soplador de vidrio ({@item glassblower's tools|phb})"
+	"Herramientas de joyero ({@item jeweler's tools|phb})"
+	"Herramientas de peletero ({@item leatherworker's tools|phb})"
+	"Herramientas de albañil ({@item mason's tools|phb})"
+	"Herramientas de pintor ({@item painter's supplies|phb})"
+	"herramientas de alfarero ({@item potter's tools|phb})"
+	"Herramientas de herrero ({@item smith's tools|phb})"
+	"Herramientas de constructor({@item tinker's tools|phb})"
+	"Herramientas de tejedor ({@item weaver's tools|phb})"
+	"Herramientas de tallador de madera ({@item woodcarver's tools|phb})"
 }
+
+,
+"skillProficiencies": [
+    {
+        "animal handling": true,
+        "survival": true
+    }
+],
+"toolProficiencies": [
+    {
+        "artisan's tools": true,
+        "vehicles (land)": true
+    }
+]

@@ -2264,6 +2264,2832 @@
 					"navigator's tools": true
 				}
 			]
+		},
+		{
+			"name": "Criminal",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 110,
+			"skillProficiencies": [
+				{
+					"stealth": true,
+					"sleight of hand": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Criminales",
+					"entries": [
+						"Aunque para muchos las leyes sean la base de la sociedad, no es tu caso. Te guste o no, eres un criminal y te has enfrentado a la autoridad en más de una ocasión. Puede que no tuvieses más oportunidad durante tu infancia que delinquir para sobrevivir o simplemente que no crees que las normas estén para cumplirlas.",
+						"Sea por el motivo que sea, has crecido rodeado de otros criminales como tú, violencia y gente con pocos escrúpulos.",
+						"En cualquier pueblo o ciudad pueden encontrarse formas de ganarse la vida al margen de la ley y las oportunidades de negocio surgen por todos lados. Desde pequeños hurtos hasta asesinatos a cambio de unas monedas, cualquier opción es buena si permite seguir con vida. Cuando elijas este trasfondo, determina junto con el director de juego los detalles de tu pasado como criminal. ¿Te dedicas a ello por placer o porque las circunstancias te han hecho ser como eres? ¿En qué negocios te mueves?"
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Sigilo ({@skill stealth}), Juego de Manos ({@skill sleight of hand})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Herramientas de ladron ({@item thieves' tools|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un set de herramientas de ladrón ({@item thieves' tools|phb}), palanca ({@item crowbar|phb}), un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 10 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Amigos poco recomendables",
+					"entries": [
+						"Aunque para muchos las leyes sean la base de la sociedad, no es tu caso. Te guste o no, eres un criminal y te has enfrentado a la autoridad en más de una ocasión. Puede que no tuvieses más oportunidad durante tu infancia que delinquir para sobrevivir o simplemente que no crees que las normas estén para cumplirlas.",
+						"Sea por el motivo que sea, has crecido rodeado de otros criminales como tú, violencia y gente con pocos escrúpulos.",
+						"En cualquier pueblo o ciudad pueden encontrarse formas de ganarse la vida al margen de la ley y las oportunidades de negocio surgen por todos lados. Desde pequeños hurtos hasta asesinatos a cambio de unas monedas, cualquier opción es buena si permite seguir con vida. Cuando elijas este trasfondo, determina junto con el director de juego los detalles de tu pasado como criminal. ¿Te dedicas a ello por placer o porque las circunstancias te han hecho ser como eres? ¿En qué negocios te mueves?",
+						"Durante tu vida como criminal te has rodeado de lo peor de la sociedad y has aprendido a moverte entre ellos. Por muy distinta que una ciudad sea de otra, los de tu clase suelen estar presentes y tú sabes cómo encontrarlos. En cualquier ciudad en la que estés, y dedicando el número de horas o días que el director de juego crea conveniente, puedes contratar los servicios de criminales a cambio de un buen pago o acceder al mercado negro, donde adquirir toda clase de contrabando, como venenos.",
+                        "Sea por elección o necesidad, aquellos que se dedican a los asuntos ilegales son de carácter cerrado y desconfiados. Aunque mantienen relaciones con otros criminales, tienden a no depender de otras personas y son considerados peligrosos. Aunque un criminal pude romper la ley por una buena causa o poseer un espíritu noble, el rechazo de la sociedad y el convivir con otros maleantes los vuelve ariscos y duros.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Sigilo ({@skill stealth})",
+								"Juego de Manos ({@skill sleight of hand})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Herramientas de ladron ({@item thieves' tools|phb})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Herramientas de ladrón ({@item thieves' tools|phb})",
+								"Palanca ({@item crowbar|phb})",
+								"Ropa común ({@item common clothes|phb})",
+								"Saco ({@item pouch|phb}) con 10 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi aspecto sucio y descuidado suele causar malestar a la gente.",
+								"(2) - La paciencia es algo fundamental en el mundo en el que me muevo. Prefiero esperar a estar seguro que actuar antes de tiempo.",
+								"(3) - Trato de hacer amigos allá por donde paso; nunca se sabe cuándo voy a necesitar un favor.",
+								"(4) - Mi forma de hablar, directa y descarada, incomoda a los nobles y comerciantes.",
+								"(5) - Las rimas y los juegos de palabras salen de mi boca con facilidad, tengo vocación de bardo.",
+								"(6) - Solo me fio de aquellas personas junto a las que me he emborrachado.",
+								"(7) - Una mentira puede sacarme de cualquier aprieto, incluso de aquellos en los que me ha metido otra mentira.",
+								"(8) - Me guardo objetos de todas las personas con las que trabajo como recuerdo."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Redención. A pesar de todo lo hecho hasta ahora, aún es posible enmendar los errores y conseguir el perdón (bueno).",
+								"(2) - Poder. Los sobornos, chantajes y amenazas son una forma aceptable de controlar a los débiles y sacar provecho (maligno).",
+								"(3) - Libertad. La sensación de libertad que siento al romper las normas es suficiente recompensa para hacerlo (caótico).",
+								"(4) - Hermandad. Mis compañeros son mi familia. Me debo a ellos y haría cualquier cosa por su bienestar (neutral).",
+								"(5) - Justicia. Romper las normas es la única manera de acabar con las injusticias que llevan a cabo los gobernantes (bueno).",
+								"(6) - Riqueza. Cualquier acto es aceptable con tal de salir de la pobreza y ocupar mi lugar entre los ricos (maligno)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - En mi juventud robé un objeto maldito y esa maldición aún me persigue.",
+								"(2) - Me vi obligado a pedir ayuda a un señor del crimen para evitar la cárcel y ahora le debo un favor.",
+								"(3) - La piedad de un alguacil me libró de la horca. Ese acto de piedad ha cambiado mi forma de ver la vida.",
+								"(4) - Un colgante es el único recuerdo que tengo de mi familia, a la que nunca he conocido.",
+								"(5) - Un viejo amigo fue acusado de un crimen que yo cometí y no fui lo suficientemente valiente como para aceptar mi culpa.",
+								"(6) - Durante años me he rodeado de niños huérfanos a los que he ayudado a salir a adelante y que dependen de mí."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Siempre dejo una marca personal en los crímenes que cometo.",
+								"(2) - La oportunidad de ganar dinero me hace ponerme en riesgo a mí mismo y a mis seres queridos.",
+								"(3) - No suelo mostrar interés por las personas de mi alrededor; muchas veces no recuerdo ni siquiera sus nombres.",
+								"(4) - En mis bolsillos aparecen pertenencias de otras personas constantemente.",
+								"(5) - No puedo dejar tirado a un compañero, por muy peligrosa que sea la situación.",
+								"(6) - Nunca rechazo una buena apuesta."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Sea por elección o necesidad, aquellos que se dedican a los asuntos ilegales son de carácter cerrado y desconfiados. Aunque mantienen relaciones con otros criminales, tienden a no depender de otras personas y son considerados peligrosos. Aunque un criminal pude romper la ley por una buena causa o poseer un espíritu noble, el rechazo de la sociedad y el convivir con otros maleantes los vuelve ariscos y duros.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi aspecto sucio y descuidado suele causar malestar a la gente."
+								],
+								[
+									"2",
+									"La paciencia es algo fundamental en el mundo en el que me muevo. Prefiero esperar a estar seguro que actuar antes de tiempo."
+								],
+								[
+									"3",
+									"Trato de hacer amigos allá por donde paso; nunca se sabe cuándo voy a necesitar un favor."
+								],
+								[
+									"4",
+									"Mi forma de hablar, directa y descarada, incomoda a los nobles y comerciantes."
+								],
+								[
+									"5",
+									"Las rimas y los juegos de palabras salen de mi boca con facilidad, tengo vocación de bardo."
+								],
+								[
+									"6",
+									"Solo me fio de aquellas personas junto a las que me he emborrachado."
+								],
+								[
+									"7",
+									"Una mentira puede sacarme de cualquier aprieto, incluso de aquellos en los que me ha metido otra mentira."
+								],
+								[
+									"8",
+									"Me guardo objetos de todas las personas con las que trabajo como recuerdo."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Redención. A pesar de todo lo hecho hasta ahora, aún es posible enmendar los errores y conseguir el perdón (bueno)."
+								],
+								[
+									"2",
+									"Poder. Los sobornos, chantajes y amenazas son una forma aceptable de controlar a los débiles y sacar provecho (maligno)."
+								],
+								[
+									"3",
+									"Libertad. La sensación de libertad que siento al romper las normas es suficiente recompensa para hacerlo (caótico)."
+								],
+								[
+									"4",
+									"Hermandad. Mis compañeros son mi familia. Me debo a ellos y haría cualquier cosa por su bienestar (neutral)."
+								],
+								[
+									"5",
+									"Justicia. Romper las normas es la única manera de acabar con las injusticias que llevan a cabo los gobernantes (bueno)."
+								],
+								[
+									"6",
+									"Riqueza. Cualquier acto es aceptable con tal de salir de la pobreza y ocupar mi lugar entre los ricos (maligno)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"En mi juventud robé un objeto maldito y esa maldición aún me persigue."
+								],
+								[
+									"2",
+									"Me vi obligado a pedir ayuda a un señor del crimen para evitar la cárcel y ahora le debo un favor."
+								],
+								[
+									"3",
+									"La piedad de un alguacil me libró de la horca. Ese acto de piedad ha cambiado mi forma de ver la vida."
+								],
+								[
+									"4",
+									"Un colgante es el único recuerdo que tengo de mi familia, a la que nunca he conocido."
+								],
+								[
+									"5",
+									"Un viejo amigo fue acusado de un crimen que yo cometí y no fui lo suficientemente valiente como para aceptar mi culpa."
+								],
+								[
+									"6",
+									"Durante años me he rodeado de niños huérfanos a los que he ayudado a salir a adelante y que dependen de mí."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Siempre dejo una marca personal en los crímenes que cometo."
+								],
+								[
+									"2",
+									"La oportunidad de ganar dinero me hace ponerme en riesgo a mí mismo y a mis seres queridos."
+								],
+								[
+									"3",
+									"No suelo mostrar interés por las personas de mi alrededor; muchas veces no recuerdo ni siquiera sus nombres."
+								],
+								[
+									"4",
+									"En mis bolsillos aparecen pertenencias de otras personas constantemente."
+								],
+								[
+									"5",
+									"No puedo dejar tirado a un compañero, por muy peligrosa que sea la situación."
+								],
+								[
+									"6",
+									"Nunca rechazo una buena apuesta."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			]
+		},
+		{
+			"name": "De buena familia",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 111,
+			"skillProficiencies": [
+				{
+					"history": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "De buena familia",
+					"entries": [
+						"A lo largo de la historia, algunos linajes poderosos se han hecho con posiciones de poder. En estas familias, el poder político ha ido pasando de padres a hijos, apoyándose en un respaldo militar o económico. Por suerte, tú has nacido en una de estas familias. En algún momento tus antepasados se hicieron con tierras y lujos que se han mantenido durante generaciones. Desde tu nacimiento has disfrutado de una serie de derechos con los que no cuentan el resto de personas: has tenido una infancia cómoda, sin pasar apuros, y has gozado de una educación orientada al día en que ocupes una posición de responsabilidad.",
+						"Cuando elijas este trasfondo, determina junto con el director de juego el linaje al que perteneces y sus detalles. Aclarad tu origen: quizás seas de sangre noble o puede que seas un rico comerciante que consiguió subir de categoría. ¿Qué posesiones tiene tu familia? Puede ser desde una pequeña hacienda a grandes terrenos de campo. También es recomendable aclarar qué lugar ocupas en la línea de sucesión y qué derechos y responsabilidades otorga esta."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Historia ({@skill history}), Persuación ({@skill persuasion})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Un kit de juegos (uno de tu elección {@item dice set|phb} o {@item playing card set|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un kit de juegos (uno de tu elección {@item dice set|phb} o {@item playing card set|phb}), una pequeña joya familiar ({@item signet ring|phb}), un vial de perfume ({@item Perfume (vial)|phb}), un kit de ropa elegante ({@item fine clothes|phb}) y un saco ({@item pouch|phb}) que contiene 20 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Gloria familiar",
+					"entries": [
+						"A lo largo de la historia, algunos linajes poderosos se han hecho con posiciones de poder. En estas familias, el poder político ha ido pasando de padres a hijos, apoyándose en un respaldo militar o económico. Por suerte, tú has nacido en una de estas familias. En algún momento tus antepasados se hicieron con tierras y lujos que se han mantenido durante generaciones. Desde tu nacimiento has disfrutado de una serie de derechos con los que no cuentan el resto de personas: has tenido una infancia cómoda, sin pasar apuros, y has gozado de una educación orientada al día en que ocupes una posición de responsabilidad.",
+						"Cuando elijas este trasfondo, determina junto con el director de juego el linaje al que perteneces y sus detalles. Aclarad tu origen: quizás seas de sangre noble o puede que seas un rico comerciante que consiguió subir de categoría. ¿Qué posesiones tiene tu familia? Puede ser desde una pequeña hacienda a grandes terrenos de campo. También es recomendable aclarar qué lugar ocupas en la línea de sucesión y qué derechos y responsabilidades otorga esta.",
+						"Por tus venas corre la sangre de una familia poderosa y eso te otorga unos privilegios de los que la plebe carece. Las clases altas te verán con buenos ojos y serás recibido en las cortes de los gobernantes. Sin embargo, tu sangre no es lo único que has heredado, y es que portas alguna reliquia de generaciones anteriores que ha tenido gran importa en la historia de la familia. Además del equipo inicial, cuentas con un escudo o un arma marcial de tu elección, elegantemente decorada o con el símbolo familiar",
+                        "Aquellos que nacen en familias ricas suelen disfrutar de toda clase de lujos y de una educación sobresaliente, por lo que son personas cultas y de modales refinados. Muchos nobles consideran que su deber es proteger a los vasallos y valoran conceptos como el honor y la gloria. Por otro lado, la vida fácil puede hacerlos impacientes y temperamentales, y no es raro ver a nobles mezquinos y dispuestos a todo por lograr más poder.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Historia ({@skill history})",
+								"Persuación ({@skill persuasion})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Kit de Juegos ({@filter gaming set|items|source=phb|miscellaneous=mundane|type=gaming set})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Kit de juegos (uno de tu elección {@item dice set|phb} o {@item playing card set|phb})",
+								"Joya familiar ({@item signet ring|phb})",
+								"Vial de perfume ({@item Perfume (vial)|phb})",
+								"Ropa elegante ({@item fine clothes|phb})",
+								"Saco ({@item pouch|phb}) con 20 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - No soporto que demuestren en público que estaba equivocado.",
+								"(2) - Vivo acorde a mi estatus social: los banquetes y fiestas son algo común en mi día a día.",
+								"(3) - Soy conocido por mi generosidad y mi ayuda a los desfavorecidos.",
+								"(4) - Me canso con facilidad de vivir en un mismo sitio. Siempre que puedo me embarco en un viaje.",
+								"(5) - Mi familia ha hecho grandes cosas durante generaciones y cualquier conversación es buena para recordarlas.",
+								"(6) - A pesar de mi origen, he aprendido a valorar el trabajo duro y respeto a los que se esfuerzan para conseguir sus logros.",
+								"(7) - Considero que siempre hay que utilizar un lenguaje correcto y educado. No permito los insultos y las blasfemias.",
+								"(8) - Mi seriedad y falta de humor son mi rasgo más reconocible."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Familia. Soy lo que soy gracias a mi familia. Haré todo lo posible para que estén orgullosos de mis actos (neutral).",
+								"(2) - Poder. Mi destino es gobernar, es mi derecho de nacimiento y nadie puede arrebatármelo (maligno).",
+								"(3) - Pueblo. Mi deber es proteger a mi pueblo (bueno).",
+								"(4) - Orden. Si todo está controlado, los gobernantes pueden cuidar mejor a sus súbditos (legal).",
+								"(5) - Justicia. Es mi deber emplear lo que me ha otorgado mi familia en luchar contra la injusticia y en defender a los débiles (bueno).",
+								"(6) - Reputación. Lo más importante no son mis actos, sino lo que la gente crea de mí (neutral)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Un miembro de mi familia está en prisión por un crimen que no ha sido demostrado.",
+								"(2) - Una antigua joya de la familia ha sido robada y, sin ella, nuestro derecho dinástico puede acabar en entredicho.",
+								"(3) - Me he propuesto no volver a mi hogar hasta que me consideren un heredero digno.",
+								"(4) - He emprendido un viaje para encontrar un matrimonio a la altura de mi alto estatus.",
+								"(5) - Debo conseguir alianzas y apoyos para mi familia para mantenernos en una situación de poder.",
+								"(6) - Una familia enemiga ha insultado a la mía y debo recuperar nuestro honor."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi familia ha llegado donde está mediante engaños y artimañas, aunque todo el mundo crea lo contrario.",
+								"(2) - De joven acabé con la vida de un familiar que amenazaba mi herencia. Es un pecado que me atormenta.",
+								"(3) - Mantengo una relación sentimental que avergonzaría a toda mi familia si se hiciera pública.",
+								"(4) - No soporto que la gente no me trate con el respeto que merece mi posición.",
+								"(5) - Mi afición por el alcohol me pone en apuros a menudo.",
+								"(6) - Por mi culpa mi familia ha perdido el favor de mi señor y hemos perdido privilegios en la corte."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellos que nacen en familias ricas suelen disfrutar de toda clase de lujos y de una educación sobresaliente, por lo que son personas cultas y de modales refinados. Muchos nobles consideran que su deber es proteger a los vasallos y valoran conceptos como el honor y la gloria. Por otro lado, la vida fácil puede hacerlos impacientes y temperamentales, y no es raro ver a nobles mezquinos y dispuestos a todo por lograr más poder.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"No soporto que demuestren en público que estaba equivocado."
+								],
+								[
+									"2",
+									"Vivo acorde a mi estatus social: los banquetes y fiestas son algo común en mi día a día."
+								],
+								[
+									"3",
+									"Soy conocido por mi generosidad y mi ayuda a los desfavorecidos."
+								],
+								[
+									"4",
+									"Me canso con facilidad de vivir en un mismo sitio. Siempre que puedo me embarco en un viaje."
+								],
+								[
+									"5",
+									"Mi familia ha hecho grandes cosas durante generaciones y cualquier conversación es buena para recordarlas."
+								],
+								[
+									"6",
+									"A pesar de mi origen, he aprendido a valorar el trabajo duro y respeto a los que se esfuerzan para conseguir sus logros."
+								],
+								[
+									"7",
+									"Considero que siempre hay que utilizar un lenguaje correcto y educado. No permito los insultos y las blasfemias."
+								],
+								[
+									"8",
+									"Mi seriedad y falta de humor son mi rasgo más reconocible."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Familia. Soy lo que soy gracias a mi familia. Haré todo lo posible para que estén orgullosos de mis actos (neutral)."
+								],
+								[
+									"2",
+									"Poder. Mi destino es gobernar, es mi derecho de nacimiento y nadie puede arrebatármelo (maligno)."
+								],
+								[
+									"3",
+									"Pueblo. Mi deber es proteger a mi pueblo (bueno)."
+								],
+								[
+									"4",
+									"Orden. Si todo está controlado, los gobernantes pueden cuidar mejor a sus súbditos (legal)."
+								],
+								[
+									"5",
+									"Justicia. Es mi deber emplear lo que me ha otorgado mi familia en luchar contra la injusticia y en defender a los débiles (bueno)."
+								],
+								[
+									"6",
+									"Reputación. Lo más importante no son mis actos, sino lo que la gente crea de mí (neutral)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Un miembro de mi familia está en prisión por un crimen que no ha sido demostrado."
+								],
+								[
+									"2",
+									"Una antigua joya de la familia ha sido robada y, sin ella, nuestro derecho dinástico puede acabar en entredicho."
+								],
+								[
+									"3",
+									"Me he propuesto no volver a mi hogar hasta que me consideren un heredero digno."
+								],
+								[
+									"4",
+									"He emprendido un viaje para encontrar un matrimonio a la altura de mi alto estatus."
+								],
+								[
+									"5",
+									"Debo conseguir alianzas y apoyos para mi familia para mantenernos en una situación de poder."
+								],
+								[
+									"6",
+									"Una familia enemiga ha insultado a la mía y debo recuperar nuestro honor."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi familia ha llegado donde está mediante engaños y artimañas, aunque todo el mundo crea lo contrario."
+								],
+								[
+									"2",
+									"De joven acabé con la vida de un familiar que amenazaba mi herencia. Es un pecado que me atormenta."
+								],
+								[
+									"3",
+									"Mantengo una relación sentimental que avergonzaría a toda mi familia si se hiciera pública."
+								],
+								[
+									"4",
+									"No soporto que la gente no me trate con el respeto que merece mi posición."
+								],
+								[
+									"5",
+									"Mi afición por el alcohol me pone en apuros a menudo."
+								],
+								[
+									"6",
+									"Por mi culpa mi familia ha perdido el favor de mi señor y hemos perdido privilegios en la corte."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"gaming set": true
+				}
+			]
+		},
+		{
+			"name": "Caudillo de Guerra",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 111,
+			"skillProficiencies": [
+				{
+					"history": true,
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Variante de «de buena familia»: Caudillo de Guerra",
+					"entries": [
+						"Entre las culturas que pueblan la superficie de Voldor puede hallarse todo tipo de clases dominantes. En algunas de ellas son los nobles, quienes descienden de largos linajes, y en otras son los mercaderes acaudalados, pero también existen lugares donde es la fuerza y el miedo los valores que mantienen a un líder en su trono. Elige este trasfondo si perteneces a la clase dominante de una sociedad tribal o excesivamente militarizada: un señor de la guerra reconocido o uno de sus descendientes. Al adquirir este rasgo, acuerda con el director de juego qué reputación tienes tú mismo y tu pueblo o cultura. Puede que seas un líder particularmente reflexivo de una tribu de bárbaros salvajes o quizás un general fanático que exige un estricto código de honor a todos sus soldados.",
+						"En vez obtener competencia con las habilidades descritas en el trasfondo de buena familia, la obtienes con Intimidar y con Historia. En vez de la competencia con kit de juegos, la obtienes con un instrumento musical ({@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}) y adquieres dicho instrumento como equipo inicial, sustituyendo el kit de juegos. También adquieres el rasgo Prestigio bélico en vez de Gloria familiar"
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Historia ({@skill history}), Intimidación ({@skill intimidation})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Instrumento Musical ({@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Instrumento Musical (uno de tu elección: {@item bagpipes|phb}, {@item drum|phb}, {@item dulcimer|phb}, {@item flute set|phb}, {@item horn|phb}, {@item lute|phb}, {@item lyre|phb}, {@item pan flute|phb}, {@item shawm|phb}, {@item viol|phb}), una pequeña joya familiar ({@item signet ring|phb}), un vial de perfume ({@item Perfume (vial)|phb}), un kit de ropa elegante ({@item fine clothes|phb}) y un saco ({@item pouch|phb}) que contiene 20 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Prestigio bélico",
+					"entries": [
+						"Entre las culturas que pueblan la superficie de Voldor puede hallarse todo tipo de clases dominantes. En algunas de ellas son los nobles, quienes descienden de largos linajes, y en otras son los mercaderes acaudalados, pero también existen lugares donde es la fuerza y el miedo los valores que mantienen a un líder en su trono. Elige este trasfondo si perteneces a la clase dominante de una sociedad tribal o excesivamente militarizada: un señor de la guerra reconocido o uno de sus descendientes. Al adquirir este rasgo, acuerda con el director de juego qué reputación tienes tú mismo y tu pueblo o cultura. Puede que seas un líder particularmente reflexivo de una tribu de bárbaros salvajes o quizás un general fanático que exige un estricto código de honor a todos sus soldados.",
+						"En vez obtener competencia con las habilidades descritas en el trasfondo de buena familia, la obtienes con Intimidar y con Historia. En vez de la competencia con kit de juegos, la obtienes con un instrumento musical ({@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}) y adquieres dicho instrumento como equipo inicial, sustituyendo el kit de juegos. También adquieres el rasgo Prestigio bélico en vez de Gloria familiar",
+						"El respeto de los tuyos te lo has ganado con tus hazañas como guerrero. Tus cicatrices son tus medallas y nadie puede dudar de tu ferocidad. Ya no solo tu pueblo te venera, sino que otros pueblos se hacen eco de tu historia. Allá por donde pasas hay gente que te conoce o, por lo menos, ha oído alguna de las historias que se cuentan sobre ti; algunos te admiran y muchos otros te temen",
+                        "Por tu trayectoria se te ha recompensado con el honor de portar una reliquia familiar de gran importancia. Además del equipo inicial del personaje, cuentas con un arma simple o marcial de tu elección, que tú o algún antepasado habéis empuñado en alguna victoria especialmente importante para tu pueblo.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Historia ({@skill history})",
+								"Intimidación ({@skill intimidation})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Instrumento Musical ({@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Instrumento Musical (uno de tu elección: {@item bagpipes|phb}, {@item drum|phb}, {@item dulcimer|phb}, {@item flute set|phb}, {@item horn|phb}, {@item lute|phb}, {@item lyre|phb}, {@item pan flute|phb}, {@item shawm|phb}, {@item viol|phb})",
+								"Joya familiar ({@item signet ring|phb})",
+								"Vial de perfume ({@item Perfume (vial)|phb})",
+								"Ropa elegante ({@item fine clothes|phb})",
+								"Saco ({@item pouch|phb}) con 20 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - No soporto que demuestren en público que estaba equivocado.",
+								"(2) - Vivo acorde a mi estatus social: los banquetes y fiestas son algo común en mi día a día.",
+								"(3) - Soy conocido por mi generosidad y mi ayuda a los desfavorecidos.",
+								"(4) - Me canso con facilidad de vivir en un mismo sitio. Siempre que puedo me embarco en un viaje.",
+								"(5) - Mi familia ha hecho grandes cosas durante generaciones y cualquier conversación es buena para recordarlas.",
+								"(6) - A pesar de mi origen, he aprendido a valorar el trabajo duro y respeto a los que se esfuerzan para conseguir sus logros.",
+								"(7) - Considero que siempre hay que utilizar un lenguaje correcto y educado. No permito los insultos y las blasfemias.",
+								"(8) - Mi seriedad y falta de humor son mi rasgo más reconocible."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Familia. Soy lo que soy gracias a mi familia. Haré todo lo posible para que estén orgullosos de mis actos (neutral).",
+								"(2) - Poder. Mi destino es gobernar, es mi derecho de nacimiento y nadie puede arrebatármelo (maligno).",
+								"(3) - Pueblo. Mi deber es proteger a mi pueblo (bueno).",
+								"(4) - Orden. Si todo está controlado, los gobernantes pueden cuidar mejor a sus súbditos (legal).",
+								"(5) - Justicia. Es mi deber emplear lo que me ha otorgado mi familia en luchar contra la injusticia y en defender a los débiles (bueno).",
+								"(6) - Reputación. Lo más importante no son mis actos, sino lo que la gente crea de mí (neutral)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Un miembro de mi familia está en prisión por un crimen que no ha sido demostrado.",
+								"(2) - Una antigua joya de la familia ha sido robada y, sin ella, nuestro derecho dinástico puede acabar en entredicho.",
+								"(3) - Me he propuesto no volver a mi hogar hasta que me consideren un heredero digno.",
+								"(4) - He emprendido un viaje para encontrar un matrimonio a la altura de mi alto estatus.",
+								"(5) - Debo conseguir alianzas y apoyos para mi familia para mantenernos en una situación de poder.",
+								"(6) - Una familia enemiga ha insultado a la mía y debo recuperar nuestro honor."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi familia ha llegado donde está mediante engaños y artimañas, aunque todo el mundo crea lo contrario.",
+								"(2) - De joven acabé con la vida de un familiar que amenazaba mi herencia. Es un pecado que me atormenta.",
+								"(3) - Mantengo una relación sentimental que avergonzaría a toda mi familia si se hiciera pública.",
+								"(4) - No soporto que la gente no me trate con el respeto que merece mi posición.",
+								"(5) - Mi afición por el alcohol me pone en apuros a menudo.",
+								"(6) - Por mi culpa mi familia ha perdido el favor de mi señor y hemos perdido privilegios en la corte."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellos que nacen en familias ricas suelen disfrutar de toda clase de lujos y de una educación sobresaliente, por lo que son personas cultas y de modales refinados. Muchos nobles consideran que su deber es proteger a los vasallos y valoran conceptos como el honor y la gloria. Por otro lado, la vida fácil puede hacerlos impacientes y temperamentales, y no es raro ver a nobles mezquinos y dispuestos a todo por lograr más poder.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"No soporto que demuestren en público que estaba equivocado."
+								],
+								[
+									"2",
+									"Vivo acorde a mi estatus social: los banquetes y fiestas son algo común en mi día a día."
+								],
+								[
+									"3",
+									"Soy conocido por mi generosidad y mi ayuda a los desfavorecidos."
+								],
+								[
+									"4",
+									"Me canso con facilidad de vivir en un mismo sitio. Siempre que puedo me embarco en un viaje."
+								],
+								[
+									"5",
+									"Mi familia ha hecho grandes cosas durante generaciones y cualquier conversación es buena para recordarlas."
+								],
+								[
+									"6",
+									"A pesar de mi origen, he aprendido a valorar el trabajo duro y respeto a los que se esfuerzan para conseguir sus logros."
+								],
+								[
+									"7",
+									"Considero que siempre hay que utilizar un lenguaje correcto y educado. No permito los insultos y las blasfemias."
+								],
+								[
+									"8",
+									"Mi seriedad y falta de humor son mi rasgo más reconocible."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Familia. Soy lo que soy gracias a mi familia. Haré todo lo posible para que estén orgullosos de mis actos (neutral)."
+								],
+								[
+									"2",
+									"Poder. Mi destino es gobernar, es mi derecho de nacimiento y nadie puede arrebatármelo (maligno)."
+								],
+								[
+									"3",
+									"Pueblo. Mi deber es proteger a mi pueblo (bueno)."
+								],
+								[
+									"4",
+									"Orden. Si todo está controlado, los gobernantes pueden cuidar mejor a sus súbditos (legal)."
+								],
+								[
+									"5",
+									"Justicia. Es mi deber emplear lo que me ha otorgado mi familia en luchar contra la injusticia y en defender a los débiles (bueno)."
+								],
+								[
+									"6",
+									"Reputación. Lo más importante no son mis actos, sino lo que la gente crea de mí (neutral)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Un miembro de mi familia está en prisión por un crimen que no ha sido demostrado."
+								],
+								[
+									"2",
+									"Una antigua joya de la familia ha sido robada y, sin ella, nuestro derecho dinástico puede acabar en entredicho."
+								],
+								[
+									"3",
+									"Me he propuesto no volver a mi hogar hasta que me consideren un heredero digno."
+								],
+								[
+									"4",
+									"He emprendido un viaje para encontrar un matrimonio a la altura de mi alto estatus."
+								],
+								[
+									"5",
+									"Debo conseguir alianzas y apoyos para mi familia para mantenernos en una situación de poder."
+								],
+								[
+									"6",
+									"Una familia enemiga ha insultado a la mía y debo recuperar nuestro honor."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi familia ha llegado donde está mediante engaños y artimañas, aunque todo el mundo crea lo contrario."
+								],
+								[
+									"2",
+									"De joven acabé con la vida de un familiar que amenazaba mi herencia. Es un pecado que me atormenta."
+								],
+								[
+									"3",
+									"Mantengo una relación sentimental que avergonzaría a toda mi familia si se hiciera pública."
+								],
+								[
+									"4",
+									"No soporto que la gente no me trate con el respeto que merece mi posición."
+								],
+								[
+									"5",
+									"Mi afición por el alcohol me pone en apuros a menudo."
+								],
+								[
+									"6",
+									"Por mi culpa mi familia ha perdido el favor de mi señor y hemos perdido privilegios en la corte."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"musical instrument": true
+				}
+			]
+		},
+		{
+			"name": "Emisario",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 112,
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"persuasion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Emisarios",
+					"entries": [
+						"Ni el más poderoso de los reyes puede estar en todos sitios a la vez y encargarse de lo que ocurre tanto dentro de sus fronteras como fuera. Además, recorrer los caminos e internarse en los terrenos de otros soberanos puede desembocar en tragedia, por lo que algunas personas son elegidas para representarlos y hablar en su nombre: vosotros, los emisarios, hombres y mujeres de confianza que viajan de un lado a otro para llevar la voluntad de su señor tanto a vasallos como a otros señores.",
+						"Llegar a tu posición no ha sido sencillo; habrás llevado a cabo muchos logros para para que tu señor haya depositado tal confianza en ti. Un buen emisario debe contar con las habilidades suficientes para maniobrar en la corte, así como estar acostumbrado a viajar de manera constante. Cuando elijas este trasfondo, piensa junto al director de juego para qué señor trabajas. ¿Se trata de un noble menor de una gran nación o del gobernante de un pequeño reino? ¿Tu señor es justo y conciliador o hablas en nombre de un mezquino señor de la guerra?"
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Perspicacia ({@skill insight}), Persuasión ({@skill persuasion})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Dos idiomas de tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un estuche para mapas y pergaminos ({@item map or scroll case|phb}), un documento que demuestra que hablas en nombre de un rey u otro noble, un set de ropa de viaje ({@item traveler's clothes|phb}), un set de ropa elegante ({@item fine clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: La voz de un rey",
+					"entries": [
+						"Ni el más poderoso de los reyes puede estar en todos sitios a la vez y encargarse de lo que ocurre tanto dentro de sus fronteras como fuera. Además, recorrer los caminos e internarse en los terrenos de otros soberanos puede desembocar en tragedia, por lo que algunas personas son elegidas para representarlos y hablar en su nombre: vosotros, los emisarios, hombres y mujeres de confianza que viajan de un lado a otro para llevar la voluntad de su señor tanto a vasallos como a otros señores.",
+						"Llegar a tu posición no ha sido sencillo; habrás llevado a cabo muchos logros para para que tu señor haya depositado tal confianza en ti. Un buen emisario debe contar con las habilidades suficientes para maniobrar en la corte, así como estar acostumbrado a viajar de manera constante. Cuando elijas este trasfondo, piensa junto al director de juego para qué señor trabajas. ¿Se trata de un noble menor de una gran nación o del gobernante de un pequeño reino? ¿Tu señor es justo y conciliador o hablas en nombre de un mezquino señor de la guerra?",
+						"Cualquier cosa que digas serán las palabras de un gobernante y cualquier afrenta que sufras la estará sufriendo un reino entero: el temor o el respeto que la gente tiene por tu señor también lo tiene por ti. Puedes solicitar y recibir audiencia con cualquier gobernante, un honor que pocos tienen. Mientras dure tu estancia en la corte, no solo serás bienvenido, sino que se te conferirá un lugar en el que descansar y comida de una calidad propia del señor al que representas.",
+						"Entre las aptitudes que más se valoran en un emisario están la lealtad y el respeto. Las numerosas horas de cortes y recepciones que deben soportar para entregar un mensaje a un rey o llevar a cabo una negociación pueden acabar con los nervios de cualquiera, por lo que también son necesarios mucha paciencia y talante. Al hablar en nombre de un poder superior, muchos emisarios acaban aprovechando ese poder para sus propios intereses, volviéndose ambiciosos y traicioneros.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Historia ({@skill insight})",
+								"Intimidación ({@skill persuasion})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Dos idiomas a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Un estuche para mapas y pergaminos ({@item map or scroll case|phb})",
+								"Documento que demuestra que hablas en nombre de un rey u otro noble",
+								"Ropa de viaje ({@item traveler's clothes|phb})",
+								"Ropa elegante ({@item fine clothes|phb})",
+								"Saco ({@item pouch|phb}) con 15 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Nunca me meto en una confrontación de la que no vaya a salir victorioso. Tengo claro cuáles son mis batallas y cuáles no.",
+								"(2) - Mi optimismo es contagioso; siempre viajo con una sonrisa en el rostro.",
+								"(3) - Considero que una mentira sutil es mucho más útil que una decena de verdades directas.",
+								"(4) - Una vez que alguien me falla, pierde para siempre mi confianza. No acepto el fracaso ni la traición.",
+								"(5) - Mi familia ha hecho grandes cosas durante generaciones y cualquier conversación es buena para recordarlas.",
+								"(6) - Me gusta estar al día de los cotilleos y rumores, son una fuente fiable de información en los círculos donde me muevo.",
+								"(7) - No soporto a las personas incultas y sin educación. Esa clase de gente no merece mi respeto ni mi atención.",
+								"(8) - Valoro más una silenciosa biblioteca que un magnífico banquete."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Lealtad. La obediencia y el respeto hacia un superior es lo único que mantiene nuestra sociedad a salvo del salvajismo y el caos (legal).",
+								"(2) - Venganza. Aquellos que me han causado mal a mí o a los míos lo pagarán. Haré todo lo que esté en mi mano para que lo pierdan todo (maligno).",
+								"(3) - Paz. Mi posición de mediador me obliga a hacer todo lo posible para evitar que se enciendan las llamas de la guerra (bueno).",
+								"(4) - Avaricia. La confianza que tienen mi señor y otros gobernantes en mí me permite obtener gran cantidad de regalos y una posición aventajada para los negocios (neutral).",
+								"(5) - Conocimiento. Mis viajes me permiten aprender sobre otras culturas y descubrir toda clase de cosas (neutral).",
+								"(6) - Libertad. Gozar de la confianza de mi señor me permite hacer lo que me plazca sin que sospeche nada. Así puedo vivir mi propia vida (caótico)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Las injurias y mentiras de un noble han hecho que mi señor me repudie y ahora busco su perdón.",
+								"(2) - Le he dado mi palabra a mi señor de que no volvería a él hasta conseguir nuevos aliados para el reino.",
+								"(3) - Hace años un ser querido fue secuestrado por un rival político y aún no he perdido la esperanza de rescatarlo.",
+								"(4) - Un familiar traicionó y asesinó a mi señor para obtener su puesto. Solo yo conozco lo que ocurrió realmente.",
+								"(5) - Me he prometido a mí mismo que algún día dejaré de ser un vasallo y me convertiré en señor.",
+								"(6) - La seguridad de mi pueblo natal es mi prioridad, por encima de la lealtad a mi señor y el resto de sus dominios."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Para evitar que comenzara una guerra llegué a un pacto con un señor de la guerra a espaldas de mi señor. Aún temo que lo descubra.",
+								"(2) - Hace años desvelé las conspiraciones de un noble de la corte de mi señor y juró venganza. Sus gritos de furia aún me acosan en sueños.",
+								"(3) - Mi lealtad hacia mi señor es tan grande que daría mi vida sin pensarlo por el bien del reino.",
+								"(4) - Mis ardientes relaciones sentimentales entre la nobleza me han traído una mala fama de la que no puedo huir.",
+								"(5) - En mis viajes paro cada poco tiempo para disfrutar del paisaje y conocer a los lugareños, aunque me retrase enormemente.",
+								"(6) - Durante años he ido encubriendo los despiadados actos de mi señor. Me corroe la culpa por permitirle haber actuado así todo este tiempo."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Entre las aptitudes que más se valoran en un emisario están la lealtad y el respeto. Las numerosas horas de cortes y recepciones que deben soportar para entregar un mensaje a un rey o llevar a cabo una negociación pueden acabar con los nervios de cualquiera, por lo que también son necesarios mucha paciencia y talante. Al hablar en nombre de un poder superior, muchos emisarios acaban aprovechando ese poder para sus propios intereses, volviéndose ambiciosos y traicioneros.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Nunca me meto en una confrontación de la que no vaya a salir victorioso. Tengo claro cuáles son mis batallas y cuáles no."
+								],
+								[
+									"2",
+									"Mi optimismo es contagioso; siempre viajo con una sonrisa en el rostro."
+								],
+								[
+									"3",
+									"Considero que una mentira sutil es mucho más útil que una decena de verdades directas."
+								],
+								[
+									"4",
+									"Una vez que alguien me falla, pierde para siempre mi confianza. No acepto el fracaso ni la traición."
+								],
+								[
+									"5",
+									"Mi familia ha hecho grandes cosas durante generaciones y cualquier conversación es buena para recordarlas."
+								],
+								[
+									"6",
+									"Me gusta estar al día de los cotilleos y rumores, son una fuente fiable de información en los círculos donde me muevo."
+								],
+								[
+									"7",
+									"No soporto a las personas incultas y sin educación. Esa clase de gente no merece mi respeto ni mi atención."
+								],
+								[
+									"8",
+									"Valoro más una silenciosa biblioteca que un magnífico banquete."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Lealtad. La obediencia y el respeto hacia un superior es lo único que mantiene nuestra sociedad a salvo del salvajismo y el caos (legal)."
+								],
+								[
+									"2",
+									"Venganza. Aquellos que me han causado mal a mí o a los míos lo pagarán. Haré todo lo que esté en mi mano para que lo pierdan todo (maligno)."
+								],
+								[
+									"3",
+									"Paz. Mi posición de mediador me obliga a hacer todo lo posible para evitar que se enciendan las llamas de la guerra (bueno)."
+								],
+								[
+									"4",
+									"Avaricia. La confianza que tienen mi señor y otros gobernantes en mí me permite obtener gran cantidad de regalos y una posición aventajada para los negocios (neutral)."
+								],
+								[
+									"5",
+									"Conocimiento. Mis viajes me permiten aprender sobre otras culturas y descubrir toda clase de cosas (neutral)."
+								],
+								[
+									"6",
+									"Libertad. Gozar de la confianza de mi señor me permite hacer lo que me plazca sin que sospeche nada. Así puedo vivir mi propia vida (caótico)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Las injurias y mentiras de un noble han hecho que mi señor me repudie y ahora busco su perdón."
+								],
+								[
+									"2",
+									"Le he dado mi palabra a mi señor de que no volvería a él hasta conseguir nuevos aliados para el reino."
+								],
+								[
+									"3",
+									"Hace años un ser querido fue secuestrado por un rival político y aún no he perdido la esperanza de rescatarlo."
+								],
+								[
+									"4",
+									"Un familiar traicionó y asesinó a mi señor para obtener su puesto. Solo yo conozco lo que ocurrió realmente."
+								],
+								[
+									"5",
+									"Me he prometido a mí mismo que algún día dejaré de ser un vasallo y me convertiré en señor."
+								],
+								[
+									"6",
+									"La seguridad de mi pueblo natal es mi prioridad, por encima de la lealtad a mi señor y el resto de sus dominios."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Para evitar que comenzara una guerra llegué a un pacto con un señor de la guerra a espaldas de mi señor. Aún temo que lo descubra."
+								],
+								[
+									"2",
+									"Hace años desvelé las conspiraciones de un noble de la corte de mi señor y juró venganza. Sus gritos de furia aún me acosan en sueños."
+								],
+								[
+									"3",
+									"Mi lealtad hacia mi señor es tan grande que daría mi vida sin pensarlo por el bien del reino."
+								],
+								[
+									"4",
+									"Mis ardientes relaciones sentimentales entre la nobleza me han traído una mala fama de la que no puedo huir."
+								],
+								[
+									"5",
+									"En mis viajes paro cada poco tiempo para disfrutar del paisaje y conocer a los lugareños, aunque me retrase enormemente."
+								],
+								[
+									"6",
+									"Durante años he ido encubriendo los despiadados actos de mi señor. Me corroe la culpa por permitirle haber actuado así todo este tiempo."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			]
+		},
+		{
+			"name": "Erudito",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 113,
+			"skillProficiencies": [
+				{
+					"history": true,
+					"investigation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Eruditos",
+					"entries": [
+						"Rodeado de libros y pergaminos, has dedicado tu vida a la búsqueda de conocimiento y descubrimientos. Tras una intensa educación, mucho mejor que la que la mayoría puede permitirse, tomaste la decisión de que el estudio sería tu única ocupación. Desde aquel momento has intercalado largas jornadas de lectura a la luz de las velas con viajes a templos y bibliotecas para hallar nuevos volúmenes para avanzar en tu carrera.",
+						"La educación y el intelecto necesarios para llevar esta clase de vida son poco comunes. Los eruditos sois respetados y valorados en las culturas avanzadas y pacíficas, pero las más violentas os ven como un desperdicio. Esto ha propiciado que los eruditos os agrupéis para compartir estudios y almacenar libros. Posiblemente tengas amigos o conocidos en algún monasterio o biblioteca en el que estudias. Tu línea de investigación puede abarcar desde historia y geografía hasta saberes arcanos, pasando por toda clase de ciencias y disciplinas."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Historia ({@skill history}), Investigación ({@skill investigation})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Suministros de calígrafo ({@item calligrapher's supplies|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un estuche para mapas y pergaminos ({@item map or scroll case|phb}), un extraño pergamino en un idioma desconocido, pluma de escritura ({@item ink pen|phb}) y tinta ({@item ink (1-ounce bottle)|phb}), dos pergaminos en blanco, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Experto en la Materia",
+					"entries": [
+						"Rodeado de libros y pergaminos, has dedicado tu vida a la búsqueda de conocimiento y descubrimientos. Tras una intensa educación, mucho mejor que la que la mayoría puede permitirse, tomaste la decisión de que el estudio sería tu única ocupación. Desde aquel momento has intercalado largas jornadas de lectura a la luz de las velas con viajes a templos y bibliotecas para hallar nuevos volúmenes para avanzar en tu carrera.",
+						"La educación y el intelecto necesarios para llevar esta clase de vida son poco comunes. Los eruditos sois respetados y valorados en las culturas avanzadas y pacíficas, pero las más violentas os ven como un desperdicio. Esto ha propiciado que los eruditos os agrupéis para compartir estudios y almacenar libros. Posiblemente tengas amigos o conocidos en algún monasterio o biblioteca en el que estudias. Tu línea de investigación puede abarcar desde historia y geografía hasta saberes arcanos, pasando por toda clase de ciencias y disciplinas.",
+						"Los círculos de estudio son agrupaciones de eruditos que se reúnen para avanzar juntos en la búsqueda de conocimiento, y hasta los estudiantes más autodidactas recurren a otros expertos en algún momento. Cuentas con la simpatía de un grupo o congregación con una biblioteca a su cargo a la que puedes acudir para investigar y dejar a su cargo los frágiles textos que manejas. Define junto al director de juego el grupo al que perteneces, así como su sede y sus ámbitos de estudio. Siempre que acudas a ellos para estudiar, no tendrás que pagarles el coste diario que suele exigir. A cambio de acceder al conocimiento sin limitaciones, es probable que otros eruditos te pidan tu opinión o tu ayuda eventualmente.",
+						"Además, tras tantos años de estudio, has memorizado gran cantidad de información sobre un campo en concreto al que dedicas gran parte de tu tiempo. Cuando realizas investigaciones sobre dicho campo, no tienes la necesidad de acudir a ningún tomo concreto, salvo casos excepcionales, y el tiempo de estudio será la mitad del que invertiría cualquier otra persona.",
+                        "Muchos eruditos son personas solitarias que pasan gran parte de su tiempo enclaustradas, relacionándose solo para progresar en los estudios. Valoran su intelecto por encima de todo y aprecian el conocimiento y la cultura, lo que les lleva muchas veces a menospreciar a los que no han recibido educación formal.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Historia ({@skill history})",
+								"Investigación ({@skill investigation})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Suministros de calígrafo ({@item calligrapher's supplies|phb})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Un estuche para mapas y pergaminos ({@item map or scroll case|phb})",
+								"Extraño pergamino en un idioma desconocido",
+								"Dos pergaminos en blanco",
+								"Pluma de escritura ({@item ink pen|phb})",
+								"Tinta ({@item ink (1-ounce bottle)|phb})",
+								"Ropa común ({@item common clothes|phb})",
+								"Saco ({@item pouch|phb}) con 15 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi voz monótona y calmada hace que la gente no me preste atención más que unos segundos.",
+								"(2) - Visto con ropas muy comunes y de colores apagados, no me gusta llamar la atención de los demás.",
+								"(3) - Siempre que puedo añado algún dato histórico a las conversaciones.",
+								"(4) - Cuando vuelvo de mis viajes escribo todo lo que he hecho en un pesado volumen de mi biblioteca.",
+								"(5) - Considero que mi campo de estudio es mucho más importante y vital que el resto.",
+								"(6) - Tiendo a crear conexiones y relaciones entre todo lo que ocurre a mi alrededor, aunque a veces sean improbables o enrevesadas.",
+								"(7) - Jamás me guardo una pregunta para mí mismo, mi curiosidad me lleva a indagar sobre todo lo que pueda interesarme.",
+								"(8) - Los libros y pergaminos me importan más que las personas; la gente puede cuidarse a sí misma."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Pueblo. Gracias a mis descubrimientos mejoran las condiciones de vida de mi gente (bueno).",
+								"(2) - Curiosidad. Aún queda mucho por comprender de este mundo, secretos por revelar y lugares a los que llegar (neutral).",
+								"(3) - Poder. Cuanto más aprendo de lo que me rodea, más fácil me resulta manipularlo a mi favor (maligno).",
+								"(4) - Magia. Existen energías arcanas muy poderosas de las que apenas sabemos nada (neutral).",
+								"(5) - Cambio. No debemos aceptar las cosas tal y como son, está en nuestra mano dar forma al mundo (caótico).",
+								"(6) - Lógica. Los sentimientos y creencias irracionales nos alejan del verdadero conocimiento. Son los hechos los que cuentan (legal)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Llevo tiempo tratando de hacerme con un antiguo manuscrito sobre el que he leído en muchas ocasiones.",
+								"(2) - Las pesadillas en las que aparece ese lejano lugar antinatural cada vez son más vívidas y aterradoras.",
+								"(3) - Los libros y pergaminos que estudiaba mi padre es lo único de lo que nunca me desprendo.",
+								"(4) - Centro mis estudios en salvar a mi aldea natal de la amenaza que se aproxima.",
+								"(5) - Un poderoso noble se encarga de mi sustento desde que mis estudios llamaron su atención.",
+								"(6) - Abandoné a mi familia y mi pueblo en la infancia para poder estudiar y no he vuelto a saber nada de ninguno de ellos."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Cuando me meto entre libros y documentos pierdo la noción del tiempo y de la realidad.",
+								"(2) - He hecho cosas despreciables para conseguir conocimiento prohibido. Me siento culpable, pero sé que seguiré haciéndolo.",
+								"(3) - Mi marcado tartamudeo hace que nadie me tome en serio.",
+								"(4) - Algunos ignorantes se molestan por mi falta de aseo y limpieza. No comprenden que no puedo perder tiempo en esas trivialidades.",
+								"(5) - Uno de mis descubrimientos me ha puesto en el punto de mira de una logia secreta que trata de silenciarme.",
+								"(6) - Tras años de tomar toda clase de sustancias para concentrarme, ya no soy capaz de estudiar sin ellas."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Muchos eruditos son personas solitarias que pasan gran parte de su tiempo enclaustradas, relacionándose solo para progresar en los estudios. Valoran su intelecto por encima de todo y aprecian el conocimiento y la cultura, lo que les lleva muchas veces a menospreciar a los que no han recibido educación formal.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi voz monótona y calmada hace que la gente no me preste atención más que unos segundos."
+								],
+								[
+									"2",
+									"Visto con ropas muy comunes y de colores apagados, no me gusta llamar la atención de los demás."
+								],
+								[
+									"3",
+									"Siempre que puedo añado algún dato histórico a las conversaciones."
+								],
+								[
+									"4",
+									"Cuando vuelvo de mis viajes escribo todo lo que he hecho en un pesado volumen de mi biblioteca."
+								],
+								[
+									"5",
+									"Considero que mi campo de estudio es mucho más importante y vital que el resto."
+								],
+								[
+									"6",
+									"Tiendo a crear conexiones y relaciones entre todo lo que ocurre a mi alrededor, aunque a veces sean improbables o enrevesadas."
+								],
+								[
+									"7",
+									"Jamás me guardo una pregunta para mí mismo, mi curiosidad me lleva a indagar sobre todo lo que pueda interesarme."
+								],
+								[
+									"8",
+									"Los libros y pergaminos me importan más que las personas; la gente puede cuidarse a sí misma."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Pueblo. Gracias a mis descubrimientos mejoran las condiciones de vida de mi gente (bueno)."
+								],
+								[
+									"2",
+									"Curiosidad. Aún queda mucho por comprender de este mundo, secretos por revelar y lugares a los que llegar (neutral)."
+								],
+								[
+									"3",
+									"Poder. Cuanto más aprendo de lo que me rodea, más fácil me resulta manipularlo a mi favor (maligno)."
+								],
+								[
+									"4",
+									"Magia. Existen energías arcanas muy poderosas de las que apenas sabemos nada (neutral)."
+								],
+								[
+									"5",
+									"Cambio. No debemos aceptar las cosas tal y como son, está en nuestra mano dar forma al mundo (caótico)."
+								],
+								[
+									"6",
+									"Lógica. Los sentimientos y creencias irracionales nos alejan del verdadero conocimiento. Son los hechos los que cuentan (legal)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Llevo tiempo tratando de hacerme con un antiguo manuscrito sobre el que he leído en muchas ocasiones."
+								],
+								[
+									"2",
+									"Las pesadillas en las que aparece ese lejano lugar antinatural cada vez son más vívidas y aterradoras."
+								],
+								[
+									"3",
+									"Los libros y pergaminos que estudiaba mi padre es lo único de lo que nunca me desprendo."
+								],
+								[
+									"4",
+									"Centro mis estudios en salvar a mi aldea natal de la amenaza que se aproxima."
+								],
+								[
+									"5",
+									"Un poderoso noble se encarga de mi sustento desde que mis estudios llamaron su atención."
+								],
+								[
+									"6",
+									"Abandoné a mi familia y mi pueblo en la infancia para poder estudiar y no he vuelto a saber nada de ninguno de ellos."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Cuando me meto entre libros y documentos pierdo la noción del tiempo y de la realidad."
+								],
+								[
+									"2",
+									"He hecho cosas despreciables para conseguir conocimiento prohibido. Me siento culpable, pero sé que seguiré haciéndolo."
+								],
+								[
+									"3",
+									"Mi marcado tartamudeo hace que nadie me tome en serio."
+								],
+								[
+									"4",
+									"Algunos ignorantes se molestan por mi falta de aseo y limpieza. No comprenden que no puedo perder tiempo en esas trivialidades."
+								],
+								[
+									"5",
+									"Uno de mis descubrimientos me ha puesto en el punto de mira de una logia secreta que trata de silenciarme."
+								],
+								[
+									"6",
+									"Tras años de tomar toda clase de sustancias para concentrarme, ya no soy capaz de estudiar sin ellas."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			]
+		},
+		{
+			"name": "Estudioso de los Peregrinos",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 114,
+			"skillProficiencies": [
+				{
+					"history": true,
+					"arcana": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Estudiosos de los Peregrinos",
+					"entries": [
+						"Hace siglos, los Peregrinos, seres de incalculable poder y ambición, dieron forma a lo que hoy en día conocemos como Voldor. Empleando sus capacidades mágicas, alteraron la tierra, dominaron las aguas y moldearon las civilizaciones a voluntad. Aunque para la mayoría son algo del pasado y ahí deben quedarse, tú sabes que los Peregrinos siguen siendo una pieza fundamental del mundo: su legado aún permanece y has dedicado tu vida a aprenderlo todo sobre ellos.",
+						"Rastrear a los Peregrinos es una vida intensa y llena de contrastes. Muchos otros han recorrido ya este camino, por lo que en bibliotecas y monasterios puede encontrarse toda clase de escritos y ensayos sobre ellos, algunos muy acertados y otros fantasiosos e inexactos. Pero saber lo que otros han descubierto no suele ser suficiente y todo estudioso de los Peregrinos que se precie acaba adentrándose en los restos de sus ciudades, tanto en los pocos restos que quedan en la superficie como en las enormes ruinas de Vajra, el mundo subterráneo en el que los Peregrinos establecieron su imperio."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Historia ({@skill history}), Conocimiento Arcano ({@skill arcana})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Suministros de calígrafo ({@item calligrapher's supplies|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Una pequeña pieza de xion, pluma de escritura ({@item ink pen|phb}) y tinta ({@item ink (1-ounce bottle)|phb}), un pergamino en blanco, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Conocimiento ancestral",
+					"entries": [
+						"Hace siglos, los Peregrinos, seres de incalculable poder y ambición, dieron forma a lo que hoy en día conocemos como Voldor. Empleando sus capacidades mágicas, alteraron la tierra, dominaron las aguas y moldearon las civilizaciones a voluntad. Aunque para la mayoría son algo del pasado y ahí deben quedarse, tú sabes que los Peregrinos siguen siendo una pieza fundamental del mundo: su legado aún permanece y has dedicado tu vida a aprenderlo todo sobre ellos.",
+						"Rastrear a los Peregrinos es una vida intensa y llena de contrastes. Muchos otros han recorrido ya este camino, por lo que en bibliotecas y monasterios puede encontrarse toda clase de escritos y ensayos sobre ellos, algunos muy acertados y otros fantasiosos e inexactos. Pero saber lo que otros han descubierto no suele ser suficiente y todo estudioso de los Peregrinos que se precie acaba adentrándose en los restos de sus ciudades, tanto en los pocos restos que quedan en la superficie como en las enormes ruinas de Vajra, el mundo subterráneo en el que los Peregrinos establecieron su imperio.",
+						"Para el papel que han tenido los Peregrinos en Voldor, se sabe muy poco sobre ellos. Uno de los misterios que se han conseguido desentrañar es su idioma, y tú eres unos de los que lo conocen: hablarlo es imposible, pero entiendes en gran medida sus escritos. También posees un conocimiento rudimentario tanto sobre su cultura como sobre su magia, por lo que, con las horas de estudio necesarias, puedes intuir el uso o la función de la mayoría de construcciones y artefactos de los Peregrinos. Obviamente, eso no implica saber utilizarlos.",
+						"Cuando elijas este trasfondo, define junto con el director de juego cuál fue tu inspiración para comenzar tus estudios, qué te interesa sobre los Peregrinos o qué tipo de investigación realizas. Él te dará algún dato o información sobre los Peregrinos que has descubierto y que prácticamente nadie en Voldor conoce.",
+                        "Aquellos que dedican su vida a estudiar a los Peregrinos suelen ser eruditos pacientes, dispuestos a dedicar su vida a una investigación que puede que nunca se complete. Gente de mente despierta y curiosos por naturaleza, la mayoría se pasan la vida rodeados de libros y grimorios. En algunos casos, la ambición o la curiosidad los llevan a ponerse en peligro o dejar la ética a un lado, volviéndose gente peligrosa para ellos mismos o para el resto.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Historia ({@skill history})",
+								"Conocimiento Arcano ({@skill arcana})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Suministros de calígrafo ({@item calligrapher's supplies|phb})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Una pequeña pieza de xion",
+								"Un pergamino en blanco",
+								"Pluma de escritura ({@item ink pen|phb})",
+								"Tinta ({@item ink (1-ounce bottle)|phb})",
+								"Ropa común ({@item common clothes|phb})",
+								"Saco ({@item pouch|phb}) con 15 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - La gente que se pasa el día rajando me saca de mis casillas. Solo hablo cuando tengo algo importante que decir.",
+								"(2) - Los Peregrinos y su legado es un tema trascendental para todos. Aquellos que no se los toman en serio son unos patanes descerebrados.",
+								"(3) - Siempre refuerzo mis argumentos citando a algún erudito o estudioso de tiempos pasados.",
+								"(4) - No concibo que la gente adore a dioses; solo lo terrenal influye en mi vida.",
+								"(5) - Una chimenea y una jarra de vino caliente especiado son la mejor forma de terminar una jornada de trabajo.",
+								"(6) - No soporto los secretos y las mentiras. Todo acaba saliendo a la luz y a veces de maneras peligrosas.",
+								"(7) - Nunca doy mi opinión sobre un tema hasta haber sopesado todas sus ramificaciones.",
+								"(8) - Descubrir algo nuevo sobre los Peregrinos es una causa por la que daría mi vida si fuera necesario."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Poder. Cuanto más aprendo sobre los Peregrinos, más cerca me encuentro de poder emplear sus artefactos, y entonces nadie podrá oponerse a mí (maligno).",
+								"(2) - Conocimiento arcano. Los Peregrinos eran los mayores magos que han pisado este mundo; siguiendo sus pasos aprenderé los secretos de la magia (neutral).",
+								"(3) - Paz. Los artefactos de los Peregrinos son capaces de abastecer ciudades enteras; con ellos la guerra por los recursos quedaría en el pasado (bueno).",
+								"(4) - Supremacía racial. Mi raza merece ocupar el vacío de poder dejado por los Peregrinos en Voldor (maligno).",
+								"(5) - Divinidad. El conocimiento llevó a los Peregrinos a un nivel de existencia más cercano a los dioses que a los mortales; debo aprender de ello (neutral).",
+								"(6) - Orden. En el imperio formado por los Peregrinos no había ni guerras ni caos y ese orden aún puede restablecerse (legal)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi antiguo maestro se internó en Vajra buscando una antigua ciudad de los Peregrinos y nunca he vuelto a saber de él.",
+								"(2) - Mi investigación me lleva hacia un descubrimiento que puede cambiar la manera en que mucha gente ve a los Peregrinos.",
+								"(3) - Gracias a los cuentos que me contaba mi madre, desde niño he vivido obsesionado con los dragones y todo lo que los rodea.",
+								"(4) - Hace años compré una pieza de xion a un contrabandista y aún no he sido capaz de comprender ni su uso ni su función.",
+								"(5) - La guerra entre mi pueblo y otra especie me hizo abandonar mi hogar, al que nunca he regresado.",
+								"(6) - Mis estudios me han llevado a apartarme de todos mis seres queridos."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Cuanto más profundizo en mis estudios, más claro veo lo cerca que está mi raza de los Peregrinos y lo inferiores que son el resto.",
+								"(2) - Cuando hay un posible descubrimiento cerca, mis compañeros pasan a un ser una pérdida asumible.",
+								"(3) - Una antigua relación comercial con traficantes de artefactos de los Peregrinos ha provocado que hayan puesto precio a mi cabeza.",
+								"(4) - Puede que los Peregrinos se sintieran cómodos en la oscuridad de Vajra, pero yo no puedo mantenerme sereno si no es con una luz cerca.",
+								"(5) - Me centro tanto en mis estudios que no presto atención a temas menores, tales como los nombres o rostros de la gente con la que me relaciono.",
+								"(6) - Mucha gente me relaciona con un mago tenebroso que tuve por maestro y creen que yo no soy de fiar."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Muchos eruditos son personas solitarias que pasan gran parte de su tiempo enclaustradas, relacionándose solo para progresar en los estudios. Valoran su intelecto por encima de todo y aprecian el conocimiento y la cultura, lo que les lleva muchas veces a menospreciar a los que no han recibido educación formal.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"La gente que se pasa el día rajando me saca de mis casillas. Solo hablo cuando tengo algo importante que decir."
+								],
+								[
+									"2",
+									"Los Peregrinos y su legado es un tema trascendental para todos. Aquellos que no se los toman en serio son unos patanes descerebrados."
+								],
+								[
+									"3",
+									"Siempre refuerzo mis argumentos citando a algún erudito o estudioso de tiempos pasados."
+								],
+								[
+									"4",
+									"No concibo que la gente adore a dioses; solo lo terrenal influye en mi vida."
+								],
+								[
+									"5",
+									"Una chimenea y una jarra de vino caliente especiado son la mejor forma de terminar una jornada de trabajo."
+								],
+								[
+									"6",
+									"No soporto los secretos y las mentiras. Todo acaba saliendo a la luz y a veces de maneras peligrosas."
+								],
+								[
+									"7",
+									"Nunca doy mi opinión sobre un tema hasta haber sopesado todas sus ramificaciones."
+								],
+								[
+									"8",
+									"Descubrir algo nuevo sobre los Peregrinos es una causa por la que daría mi vida si fuera necesario."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Poder. Cuanto más aprendo sobre los Peregrinos, más cerca me encuentro de poder emplear sus artefactos, y entonces nadie podrá oponerse a mí (maligno)."
+								],
+								[
+									"2",
+									"Conocimiento arcano. Los Peregrinos eran los mayores magos que han pisado este mundo; siguiendo sus pasos aprenderé los secretos de la magia (neutral)."
+								],
+								[
+									"3",
+									"Paz. Los artefactos de los Peregrinos son capaces de abastecer ciudades enteras; con ellos la guerra por los recursos quedaría en el pasado (bueno)."
+								],
+								[
+									"4",
+									"Supremacía racial. Mi raza merece ocupar el vacío de poder dejado por los Peregrinos en Voldor (maligno)."
+								],
+								[
+									"5",
+									"Divinidad. El conocimiento llevó a los Peregrinos a un nivel de existencia más cercano a los dioses que a los mortales; debo aprender de ello (neutral)."
+								],
+								[
+									"6",
+									"Orden. En el imperio formado por los Peregrinos no había ni guerras ni caos y ese orden aún puede restablecerse (legal)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi antiguo maestro se internó en Vajra buscando una antigua ciudad de los Peregrinos y nunca he vuelto a saber de él."
+								],
+								[
+									"2",
+									"Mi investigación me lleva hacia un descubrimiento que puede cambiar la manera en que mucha gente ve a los Peregrinos."
+								],
+								[
+									"3",
+									"Gracias a los cuentos que me contaba mi madre, desde niño he vivido obsesionado con los dragones y todo lo que los rodea."
+								],
+								[
+									"4",
+									"Hace años compré una pieza de xion a un contrabandista y aún no he sido capaz de comprender ni su uso ni su función."
+								],
+								[
+									"5",
+									"La guerra entre mi pueblo y otra especie me hizo abandonar mi hogar, al que nunca he regresado."
+								],
+								[
+									"6",
+									"Mis estudios me han llevado a apartarme de todos mis seres queridos."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Cuanto más profundizo en mis estudios, más claro veo lo cerca que está mi raza de los Peregrinos y lo inferiores que son el resto."
+								],
+								[
+									"2",
+									"Cuando hay un posible descubrimiento cerca, mis compañeros pasan a un ser una pérdida asumible."
+								],
+								[
+									"3",
+									"Una antigua relación comercial con traficantes de artefactos de los Peregrinos ha provocado que hayan puesto precio a mi cabeza."
+								],
+								[
+									"4",
+									"Puede que los Peregrinos se sintieran cómodos en la oscuridad de Vajra, pero yo no puedo mantenerme sereno si no es con una luz cerca."
+								],
+								[
+									"5",
+									"Me centro tanto en mis estudios que no presto atención a temas menores, tales como los nombres o rostros de la gente con la que me relaciono."
+								],
+								[
+									"6",
+									"Mucha gente me relaciona con un mago tenebroso que tuve por maestro y creen que yo no soy de fiar."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			]
+		},
+		{
+			"name": "Explorador de Vajra",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 115,
+			"skillProficiencies": [
+				{
+					"history": true,
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Exploradores de Vajra",
+					"entries": [
+						"Hace siglos, los Peregrinos, seres de incalculable poder y ambición, dieron forma a lo que hoy en día conocemos como Voldor. Empleando sus capacidades mágicas, alteraron la tierra, dominaron las aguas y moldearon las civilizaciones a voluntad. Aunque para la mayoría son algo del pasado y ahí deben quedarse, tú sabes que los Peregrinos siguen siendo una pieza fundamental del mundo: su legado aún permanece y has dedicado tu vida a aprenderlo todo sobre ellos.",
+						"Rastrear a los Peregrinos es una vida intensa y llena de contrastes. Muchos otros han recorrido ya este camino, por lo que en bibliotecas y monasterios puede encontrarse toda clase de escritos y ensayos sobre ellos, algunos muy acertados y otros fantasiosos e inexactos. Pero saber lo que otros han descubierto no suele ser suficiente y todo estudioso de los Peregrinos que se precie acaba adentrándose en los restos de sus ciudades, tanto en los pocos restos que quedan en la superficie como en las enormes ruinas de Vajra, el mundo subterráneo en el que los Peregrinos establecieron su imperio."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Historia ({@skill history}), Atletismo ({@skill athletics})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Herramientas de cartografo ({@item cartographer's tools|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un estuche para mapas o pergaminos ({@item map or scroll case|phb}), un kit de escalada ({@item climber's kit|phb}), un trozo de mapa de una región de Vajra, un set de ropa de viaje ({@item traveler's clothes|phb}) y un saco ({@item pouch|phb}) que contiene 10 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Conocimiento ancestral",
+					"entries": [
+						"Hace siglos, los Peregrinos, seres de incalculable poder y ambición, dieron forma a lo que hoy en día conocemos como Voldor. Empleando sus capacidades mágicas, alteraron la tierra, dominaron las aguas y moldearon las civilizaciones a voluntad. Aunque para la mayoría son algo del pasado y ahí deben quedarse, tú sabes que los Peregrinos siguen siendo una pieza fundamental del mundo: su legado aún permanece y has dedicado tu vida a aprenderlo todo sobre ellos.",
+						"Rastrear a los Peregrinos es una vida intensa y llena de contrastes. Muchos otros han recorrido ya este camino, por lo que en bibliotecas y monasterios puede encontrarse toda clase de escritos y ensayos sobre ellos, algunos muy acertados y otros fantasiosos e inexactos. Pero saber lo que otros han descubierto no suele ser suficiente y todo estudioso de los Peregrinos que se precie acaba adentrándose en los restos de sus ciudades, tanto en los pocos restos que quedan en la superficie como en las enormes ruinas de Vajra, el mundo subterráneo en el que los Peregrinos establecieron su imperio.",
+						"Para el papel que han tenido los Peregrinos en Voldor, se sabe muy poco sobre ellos. Uno de los misterios que se han conseguido desentrañar es su idioma, y tú eres unos de los que lo conocen: hablarlo es imposible, pero entiendes en gran medida sus escritos. También posees un conocimiento rudimentario tanto sobre su cultura como sobre su magia, por lo que, con las horas de estudio necesarias, puedes intuir el uso o la función de la mayoría de construcciones y artefactos de los Peregrinos. Obviamente, eso no implica saber utilizarlos.",
+						"Cuando elijas este trasfondo, define junto con el director de juego cuál fue tu inspiración para comenzar tus estudios, qué te interesa sobre los Peregrinos o qué tipo de investigación realizas. Él te dará algún dato o información sobre los Peregrinos que has descubierto y que prácticamente nadie en Voldor conoce.",
+                        "Aquellos que dedican su vida a estudiar a los Peregrinos suelen ser eruditos pacientes, dispuestos a dedicar su vida a una investigación que puede que nunca se complete. Gente de mente despierta y curiosos por naturaleza, la mayoría se pasan la vida rodeados de libros y grimorios. En algunos casos, la ambición o la curiosidad los llevan a ponerse en peligro o dejar la ética a un lado, volviéndose gente peligrosa para ellos mismos o para el resto.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Historia ({@skill history})",
+								"Atletismo ({@skill athletics})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Suministros de calígrafo ({@item calligrapher's supplies|phb})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Un estuche para mapas o pergaminos ({@item map or scroll case|phb})",
+								"kit de escalada ({@item climber's kit|phb})",
+								"Un trozo de mapa de una región de Vajra",
+								"Topa de viaje ({@item traveler's clothes|phb})",
+								"Saco ({@item pouch|phb}) con 10 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Todo lo que pueda cargar se viene conmigo. No me gusta dejar atrás nada que pueda tener algún valor.",
+								"(2) - No comprendo las quejas sobre mi higiene, en Vajra hay cosas que huelen mucho peor.",
+								"(3) - No me fío de la gente más inteligente que yo: tratarán de engañarme en algún momento para sacar provecho.",
+								"(4) - El trabajo en equipo es la mejor forma de mantenerse con vida. Uno sujeta la cuerda y el otro comienza el descenso.",
+								"(5) - Cuando estás a oscuras en lo profundo de Vajra es cuando mejor te puedes conocer a ti mismo.",
+								"(6) - Mis constantes quejas e improperios ponen de mal humor a mis compañeros.",
+								"(7) - Las historias de mis aventuras son sorprendentes y espectaculares, y en alguna ocasión hasta ciertas.",
+								"(8) - En las cavernas de Vajra he encontrado maravillas naturales mucho más impresionantes que cualquiera hecha por los Peregrinos."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Riqueza. Bajo la superficie se encuentra el hallazgo definitivo, el que me cubra de oro y me permita retirarme (neutral).",
+								"(2) - Libertad. En Vajra no existen las leyes ni reina ningún noble. En la oscuridad todos somos realmente libres (caótico).",
+								"(3) - Descubrimiento. Nada me llena más que saber que soy la primera persona en explorar esa caverna (neutral).",
+								"(4) - Reputación. No descansaré hasta que todo el mundo conozca mi nombre y mis éxitos (neutral).",
+								"(5) - Cacería. En los oscuros túneles de Vajra, lejos de la superficie, puedo ceder a mis instintos de cazador (maligno).",
+								"(6) - Fe. En algún lugar de Vajra está el hogar en el que moraron los dioses hace siglos. Sus enseñanzas aún permanecen allí (bueno)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Cuanto más profundizo en mis estudios, más claro veo lo cerca que está mi raza de los Peregrinos y lo inferiores que son el resto.",
+								"(2) - Cuando hay un posible descubrimiento cerca, mis compañeros pasan a un ser una pérdida asumible.",
+								"(3) - Una antigua relación comercial con traficantes de artefactos de los Peregrinos ha provocado que hayan puesto precio a mi cabeza.",
+								"(4) - Puede que los Peregrinos se sintieran cómodos en la oscuridad de Vajra, pero yo no puedo mantenerme sereno si no es con una luz cerca.",
+								"(5) - Me centro tanto en mis estudios que no presto atención a temas menores, tales como los nombres o rostros de la gente con la que me relaciono.",
+								"(6) - Mucha gente me relaciona con un mago tenebroso que tuve por maestro y creen que yo no soy de fiar."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Existe la creencia de que todo el que se interna en Vajra a mi lado solo encuentra una muerte horrible.",
+								"(2) - Desde lo que ocurrió en aquel canal subterráneo no puedo ver el agua sin echarme a temblar.",
+								"(3) - Creo que debería empezar a preocuparme por los temblores y los delirios; acercarme tanto a aquella torre de fulgor fue una mala idea.",
+								"(4) - Unos pocos muertos es un buen precio por un gran hallazgo.",
+								"(5) - Tengo asumido que cualquier trabajo puede ser el último, por lo que vivo siempre al máximo. No me arrepentiré de nada al morir.",
+								"(6) - Aquel mago para el que trabajé no quedó satisfecho del reparto y sus esbirros aún me siguen el rastro."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellos que dedican su vida a estudiar a los Peregrinos suelen ser eruditos pacientes, dispuestos a dedicar su vida a una investigación que puede que nunca se complete. Gente de mente despierta y curiosos por naturaleza, la mayoría se pasan la vida rodeados de libros y grimorios. En algunos casos, la ambición o la curiosidad los llevan a ponerse en peligro o dejar la ética a un lado, volviéndose gente peligrosa para ellos mismos o para el resto.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Todo lo que pueda cargar se viene conmigo. No me gusta dejar atrás nada que pueda tener algún valor."
+								],
+								[
+									"2",
+									"No comprendo las quejas sobre mi higiene, en Vajra hay cosas que huelen mucho peor."
+								],
+								[
+									"3",
+									"No me fío de la gente más inteligente que yo: tratarán de engañarme en algún momento para sacar provecho."
+								],
+								[
+									"4",
+									"El trabajo en equipo es la mejor forma de mantenerse con vida. Uno sujeta la cuerda y el otro comienza el descenso."
+								],
+								[
+									"5",
+									"Cuando estás a oscuras en lo profundo de Vajra es cuando mejor te puedes conocer a ti mismo."
+								],
+								[
+									"6",
+									"Mis constantes quejas e improperios ponen de mal humor a mis compañeros."
+								],
+								[
+									"7",
+									"Las historias de mis aventuras son sorprendentes y espectaculares, y en alguna ocasión hasta ciertas."
+								],
+								[
+									"8",
+									"En las cavernas de Vajra he encontrado maravillas naturales mucho más impresionantes que cualquiera hecha por los Peregrinos."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Riqueza. Bajo la superficie se encuentra el hallazgo definitivo, el que me cubra de oro y me permita retirarme (neutral)."
+								],
+								[
+									"2",
+									"Libertad. En Vajra no existen las leyes ni reina ningún noble. En la oscuridad todos somos realmente libres (caótico)."
+								],
+								[
+									"3",
+									"Descubrimiento. Nada me llena más que saber que soy la primera persona en explorar esa caverna (neutral)."
+								],
+								[
+									"4",
+									"Reputación. No descansaré hasta que todo el mundo conozca mi nombre y mis éxitos (neutral)."
+								],
+								[
+									"5",
+									"Cacería. En los oscuros túneles de Vajra, lejos de la superficie, puedo ceder a mis instintos de cazador (maligno)."
+								],
+								[
+									"6",
+									"Fe. En algún lugar de Vajra está el hogar en el que moraron los dioses hace siglos. Sus enseñanzas aún permanecen allí (bueno)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Cuanto más profundizo en mis estudios, más claro veo lo cerca que está mi raza de los Peregrinos y lo inferiores que son el resto."
+								],
+								[
+									"2",
+									"Cuando hay un posible descubrimiento cerca, mis compañeros pasan a un ser una pérdida asumible."
+								],
+								[
+									"3",
+									"Una antigua relación comercial con traficantes de artefactos de los Peregrinos ha provocado que hayan puesto precio a mi cabeza."
+								],
+								[
+									"4",
+									"Puede que los Peregrinos se sintieran cómodos en la oscuridad de Vajra, pero yo no puedo mantenerme sereno si no es con una luz cerca."
+								],
+								[
+									"5",
+									"Me centro tanto en mis estudios que no presto atención a temas menores, tales como los nombres o rostros de la gente con la que me relaciono."
+								],
+								[
+									"6",
+									"Mucha gente me relaciona con un mago tenebroso que tuve por maestro y creen que yo no soy de fiar."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Existe la creencia de que todo el que se interna en Vajra a mi lado solo encuentra una muerte horrible."
+								],
+								[
+									"2",
+									"Desde lo que ocurrió en aquel canal subterráneo no puedo ver el agua sin echarme a temblar."
+								],
+								[
+									"3",
+									"Creo que debería empezar a preocuparme por los temblores y los delirios; acercarme tanto a aquella torre de fulgor fue una mala idea."
+								],
+								[
+									"4",
+									"Unos pocos muertos es un buen precio por un gran hallazgo."
+								],
+								[
+									"5",
+									"Tengo asumido que cualquier trabajo puede ser el último, por lo que vivo siempre al máximo. No me arrepentiré de nada al morir."
+								],
+								[
+									"6",
+									"Aquel mago para el que trabajé no quedó satisfecho del reparto y sus esbirros aún me siguen el rastro."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"cartographer's tools": true
+				}
+			]
+		},
+		{
+			"name": "Habitante de Vajra",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 115,
+			"skillProficiencies": [
+				{
+					"perception": true,
+					"arcana": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Habitantes de Vajra",
+					"entries": [
+						"Cuando los Peregrinos dominaban Voldor, establecieron su imperio en las enormes cavernas subterráneas a las que dieron forma con sus conjuros. Allí abajo, lejos de la luz del sol, crearon enormes ciudades en las que vivir y llevaron consigo a otras razas para que los sirvieran. En la actualidad, no solo habitan Vajra esas razas que quedaron abandonadas a su suerte cuando los Peregrinos se fueron, sino también otras sociedades que han ocupado la región: algunos de los sirvientes de los Peregrinos, seres de la superficie como elfos y humanos, moran entre las ruinas del imperio de sus antiguos amos, concentrados alrededor de las Torres de Fulgor, lo suficientemente alejados como para no perder la vida. Generación tras generación, los habitantes de Vajra han aprendido lo necesario sobre los Peregrinos y sus ruinas como para sobrevivir en los restos de su civilización.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego en qué tipo de sociedad te has criado y por qué habita en Vajra. ¿Se trata de una raza oriunda del subterráneo o son seres de la superficie que malviven bajo tierra? ¿Han establecido su ciudad en alguna ruina antigua o junto a alguno de los grandes canales que recorren el subsuelo de Voldor?"
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Percepción ({@skill perception}), Conocimiento Arcano ({@skill arcana})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Herramientas de cartografo ({@item cartographer's tools|phb}) y kit de herborista ({@item herbalism kit|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Kit de herborista ({@item herbalism kit|phb}), kit de escalada ({@item climber's kit|phb}), un tarro lleno de hongos luminiscentes, un abalorio o adorno que perteneció a los Peregrinos, un set de ropa de viaje ({@item traveler's clothes|phb}) y un saco ({@item pouch|phb}) que contiene 10 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Morador de la oscuridad",
+					"entries": [
+						"Cuando los Peregrinos dominaban Voldor, establecieron su imperio en las enormes cavernas subterráneas a las que dieron forma con sus conjuros. Allí abajo, lejos de la luz del sol, crearon enormes ciudades en las que vivir y llevaron consigo a otras razas para que los sirvieran. En la actualidad, no solo habitan Vajra esas razas que quedaron abandonadas a su suerte cuando los Peregrinos se fueron, sino también otras sociedades que han ocupado la región: algunos de los sirvientes de los Peregrinos, seres de la superficie como elfos y humanos, moran entre las ruinas del imperio de sus antiguos amos, concentrados alrededor de las Torres de Fulgor, lo suficientemente alejados como para no perder la vida. Generación tras generación, los habitantes de Vajra han aprendido lo necesario sobre los Peregrinos y sus ruinas como para sobrevivir en los restos de su civilización.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego en qué tipo de sociedad te has criado y por qué habita en Vajra. ¿Se trata de una raza oriunda del subterráneo o son seres de la superficie que malviven bajo tierra? ¿Han establecido su ciudad en alguna ruina antigua o junto a alguno de los grandes canales que recorren el subsuelo de Voldor?",
+						"La vida en las profundas cuevas de Vajra es muy distinta de la de la superficie de Voldor. Bajo tierra, donde la oscuridad lo cubre todo, no hay más que extrañas criaturas y plantas que cubren los enormes corredores y los restos de las ciudades de los Peregrinos. Al haberte criado aquí, sabes qué animales y plantas pueden comerse y cuáles provocan una muerte horrible, o dónde encontrar agua fresca con la que saciar la sed. En Vajra puedes encontrar comida y bebida para ti y hasta cinco personas cada día.",
+						"Además, gracias a tu conocimiento de las cavernas y los tipos de fauna y flora, puedes tener una idea bastante aproximada de a qué profundidad te encuentras.",
+						"Vajra es un siniestro lugar en el que la vida es complicada, más aún para criaturas que no están adaptadas a la oscuridad. Aquellos que pasan mucho tiempo bajo tierra suelen ser silenciosos y taciturnos, que valoran el trabajo duro, pero también con un fuerte espíritu de supervivencia que los vuelve desconfiados y, en ocasiones, violentos.",
+                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Historia ({@skill history})",
+								"Atletismo ({@skill athletics})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Suministros de calígrafo ({@item calligrapher's supplies|phb})"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Kit de herborista ({@item herbalism kit|phb})",
+								"un tarro lleno de hongos luminiscentes",
+								"un abalorio o adorno que perteneció a los Peregrinos",
+								"un set de ropa de viaje ({@item traveler's clothes|phb})",
+								"Saco ({@item pouch|phb}) con 10 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Siempre llevo un arma oculta. No voy a dejar que me sorprendan desarmado.",
+								"(2) - Aún me impresiono cada vez que encuentro alguna ruina de los Peregrinos: su civilización era muy superior a la nuestra.",
+								"(3) - Me gusta estar activo y haciendo cosas, ya descansaré cuando esté muerto.",
+								"(4) - Cuando me encuentro ante un peligro, siempre rezo una oración mientras me preparo para la acción.",
+								"(5) - No importa lo que me ocurra, la vida sigue. No tiene sentido perder el tiempo en lamentarse.",
+								"(6) - Lo que ocurre en Vajra tiene un propósito definido por algún plan de los Peregrinos.",
+								"(7) - Aunque pueda meterme en problemas, nunca desaprovecho la ocasión de recorrer un sitio en el que no he estado todavía.",
+								"(8) - Confiar en que alguien te salve de una situación es la forma más fácil de acabar muerto. Solo puedo confiar en mí mismo."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Respeto. Tanto los que poblamos Vajra como los moradores de la superficie merecemos respeto y el mismo trato (bueno).",
+								"(2) - Ambición. Me he prometido hacer lo que sea con tal de abandonar mi pésima vida en la oscuridad de Vajra (maligno).",
+								"(3) - Conocimiento arcano. Entre las ruinas de los Peregrinos hay toda clase de misterios y secretos esperando a ser descubiertos (neutral).",
+								"(4) - Fe. No existe ninguna deidad salvo El Peregrino, que marca nuestro camino y merece nuestra devoción (cualquiera).",
+								"(5) - Trascendencia. Debemos seguir los pasos de los Peregrinos para romper las ataduras de este mundo y alcanzar una existencia plena (cualquiera).",
+								"(6) - Comunidad. Mi pueblo y yo no estamos dispuestos a compartir nuestro territorio con los que quieren nuestros recursos o saquear nuestras ruinas (neutral)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - La líder de nuestra comunidad es una sabia con más de tres siglos de experiencias a su espalda.",
+								"(2) - No puedo volver a mi hogar hasta que no logre cazar a la bestia de las profundidades.",
+								"(3) - Aún me arrepiento de las cosas que hice a mis enemigos para que nuestro pueblo mantuviese el control del canal.",
+								"(4) - Cada vez que me pongo el viejo medallón familiar noto como si alguien me observase desde la distancia.",
+								"(5) - He jurado no descansar hasta acabar con el hechicero que maldijo a mi pueblo y trajo la enfermedad y la muerte.",
+								"(6) - Desde la muerte de mi amor no he dejado de pensar en cómo traerlo de vuelta a la vida."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Mi propia gente me ha rechazado por la infamia de uno de mis seres queridos.",
+								"(2) - Permitir que otros luchen mis batallas es un símbolo de debilidad; no pienso permitir esa humillación.",
+								"(3) - La clave para sobrevivir es las grutas de Vajra es no ser el primero: se huye con más facilidad desde la retaguardia.",
+								"(4) - No me siento cómodo en los lugares iluminados. He perdido a demasiados amigos por acercarse a una Torre de Fulgor o a esos enormes espejos.",
+								"(5) - Aquellos que no siguen mis creencias religiosas con devoción probarán el filo de mi espada.",
+								"(6) - Disfruto demasiado de la comida y la bebida como para pasar hambre, aunque eso implique acabar con las provisiones."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Vajra es un siniestro lugar en el que la vida es complicada, más aún para criaturas que no están adaptadas a la oscuridad. Aquellos que pasan mucho tiempo bajo tierra suelen ser silenciosos y taciturnos, que valoran el trabajo duro, pero también con un fuerte espíritu de supervivencia que los vuelve desconfiados y, en ocasiones, violentos.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Siempre llevo un arma oculta. No voy a dejar que me sorprendan desarmado."
+								],
+								[
+									"2",
+									"Aún me impresiono cada vez que encuentro alguna ruina de los Peregrinos: su civilización era muy superior a la nuestra."
+								],
+								[
+									"3",
+									"Me gusta estar activo y haciendo cosas, ya descansaré cuando esté muerto."
+								],
+								[
+									"4",
+									"Cuando me encuentro ante un peligro, siempre rezo una oración mientras me preparo para la acción."
+								],
+								[
+									"5",
+									"No importa lo que me ocurra, la vida sigue. No tiene sentido perder el tiempo en lamentarse."
+								],
+								[
+									"6",
+									"Lo que ocurre en Vajra tiene un propósito definido por algún plan de los Peregrinos."
+								],
+								[
+									"7",
+									"Aunque pueda meterme en problemas, nunca desaprovecho la ocasión de recorrer un sitio en el que no he estado todavía."
+								],
+								[
+									"8",
+									"Confiar en que alguien te salve de una situación es la forma más fácil de acabar muerto. Solo puedo confiar en mí mismo."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+							[
+									"1",
+									"Respeto. Tanto los que poblamos Vajra como los moradores de la superficie merecemos respeto y el mismo trato (bueno)."
+								],
+								[
+									"2",
+									"Ambición. Me he prometido hacer lo que sea con tal de abandonar mi pésima vida en la oscuridad de Vajra (maligno)."
+								],
+								[
+									"3",
+									"Conocimiento arcano. Entre las ruinas de los Peregrinos hay toda clase de misterios y secretos esperando a ser descubiertos (neutral)."
+								],
+								[
+									"4",
+									"Fe. No existe ninguna deidad salvo El Peregrino, que marca nuestro camino y merece nuestra devoción (cualquiera)."
+								],
+								[
+									"5",
+									"Trascendencia. Debemos seguir los pasos de los Peregrinos para romper las ataduras de este mundo y alcanzar una existencia plena (cualquiera)."
+								],
+								[
+									"6",
+									"Comunidad. Mi pueblo y yo no estamos dispuestos a compartir nuestro territorio con los que quieren nuestros recursos o saquear nuestras ruinas (neutral)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"La líder de nuestra comunidad es una sabia con más de tres siglos de experiencias a su espalda."
+								],
+								[
+									"2",
+									"No puedo volver a mi hogar hasta que no logre cazar a la bestia de las profundidades."
+								],
+								[
+									"3",
+									"Aún me arrepiento de las cosas que hice a mis enemigos para que nuestro pueblo mantuviese el control del canal."
+								],
+								[
+									"4",
+									"Cada vez que me pongo el viejo medallón familiar noto como si alguien me observase desde la distancia."
+								],
+								[
+									"5",
+									"He jurado no descansar hasta acabar con el hechicero que maldijo a mi pueblo y trajo la enfermedad y la muerte."
+								],
+								[
+									"6",
+									"Desde la muerte de mi amor no he dejado de pensar en cómo traerlo de vuelta a la vida."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Mi propia gente me ha rechazado por la infamia de uno de mis seres queridos."
+								],
+								[
+									"2",
+									"Permitir que otros luchen mis batallas es un símbolo de debilidad; no pienso permitir esa humillación."
+								],
+								[
+									"3",
+									"La clave para sobrevivir es las grutas de Vajra es no ser el primero: se huye con más facilidad desde la retaguardia."
+								],
+								[
+									"4",
+									"No me siento cómodo en los lugares iluminados. He perdido a demasiados amigos por acercarse a una Torre de Fulgor o a esos enormes espejos."
+								],
+								[
+									"5",
+									"Aquellos que no siguen mis creencias religiosas con devoción probarán el filo de mi espada."
+								],
+								[
+									"6",
+									"Disfruto demasiado de la comida y la bebida como para pasar hambre, aunque eso implique acabar con las provisiones."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"cartographer's tools": true,
+					"herbalism kit": true
+				}
+			]
+		},
+		{
+			"name": "Indómito",
+			"source": "ElResurgirDelDragon_Trasfondos",
+			"page": 118,
+			"skillProficiencies": [
+				{
+					"nature": true,
+					"survival": true,
+					"tool": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Indómitos",
+					"entries": [
+						"Más allá de la civilización existe una inmensidad salvaje e inexplorada en la que las bestias campan sin control. Allí es donde has vivido prácticamente la totalidad de tu vida. Puede que durante tu infancia te abandonaran en la espesura por alguna razón y hayas vivido allí desde entonces o quizás decidiste abandonar el mundo urbano de manera voluntaria. Sea como sea, vives en soledad en territorio salvaje, valiéndote de tu propio trabajo y de lo que la naturaleza te otorga.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego la razón por la que vives alejado de las ciudades y describe tu nuevo hogar."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Competencia con habilidades",
+							"entry": "Naturaleza ({@skill nature}), Supervivencia ({@skill survival})"
+						},
+						{
+							"type": "item",
+							"name": "Competencia con herramientas",
+							"entry": "Herramientas de herborista ({@item herbalism kit|phb})"
+						},
+						{
+							"type": "item",
+							"name": "Idiomas",
+							"entry": "Un idioma a tu elección"
+						},
+						{
+							"type": "item",
+							"name": "Equipo",
+							"entry": "Un kit de herborista ({@item herbalism kit|phb}), yesca y pedernal ({@item tinderbox|phb}), trampa de cazador ({@item hunting trap|phb}), la piel de un animal, un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 10 po."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Uno de los nuestros",
+					"entries": [
+						"Más allá de la civilización existe una inmensidad salvaje e inexplorada en la que las bestias campan sin control. Allí es donde has vivido prácticamente la totalidad de tu vida. Puede que durante tu infancia te abandonaran en la espesura por alguna razón y hayas vivido allí desde entonces o quizás decidiste abandonar el mundo urbano de manera voluntaria. Sea como sea, vives en soledad en territorio salvaje, valiéndote de tu propio trabajo y de lo que la naturaleza te otorga.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego la razón por la que vives alejado de las ciudades y describe tu nuevo hogar.",
+						"Vivir en la naturaleza te ha enseñado a desenvolverte de manera autosuficiente. Cuando te encuentres a la intemperie, puedes encontrar agua y comida y construir un pequeño refugio para ti y un compañero. Además, muchos animales ya te consideran un animal salvaje más, por lo que los que no sean especialmente violentos tenderán a ignorarte en la mayoría de casos, siempre que no te vean como la única comida disponible.",
+						"Aquellas personas que se crían o viven aislados de la sociedad suelen dejarse llevar por sus instintos, por lo que pueden parecer demasiado directas. Aunque a veces se comporten de manera violenta, la soledad les ha enseñado a respetar y vivir en paz.",
+						"COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						{
+							"type": "list",
+							"items": [
+								"Naturaleza ({@skill nature})",
+								"Supervivencia ({@skill survival})"
+							]
+						},
+						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Herramientas de herborista ({@item herbalism kit|phb})"
+							]
+						},
+						"IDIOMAS (Agrega los idiomas manualmente)",
+						{
+							"type": "list",
+							"items": [
+								"Un idioma a tu elección"
+							]
+						},
+						"EQUIPO (Agregalo manualmente desde el compendio)",
+						{
+							"type": "list",
+							"items": [
+								"Un kit de herborista ({@item herbalism kit|phb})",
+								"Yesca y pedernal ({@item tinderbox|phb})",
+								"Trampa de cazador ({@item hunting trap|phb})",
+								"Piel de un animal",
+								"Ropa común ({@item common clothes|phb})",
+								"Saco ({@item pouch|phb}) con 10 po"
+							]
+						},
+						"RASGOS DE PERSONALIDAD (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - No como carne de animales en cuya caza no he participado.",
+								"(2) - Creo que los animales salvajes son mucho más leales que las personas. Confío más en ellos que en cualquiera de mi especie.",
+								"(3) - Una mirada o un gesto es suficiente en muchas ocasiones. No me gusta malgastar el tiempo hablando.",
+								"(4) - El respeto se gana con fuerza. Las personas fuertes y autosuficientes se merecen mi aprecio.",
+								"(5) - Las multitudes me hacen ponerme en guardia. Cualquiera puede ser una amenaza.",
+								"(6) - Estoy convencido de que en las estrellas puede verse nuestro destino.",
+								"(7) - Nunca pierdo los nervios ni me dejo llevar por insultos ni provocaciones; la violencia es el último recurso.",
+								"(8) - Me gusta disfrutar del silencio y de la naturaleza. Necesito momentos tranquilos para reflexionar."
+							]
+						},
+						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Libertad. Las leyes de la civilización coartan la libertad y la naturaleza de los seres vivos. Merecemos ser libres y que no decidan por nosotros (caótico).",
+								"(2) - Supervivencia. Solo los fuertes sobreviven. Cuanto más fuerte soy, más fácil me resulta sobrevivir a mis enemigos (neutral).",
+								"(3) - Manada. No se puede vivir siempre en solitario, el bienestar de los míos está por encima de todo lo demás (bueno).",
+								"(4) - Naturaleza. A medida que avanza la civilización, más sufre la naturaleza. La madre tierra debe ser protegida (caótico).",
+								"(5) - Lealtad. Hasta los animales más salvajes tienen jerarquías. El líder merece confianza y lealtad (legal).",
+								"(6) - Violencia. Mi lado más salvaje guía mis pasos. No hay combate ni disputa que no merezca mi atención (maligno)."
+							]
+						},
+						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Siempre he vivido en soledad en la naturaleza. Desconozco de dónde vengo o qué fue de mi familia.",
+								"(2) - Una poderosa y antigua criatura me persigue para devorarme. Mi sola presencia pone en peligro a los que me rodean.",
+								"(3) - Mis padres me alejaron de ellos para protegerme de aquellos que los amenazaban.",
+								"(4) - He descubierto un conocimiento antiguo y perdido durante mis viajes alejado de la civilización.",
+								"(5) - La pérdida de mi amor me hizo no soportar vivir con nadie más y hui hacia lo desconocido.",
+								"(6) - Pertenezco a un antiguo linaje que ha arrastrado una maldición durante generaciones."
+							]
+						},
+						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
+						{
+							"type": "list",
+							"items": [
+								"(1) - Tengo una parte oscura y violenta que lucho por mantener controlada.",
+								"(2) - Los problemas de la gente no me interesan, soy incapaz de empatizar con la gente a la que no conozco.",
+								"(3) - No soporto la mentira y los engaños. Siempre soy sincero y directo, aunque ello me meta en problemas a menudo.",
+								"(4) - Ni me gusta ni me preocupa el dinero, prefiero vivir haciendo yo las cosas antes que pagar por ellas.",
+								"(5) - Una vez que se me mete una idea en la cabeza, nada puede hacerme cambiar de opinión.",
+								"(6) - Tras tantos años de vivir en la naturaleza, cualquier elemento urbano me fascina."
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Características sugeridas",
+					"entries": [
+						"Aquellas personas que se crían o viven aislados de la sociedad suelen dejarse llevar por sus instintos, por lo que pueden parecer demasiado directas. Aunque a veces se comporten de manera violenta, la soledad les ha enseñado a respetar y vivir en paz.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Rasgo de personalidad"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"No como carne de animales en cuya caza no he participado."
+								],
+								[
+									"2",
+									"Creo que los animales salvajes son mucho más leales que las personas. Confío más en ellos que en cualquiera de mi especie."
+								],
+								[
+									"3",
+									"Una mirada o un gesto es suficiente en muchas ocasiones. No me gusta malgastar el tiempo hablando."
+								],
+								[
+									"4",
+									"El respeto se gana con fuerza. Las personas fuertes y autosuficientes se merecen mi aprecio."
+								],
+								[
+									"5",
+									"Las multitudes me hacen ponerme en guardia. Cualquiera puede ser una amenaza."
+								],
+								[
+									"6",
+									"Estoy convencido de que en las estrellas puede verse nuestro destino."
+								],
+								[
+									"7",
+									"Nunca pierdo los nervios ni me dejo llevar por insultos ni provocaciones; la violencia es el último recurso."
+								],
+								[
+									"8",
+									"Me gusta disfrutar del silencio y de la naturaleza. Necesito momentos tranquilos para reflexionar."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Libertad. Las leyes de la civilización coartan la libertad y la naturaleza de los seres vivos. Merecemos ser libres y que no decidan por nosotros (caótico)."
+								],
+								[
+									"2",
+									"Supervivencia. Solo los fuertes sobreviven. Cuanto más fuerte soy, más fácil me resulta sobrevivir a mis enemigos (neutral)."
+								],
+								[
+									"3",
+									"Manada. No se puede vivir siempre en solitario, el bienestar de los míos está por encima de todo lo demás (bueno)."
+								],
+								[
+									"4",
+									"Naturaleza. A medida que avanza la civilización, más sufre la naturaleza. La madre tierra debe ser protegida (caótico)."
+								],
+								[
+									"5",
+									"Lealtad. Hasta los animales más salvajes tienen jerarquías. El líder merece confianza y lealtad (legal)."
+								],
+								[
+									"6",
+									"Violencia. Mi lado más salvaje guía mis pasos. No hay combate ni disputa que no merezca mi atención (maligno)."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Vínculo"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Siempre he vivido en soledad en la naturaleza. Desconozco de dónde vengo o qué fue de mi familia."
+								],
+								[
+									"2",
+									"Una poderosa y antigua criatura me persigue para devorarme. Mi sola presencia pone en peligro a los que me rodean."
+								],
+								[
+									"3",
+									"Mis padres me alejaron de ellos para protegerme de aquellos que los amenazaban."
+								],
+								[
+									"4",
+									"He descubierto un conocimiento antiguo y perdido durante mis viajes alejado de la civilización."
+								],
+								[
+									"5",
+									"La pérdida de mi amor me hizo no soportar vivir con nadie más y hui hacia lo desconocido."
+								],
+								[
+									"6",
+									"Pertenezco a un antiguo linaje que ha arrastrado una maldición durante generaciones."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Desventaja"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Tengo una parte oscura y violenta que lucho por mantener controlada."
+								],
+								[
+									"2",
+									"Los problemas de la gente no me interesan, soy incapaz de empatizar con la gente a la que no conozco."
+								],
+								[
+									"3",
+									"No soporto la mentira y los engaños. Siempre soy sincero y directo, aunque ello me meta en problemas a menudo."
+								],
+								[
+									"4",
+									"Ni me gusta ni me preocupa el dinero, prefiero vivir haciendo yo las cosas antes que pagar por ellas."
+								],
+								[
+									"5",
+									"Una vez que se me mete una idea en la cabeza, nada puede hacerme cambiar de opinión."
+								],
+								[
+									"6",
+									"Tras tantos años de vivir en la naturaleza, cualquier elemento urbano me fascina."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			]
 		}
 
 	]
