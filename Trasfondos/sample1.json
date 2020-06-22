@@ -1,21 +1,22 @@
 ,
 		{
-			"name": "Explorador de Vajra",
+			"name": "Miembro de una tribu",
 			"source": "ElResurgirDelDragon_Trasfondos",
-			"page": 115,
+			"page": 120,
 			"skillProficiencies": [
 				{
-					"history": true,
-					"athletics": true
+					"animal handling": true,
+					"survival": true,
+					"tool": true
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Exploradores de Vajra",
+					"name": "Miembros de una tribu",
 					"entries": [
-						"Hace siglos, los Peregrinos, seres de incalculable poder y ambición, dieron forma a lo que hoy en día conocemos como Voldor. Empleando sus capacidades mágicas, alteraron la tierra, dominaron las aguas y moldearon las civilizaciones a voluntad. Aunque para la mayoría son algo del pasado y ahí deben quedarse, tú sabes que los Peregrinos siguen siendo una pieza fundamental del mundo: su legado aún permanece y has dedicado tu vida a aprenderlo todo sobre ellos.",
-						"Rastrear a los Peregrinos es una vida intensa y llena de contrastes. Muchos otros han recorrido ya este camino, por lo que en bibliotecas y monasterios puede encontrarse toda clase de escritos y ensayos sobre ellos, algunos muy acertados y otros fantasiosos e inexactos. Pero saber lo que otros han descubierto no suele ser suficiente y todo estudioso de los Peregrinos que se precie acaba adentrándose en los restos de sus ciudades, tanto en los pocos restos que quedan en la superficie como en las enormes ruinas de Vajra, el mundo subterráneo en el que los Peregrinos establecieron su imperio."
+						"Desde el origen de las civilizaciones, los seres vivos se han agrupado para sobrevivir. De esta manera es como surgieron los asentamientos que, con el tiempo, se convertirían en esplendorosas ciudades. Pero no todos evolucionarían de esa manera, sino que aún hay pequeñas comunidades en las que todos los miembros son importantes. Tú, como miembro de una tribu, clan o pueblo, trabajas la tierra junto a tus congéneres y convivís con la naturaleza en armonía.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego a qué tipo de tribu perteneces. Puedes definir aspectos tales como el idioma, la cultura, la religión que seguís o el sistema para tomar decisiones que tenéis: por consenso o siguiendo los dictados de un líder. También es recomendable tener claro cuál es tu posición en la tribu y qué trabajo realizas para ella."
 					]
 				},
 				{
@@ -25,12 +26,12 @@
 						{
 							"type": "item",
 							"name": "Competencia con habilidades",
-							"entry": "Historia ({@skill history}), Atletismo ({@skill athletics})"
+							"entry": "Trato con Animales ({@skill animal handling}), Supervivencia ({@skill survival})"
 						},
 						{
 							"type": "item",
 							"name": "Competencia con herramientas",
-							"entry": "Herramientas de cartografo ({@item cartographer's tools|phb})"
+							"entry": "Un instrumento (de tu elección)"
 						},
 						{
 							"type": "item",
@@ -40,32 +41,31 @@
 						{
 							"type": "item",
 							"name": "Equipo",
-							"entry": "Un estuche para mapas o pergaminos ({@item map or scroll case|phb}), un kit de escalada ({@item climber's kit|phb}), un trozo de mapa de una región de Vajra, un set de ropa de viaje ({@item traveler's clothes|phb}) y un saco ({@item pouch|phb}) que contiene 10 po."
+							"entry": "Un instrumento de tu elección, yesca y pedernal ({@item tinderbox|phb}), un pequeño símbolo de tu fe hecho por ti mismo, raciones para tres días ({@item rations (1 day)|phb}), un set de ropa común ({@item common clothes|phb}) y un saco ({@item pouch|phb}) que contiene 15 po"
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Feature: Conocimiento ancestral",
+					"name": "Feature: Aprendizaje Cultural",
 					"entries": [
-						"Hace siglos, los Peregrinos, seres de incalculable poder y ambición, dieron forma a lo que hoy en día conocemos como Voldor. Empleando sus capacidades mágicas, alteraron la tierra, dominaron las aguas y moldearon las civilizaciones a voluntad. Aunque para la mayoría son algo del pasado y ahí deben quedarse, tú sabes que los Peregrinos siguen siendo una pieza fundamental del mundo: su legado aún permanece y has dedicado tu vida a aprenderlo todo sobre ellos.",
-						"Rastrear a los Peregrinos es una vida intensa y llena de contrastes. Muchos otros han recorrido ya este camino, por lo que en bibliotecas y monasterios puede encontrarse toda clase de escritos y ensayos sobre ellos, algunos muy acertados y otros fantasiosos e inexactos. Pero saber lo que otros han descubierto no suele ser suficiente y todo estudioso de los Peregrinos que se precie acaba adentrándose en los restos de sus ciudades, tanto en los pocos restos que quedan en la superficie como en las enormes ruinas de Vajra, el mundo subterráneo en el que los Peregrinos establecieron su imperio.",
-						"Para el papel que han tenido los Peregrinos en Voldor, se sabe muy poco sobre ellos. Uno de los misterios que se han conseguido desentrañar es su idioma, y tú eres unos de los que lo conocen: hablarlo es imposible, pero entiendes en gran medida sus escritos. También posees un conocimiento rudimentario tanto sobre su cultura como sobre su magia, por lo que, con las horas de estudio necesarias, puedes intuir el uso o la función de la mayoría de construcciones y artefactos de los Peregrinos. Obviamente, eso no implica saber utilizarlos.",
-						"Cuando elijas este trasfondo, define junto con el director de juego cuál fue tu inspiración para comenzar tus estudios, qué te interesa sobre los Peregrinos o qué tipo de investigación realizas. Él te dará algún dato o información sobre los Peregrinos que has descubierto y que prácticamente nadie en Voldor conoce.",
-                        "Aquellos que dedican su vida a estudiar a los Peregrinos suelen ser eruditos pacientes, dispuestos a dedicar su vida a una investigación que puede que nunca se complete. Gente de mente despierta y curiosos por naturaleza, la mayoría se pasan la vida rodeados de libros y grimorios. En algunos casos, la ambición o la curiosidad los llevan a ponerse en peligro o dejar la ética a un lado, volviéndose gente peligrosa para ellos mismos o para el resto.",
-                        "COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
+						"Desde el origen de las civilizaciones, los seres vivos se han agrupado para sobrevivir. De esta manera es como surgieron los asentamientos que, con el tiempo, se convertirían en esplendorosas ciudades. Pero no todos evolucionarían de esa manera, sino que aún hay pequeñas comunidades en las que todos los miembros son importantes. Tú, como miembro de una tribu, clan o pueblo, trabajas la tierra junto a tus congéneres y convivís con la naturaleza en armonía.",
+						"Cuando elijas este trasfondo, piensa junto al director de juego a qué tipo de tribu perteneces. Puedes definir aspectos tales como el idioma, la cultura, la religión que seguís o el sistema para tomar decisiones que tenéis: por consenso o siguiendo los dictados de un líder. También es recomendable tener claro cuál es tu posición en la tribu y qué trabajo realizas para ella.",
+						"Las tribus de la región habéis desarrollado una serie de creencias y costumbres que os definen, y sabéis que una falta de respeto hacía un líder puede acabar en guerra y un malentendido religioso, desencadenar una ejecución. Has desarrollado una cierta habilidad para comprender con rapidez los detalles más básicos de las sociedades con las que te encuentras. Cada vez que te reúnas con gente de otras culturas o de regiones lejanas, tendrás una idea de qué cosas no deberías decir delante de su líder, qué podrían considerar una herejía, cuál es el protocolo para presentar respetos ante sus ancianos…",
+						"La gente que pertenece a una tribu suele estar acostumbrada al trabajo comunitario al aire libre, como la agricultura y la ganadería, y tener un gran respeto tanto hacia la naturaleza como hacia los dioses. En algunos casos también pueden recelar de los extranjeros y estar demasiado centrados en su comunidad como para preocuparse de lo que ocurre más allá.",
+						"COMPETENCIA CON HABILIDADES (Verifica si esta marcada la habilidad en caso que ya tengas competencia con una de la habilidades puedes escoger otra habilidad pero del mismo tipo de característica)",
 						{
 							"type": "list",
 							"items": [
-								"Historia ({@skill history})",
-								"Atletismo ({@skill athletics})"
+								"Trato con Animales ({@skill animal handling})",
+								"Supervivencia ({@skill survival})"
 							]
 						},
 						"COMPETENCIA CON HERRAMIENTAS (Agrega la competencia manualmente)",
 						{
 							"type": "list",
 							"items": [
-								"Suministros de calígrafo ({@item calligrapher's supplies|phb})"
+								"Un Instrumento (de tu elección: {@item bagpipes|phb}, {@item drum|phb}, {@item dulcimer|phb}, {@item flute set|phb}, {@item horn|phb}, {@item lute|phb}, {@item lyre|phb}, {@item pan flute|phb}, {@item shawm|phb}, {@item viol|phb})"
 							]
 						},
 						"IDIOMAS (Agrega los idiomas manualmente)",
@@ -79,10 +79,11 @@
 						{
 							"type": "list",
 							"items": [
-								"Un estuche para mapas o pergaminos ({@item map or scroll case|phb})",
-								"kit de escalada ({@item climber's kit|phb})",
-								"Un trozo de mapa de una región de Vajra",
-								"Topa de viaje ({@item traveler's clothes|phb})",
+								"Un instrumento de tu elección",
+								"yesca y pedernal ({@item tinderbox|phb})",
+								"un pequeño símbolo de tu fe hecho por ti mismo",
+								"raciones para tres días ({@item rations (1 day)|phb})",
+								"Ropa común ({@item common clothes|phb})",
 								"Saco ({@item pouch|phb}) con 10 po"
 							]
 						},
@@ -90,50 +91,51 @@
 						{
 							"type": "list",
 							"items": [
-								"(1) - Todo lo que pueda cargar se viene conmigo. No me gusta dejar atrás nada que pueda tener algún valor.",
-								"(2) - No comprendo las quejas sobre mi higiene, en Vajra hay cosas que huelen mucho peor.",
-								"(3) - No me fío de la gente más inteligente que yo: tratarán de engañarme en algún momento para sacar provecho.",
-								"(4) - El trabajo en equipo es la mejor forma de mantenerse con vida. Uno sujeta la cuerda y el otro comienza el descenso.",
-								"(5) - Cuando estás a oscuras en lo profundo de Vajra es cuando mejor te puedes conocer a ti mismo.",
-								"(6) - Mis constantes quejas e improperios ponen de mal humor a mis compañeros.",
-								"(7) - Las historias de mis aventuras son sorprendentes y espectaculares, y en alguna ocasión hasta ciertas.",
-								"(8) - En las cavernas de Vajra he encontrado maravillas naturales mucho más impresionantes que cualquiera hecha por los Peregrinos."
+								"(1) - Para cualquier cosa que me ocurre tengo una cita o enseñanza de mis ancestros que puedo aplicar.",
+								"(2) - Por las noches disfruto de mirar el fuego y buscar sentido a las formas que toman las llamas.",
+								"(3) - Mi seguridad y la de los míos es una prioridad. Nunca dejo de vigilarme las espaldas.",
+								"(4) - Los bienes materiales nos distraen de las cosas importantes de la vida. Nunca me dejo llevar por el dinero o la ambición.",
+								"(5) - Cualquier momento y lugar es adecuado para un escarceo amoroso.",
+								"(6) - Tengo un tono de voz suave y tranquilo, no alzo la voz ocurra lo que ocurra.",
+								"(7) - Me encuentro más cómodo rodeado de árboles y animales que de personas.",
+								"(8) - Mi curiosidad y ansia de conocimiento me lleva a los lugares más insospechados."
 							]
 						},
 						"IDEALES (Escoge uno y ubicalo en la casilla correspondiente)",
 						{
 							"type": "list",
 							"items": [
-								"(1) - Riqueza. Bajo la superficie se encuentra el hallazgo definitivo, el que me cubra de oro y me permita retirarme (neutral).",
-								"(2) - Libertad. En Vajra no existen las leyes ni reina ningún noble. En la oscuridad todos somos realmente libres (caótico).",
-								"(3) - Descubrimiento. Nada me llena más que saber que soy la primera persona en explorar esa caverna (neutral).",
-								"(4) - Reputación. No descansaré hasta que todo el mundo conozca mi nombre y mis éxitos (neutral).",
-								"(5) - Cacería. En los oscuros túneles de Vajra, lejos de la superficie, puedo ceder a mis instintos de cazador (maligno).",
-								"(6) - Fe. En algún lugar de Vajra está el hogar en el que moraron los dioses hace siglos. Sus enseñanzas aún permanecen allí (bueno)."
+								"(1) - Dioses. Existe una autoridad superior a nosotros y es nuestro deber honrarla, servirla y seguir sus designios (legal).",
+								"(2) - Paz. Alejando los conflictos de nuestra vida es como logramos crecer y desarrollar nuestro potencial (bueno).",
+								"(3) - Libertad. Las normas y reglas no son más que unas indicaciones de cómo vivir, no algo que deba seguirse al pie de la letra (caótico).",
+								"(4) - Comunidad. De manera individual tengo mucho menos valor que como parte de un grupo. Los míos cuentan conmigo y yo con ellos (neutral).",
+								"(5) - Poder. La mayoría de gente no puede valerse por sí misma si no cuenta con alguien que la guíe, y quién mejor que yo para hacerlo (maligno).",
+								"(6) - Supremacía. El resto de culturas viven acorde a unas creencias y formas de vida erróneas. Es mi deber llevarles el verdadero camino (maligno)."
 							]
 						},
 						"VINCULOS (Escoge uno y ubicalo en la casilla correspondiente)",
 						{
 							"type": "list",
 							"items": [
-								"(1) - Cuanto más profundizo en mis estudios, más claro veo lo cerca que está mi raza de los Peregrinos y lo inferiores que son el resto.",
-								"(2) - Cuando hay un posible descubrimiento cerca, mis compañeros pasan a un ser una pérdida asumible.",
-								"(3) - Una antigua relación comercial con traficantes de artefactos de los Peregrinos ha provocado que hayan puesto precio a mi cabeza.",
-								"(4) - Puede que los Peregrinos se sintieran cómodos en la oscuridad de Vajra, pero yo no puedo mantenerme sereno si no es con una luz cerca.",
-								"(5) - Me centro tanto en mis estudios que no presto atención a temas menores, tales como los nombres o rostros de la gente con la que me relaciono.",
-								"(6) - Mucha gente me relaciona con un mago tenebroso que tuve por maestro y creen que yo no soy de fiar."
+								"(1) - Mi tribu me ha encomendado una tarea de vital importancia y no puedo faltar a mi deber.",
+								"(2) - Mis sueños sobre una inminente catástrofe son cada vez más recurrentes.",
+								"(3) - Tras la destrucción de mi tribu, soy el único que puede lograr que nuestras tradiciones no se pierdan para siempre.",
+								"(4) - He jurado acabar con aquellos salvajes que saquearon nuestro hogar y no descansaré hasta encontrarlos.",
+								"(5) - He emprendido mi viaje para pacificar la región y lograr que mi hogar no corra peligro.",
+								"(6) - Hace años un desconocido me salvó la vida y aún no he pagado mi deuda con él."
+
 							]
 						},
 						"DEFECTOS (Escoge uno y ubicalo en la casilla correspondiente)",
 						{
 							"type": "list",
 							"items": [
-								"(1) - Existe la creencia de que todo el que se interna en Vajra a mi lado solo encuentra una muerte horrible.",
-								"(2) - Desde lo que ocurrió en aquel canal subterráneo no puedo ver el agua sin echarme a temblar.",
-								"(3) - Creo que debería empezar a preocuparme por los temblores y los delirios; acercarme tanto a aquella torre de fulgor fue una mala idea.",
-								"(4) - Unos pocos muertos es un buen precio por un gran hallazgo.",
-								"(5) - Tengo asumido que cualquier trabajo puede ser el último, por lo que vivo siempre al máximo. No me arrepentiré de nada al morir.",
-								"(6) - Aquel mago para el que trabajé no quedó satisfecho del reparto y sus esbirros aún me siguen el rastro."
+								"(1) - Mi tranquilidad y pasividad se suelen confundir con cobardía.",
+								"(2) - Jamás podré confiar en quienes no comparten mis creencias religiosas.",
+								"(3) - Mi idioma natal debe ser respetado, ya que es un idioma ancestral. No soporto manchar mi lengua hablando otros idiomas.",
+								"(4) - Las grotescas ceremonias de mi pueblo provocan rechazo entre el resto de culturas.",
+								"(5) - Suelo consumir grandes cantidades de plantas alucinógenas para que me ayuden en mis momentos de oración.",
+								"(6) - Fui expulsado de mi tribu por un terrible crimen y no puedo dejar que ninguno de mis actuales compañeros lo descubra."
 							]
 						}
 					],
@@ -145,7 +147,7 @@
 					"type": "entries",
 					"name": "Características sugeridas",
 					"entries": [
-						"Muchos eruditos son personas solitarias que pasan gran parte de su tiempo enclaustradas, relacionándose solo para progresar en los estudios. Valoran su intelecto por encima de todo y aprecian el conocimiento y la cultura, lo que les lleva muchas veces a menospreciar a los que no han recibido educación formal.",
+						"Aquellas personas que se crían o viven aislados de la sociedad suelen dejarse llevar por sus instintos, por lo que pueden parecer demasiado directas. Aunque a veces se comporten de manera violenta, la soledad les ha enseñado a respetar y vivir en paz.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -159,35 +161,35 @@
 							"rows": [
 								[
 									"1",
-									"Todo lo que pueda cargar se viene conmigo. No me gusta dejar atrás nada que pueda tener algún valor."
+									"Para cualquier cosa que me ocurre tengo una cita o enseñanza de mis ancestros que puedo aplicar."
 								],
 								[
 									"2",
-									"No comprendo las quejas sobre mi higiene, en Vajra hay cosas que huelen mucho peor."
+									"Por las noches disfruto de mirar el fuego y buscar sentido a las formas que toman las llamas."
 								],
 								[
 									"3",
-									"No me fío de la gente más inteligente que yo: tratarán de engañarme en algún momento para sacar provecho."
+									"Mi seguridad y la de los míos es una prioridad. Nunca dejo de vigilarme las espaldas."
 								],
 								[
 									"4",
-									"El trabajo en equipo es la mejor forma de mantenerse con vida. Uno sujeta la cuerda y el otro comienza el descenso."
+									"Los bienes materiales nos distraen de las cosas importantes de la vida. Nunca me dejo llevar por el dinero o la ambición."
 								],
 								[
 									"5",
-									"Cuando estás a oscuras en lo profundo de Vajra es cuando mejor te puedes conocer a ti mismo."
+									"Cualquier momento y lugar es adecuado para un escarceo amoroso."
 								],
 								[
 									"6",
-									"Mis constantes quejas e improperios ponen de mal humor a mis compañeros."
+									"Tengo un tono de voz suave y tranquilo, no alzo la voz ocurra lo que ocurra."
 								],
 								[
 									"7",
-									"Las historias de mis aventuras son sorprendentes y espectaculares, y en alguna ocasión hasta ciertas."
+									"Me encuentro más cómodo rodeado de árboles y animales que de personas."
 								],
 								[
 									"8",
-									"En las cavernas de Vajra he encontrado maravillas naturales mucho más impresionantes que cualquiera hecha por los Peregrinos."
+									"Mi curiosidad y ansia de conocimiento me lleva a los lugares más insospechados."
 								]
 							]
 						},
@@ -204,27 +206,27 @@
 							"rows": [
 								[
 									"1",
-									"Riqueza. Bajo la superficie se encuentra el hallazgo definitivo, el que me cubra de oro y me permita retirarme (neutral)."
+									"Dioses. Existe una autoridad superior a nosotros y es nuestro deber honrarla, servirla y seguir sus designios (legal)."
 								],
 								[
 									"2",
-									"Libertad. En Vajra no existen las leyes ni reina ningún noble. En la oscuridad todos somos realmente libres (caótico)."
+									"Paz. Alejando los conflictos de nuestra vida es como logramos crecer y desarrollar nuestro potencial (bueno)."
 								],
 								[
 									"3",
-									"Descubrimiento. Nada me llena más que saber que soy la primera persona en explorar esa caverna (neutral)."
+									"Libertad. Las normas y reglas no son más que unas indicaciones de cómo vivir, no algo que deba seguirse al pie de la letra (caótico)."
 								],
 								[
 									"4",
-									"Reputación. No descansaré hasta que todo el mundo conozca mi nombre y mis éxitos (neutral)."
+									"Comunidad. De manera individual tengo mucho menos valor que como parte de un grupo. Los míos cuentan conmigo y yo con ellos (neutral)."
 								],
 								[
 									"5",
-									"Cacería. En los oscuros túneles de Vajra, lejos de la superficie, puedo ceder a mis instintos de cazador (maligno)."
+									"Poder. La mayoría de gente no puede valerse por sí misma si no cuenta con alguien que la guíe, y quién mejor que yo para hacerlo (maligno)."
 								],
 								[
 									"6",
-									"Fe. En algún lugar de Vajra está el hogar en el que moraron los dioses hace siglos. Sus enseñanzas aún permanecen allí (bueno)."
+									"Supremacía. El resto de culturas viven acorde a unas creencias y formas de vida erróneas. Es mi deber llevarles el verdadero camino (maligno)."
 								]
 							]
 						},
@@ -241,27 +243,27 @@
 							"rows": [
 								[
 									"1",
-									"Cuanto más profundizo en mis estudios, más claro veo lo cerca que está mi raza de los Peregrinos y lo inferiores que son el resto."
+									"Mi tribu me ha encomendado una tarea de vital importancia y no puedo faltar a mi deber."
 								],
 								[
 									"2",
-									"Cuando hay un posible descubrimiento cerca, mis compañeros pasan a un ser una pérdida asumible."
+									"Mis sueños sobre una inminente catástrofe son cada vez más recurrentes."
 								],
 								[
 									"3",
-									"Una antigua relación comercial con traficantes de artefactos de los Peregrinos ha provocado que hayan puesto precio a mi cabeza."
+									"Tras la destrucción de mi tribu, soy el único que puede lograr que nuestras tradiciones no se pierdan para siempre."
 								],
 								[
 									"4",
-									"Puede que los Peregrinos se sintieran cómodos en la oscuridad de Vajra, pero yo no puedo mantenerme sereno si no es con una luz cerca."
+									"He jurado acabar con aquellos salvajes que saquearon nuestro hogar y no descansaré hasta encontrarlos."
 								],
 								[
 									"5",
-									"Me centro tanto en mis estudios que no presto atención a temas menores, tales como los nombres o rostros de la gente con la que me relaciono."
+									"He emprendido mi viaje para pacificar la región y lograr que mi hogar no corra peligro."
 								],
 								[
 									"6",
-									"Mucha gente me relaciona con un mago tenebroso que tuve por maestro y creen que yo no soy de fiar."
+									"Hace años un desconocido me salvó la vida y aún no he pagado mi deuda con él."
 								]
 							]
 						},
@@ -278,27 +280,27 @@
 							"rows": [
 								[
 									"1",
-									"Existe la creencia de que todo el que se interna en Vajra a mi lado solo encuentra una muerte horrible."
+									"Mi tranquilidad y pasividad se suelen confundir con cobardía."
 								],
 								[
 									"2",
-									"Desde lo que ocurrió en aquel canal subterráneo no puedo ver el agua sin echarme a temblar."
+									"Jamás podré confiar en quienes no comparten mis creencias religiosas."
 								],
 								[
 									"3",
-									"Creo que debería empezar a preocuparme por los temblores y los delirios; acercarme tanto a aquella torre de fulgor fue una mala idea."
+									"Mi idioma natal debe ser respetado, ya que es un idioma ancestral. No soporto manchar mi lengua hablando otros idiomas."
 								],
 								[
 									"4",
-									"Unos pocos muertos es un buen precio por un gran hallazgo."
+									"Las grotescas ceremonias de mi pueblo provocan rechazo entre el resto de culturas."
 								],
 								[
 									"5",
-									"Tengo asumido que cualquier trabajo puede ser el último, por lo que vivo siempre al máximo. No me arrepentiré de nada al morir."
+									"Suelo consumir grandes cantidades de plantas alucinógenas para que me ayuden en mis momentos de oración."
 								],
 								[
 									"6",
-									"Aquel mago para el que trabajé no quedó satisfecho del reparto y sus esbirros aún me siguen el rastro."
+									"Fui expulsado de mi tribu por un terrible crimen y no puedo dejar que ninguno de mis actuales compañeros lo descubra."
 								]
 							]
 						}
@@ -312,7 +314,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"cartographer's tools": true
+					"musical instrument": true
 				}
 			]
 		}

@@ -28,6 +28,7 @@
 		{
 			"name": "Araina",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 18,
 			"skillProficiencies": [
 				{
 					"stealth": true
@@ -234,6 +235,7 @@
 		{
 			"name": "Batrok",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 19,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/batrok.png",
 			"fluff": {
 				"entries": [
@@ -471,12 +473,12 @@
 		{
 			"name": "Centauro",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 20,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/centauro.png",
 			"fluff": {
 				"entries": [
-					"Los centauros son mitad hombres y mitad caballos: la parte superior de su cuerpo es humanoide, mientras que de cintura para abajo tienen un cuerpo equino con cuatro fuertes patas que les permiten correr a gran velocidad. Su hábitat natural son las praderas, que han aprendido a explotar tanto para la caza y recolección como para la artesanía: mientras que los gnomos son célebres por sus ingenios tecnológicos y los enanos por su herrería y pedrería, los centauros se han ganado una merecida fama trabajando la madera y la arcilla. Aunque son afables, protegen sus comunidades con las armas, como llevan haciendo tiempo con los saurios, que intentan hacerse con su territorio. Los centauros parecen tener las de ganar desde que se aliaron con los elfos Banjora y los fórmigos.",
-					"Un centauro suele rondar los 7 pies de altura y su esperanza de vida es de 175 años. Los centauros tienen dificultades para dejar descendencia, por lo que otorgan un gran peso a la vida de sus iguales.",
-					"Los aventureros centauros suelen ser bardos, clérigos, exploradores o hechiceros",
+					"Los centauros son mitad hombres y mitad caballos: la parte superior de su cuerpo es humanoide, mientras que de cintura para abajo tienen un cuerpo equino con cuatro fuertes patas que les permiten correr a gran velocidad. Su hábitat natural son las praderas, que han aprendido a explotar tanto para la caza y recolección como para la artesanía. Aunque son afables, protegen sus comunidades con las armas, como llevan haciendo tiempo con los saurios, que intentan hacerse con su territorio.",
+					"Un centauro suele rondar los 7 pies de altura y su esperanza de vida es de 175 años.",
 					{
 						"type": "entries",
 						"name": "Centauros Names",
@@ -520,8 +522,7 @@
 			},
 			"ability": [
 				{
-					"str": 2,
-					"wis": 1
+					"str": 2
 				}
 			],
 			"size": "M",
@@ -532,7 +533,7 @@
 					"name": "Mejora de características",
 					"entries": [
 						"DEBES AGREGARLAS MANUALMENTE",
-						"Tu puntuación de Fuerza aumenta en 2 y tu puntuación de Sabiduría en 1.",
+						"Tu puntuación de Fuerza aumenta en 2.",
 						"BORRA ESTE ELEMENTO Después de hacer las modificaciones"
 					]
 				},
@@ -559,30 +560,7 @@
 								"Lanza de Caballeria ({@item lance|phb})"
 							]
 						},
-						"Tienes competencia con uno de las siguientes herramientas:",
-						{
-							"type": "list",
-							"items": [
-								"Herramientas de Alfarero ({@item Potter's Tools|phb})",
-								"Herramientas de Tallador ({@item woodcarver's Tools|phb})",
-								"Herramientas de Carpintero ({@item carpenter's Tools|phb})"
-							]
-						},
 						"BORRA ESTE ELEMENTO Después de hacer las modificaciones"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Edad",
-					"entries": [
-						"Los centauros suelen vivir entre 160 y 175 años."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Alineamiento",
-					"entries": [
-						"A los centauros les encanta la libertad y la vida salvaje, por lo que tienden hacia los aspectos más moderados del caos. Valoran y protegen la libertad de su pueblo con fiereza, pero prefieren la paz a la guerra"
 					]
 				},
 				{
@@ -615,13 +593,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Competencia con herramientas",
-					"entries": [
-						"Tienes competencia con las herramientas de artesano que elijas entre: {@item Potter's Tools|phb}, {@item woodcarver's Tools|phb} o {@item carpenter's Tools|phb}"
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Afinidad con las bestias",
 					"entries": [
 						"Tienes competencia con la habilidad de {@skill Animal Handling}."
@@ -633,38 +604,201 @@
 					"entries": [
 						"Pese a su tamaño, los centauros acostumbran a utilizar armas humanas. Aunque eres Grande, se te considera Mediano a efectos de esgrimir armas, pero no armaduras. Además, no se te considera humanoide sino monstruosidad"
 					]
-				},
-				{
-					"type": "entries",
-					"name": "Idiomas",
-					"entries": [
-						"Puedes hablar, leer y escribir común, así como un idioma adicional de tu elección."
-					]
 				}
 			],
 			"traitTags": [
-				"Armor Proficiency",
 				"Monstrous Race",
 				"Skill Proficiency",
-				"Tool Proficiency",
 				"Unarmed Strike",
 				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"anyStandard": 1
+					"common": true
 				}
 			],
 			"skillProficiencies": [
 				{
 					"animal handling": true
 				}
+			],
+			"subraces": [
+				{
+					"name": "Centauro Puro",
+					"ability": [
+						{
+							"wis": 2
+						}
+					],
+					"traitTags": [
+						"Skill Proficiency",
+						"Tool Proficiency"
+					],
+					"languageProficiencies": [
+						{
+							"anyStandard": 1
+						}
+					],
+					"skillProficiencies": [
+						{
+							"athletics": true
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Mejora de características Centauro Puro",
+							"entries": [
+								"DEBES AGREGARLAS MANUALMENTE",
+								"Tu puntuación de Sabiduría aumenta en 2.",
+								"BORRA ESTE ELEMENTO Después de hacer las modificaciones"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Competencia con herramientas",
+							"entries": [
+								"Tienes competencia con las herramientas de artesano que elijas entre: Herramientas de Alfarero ({@item Potter's Tools|phb}), Herramientas de Tallador ({@item woodcarver's Tools|phb}) o Herramientas de Carpintero ({@item carpenter's Tools|phb})"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Edad",
+							"entries": [
+								"Los Centauros puros suelen vivir entre 160 y 175 años."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Alineamiento",
+							"entries": [
+								"A los Centauros Puros les encanta la libertad y la vida salvaje, por lo que tienden hacia los aspectos más moderados del caos. Valoran y protegen la libertad de su pueblo con fiereza, pero prefieren la paz a la guerra"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Centauros Puros",
+							"entries": [
+								"Los Centauros Puros parecen tener las de ganar desde que se aliaron con los elfos Banjora y los fórmigos, constantemente se enfrentan con los Saurios para defender sus territorios, Los centauros tienen dificultades para dejar descendencia, por lo que otorgan un gran peso a la vida de sus iguales.",
+								"Los aventureros Centauros Puros suelen ser bardos, clérigos, exploradores o hechiceros"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cuerpo Monstruoso",
+							"entries": [
+								"Tienes competencia con la habilidad de atletismo {@skill athletics}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Idiomas",
+							"entries": [
+								"Puedes hablar, leer y escribir común, así como un idioma adicional de tu elección."
+							]
+						}
+					]
+				},
+				{
+					"name": "Centauro Eneprano",
+					"ability": [
+						{
+							"cha": 2
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Origen del Centauro Eneprano",
+							"entries": [
+								"Poco después que los Elfos Banjora se acentaran en el bosque de ambar cerca del año 4080, y establecieran alianzas con los centauros y formigos, dio lugar la masacre de una pequeña aldea de Banjoras seguidores de Eurana (diosa de la libertad y la paz) o Eneprana como la conocen los centauros, un grupo de centauros que fue al asentamiento para comerciar, prencio la masacre de la aldea a manos de los Saurios y embistió contra la tropa de Saurios evitando la completa aniquilación de la aldea, el costo fue alto pues sólo sobrevivio una mujer centauro, la que fue herida en batalla dejandola infertil, esto significaria el fin de su pueblo ya que no podrian tener descendencia, debido a esto fue la propia Eneprana que envio a un Solar (Criatura Celestial) para ayudar, este Celestial curo y fecundo con la Centaura una criatura mitad Centauro y mitad Celestial dandole a esta nueva extirpe de centauros cualidades celestiales",
+								"El tiempo y la mezcla con otros centauros diluyo un poco la sangre celestial de esta estirpe, que si tiene mayor facilidad para reproducirse que un centauros puro y cuando se dieron cuenta de sus cualidades de ser medio celestial se aislaron de otras tribus de centauros para mantener sus cualidades, sin embargo, sus cualidades celestiales sólo las pueden obtener en el fulgor de la batalla y siempre y cuando mantengan fidelidad a Eneprana, fueron ungidos como los guardianes de la libertad de la Diosa quien les procuro el conocimiento para crear las armas que defiedan la libertad y la paz, es por ello que los Centauros Euranos se cuentan entre los mejores herreros del continente, y en su asentamiento hay una mina de adamantina que trabajan sólo en la medida que les es necesario por son expertos manejando este material, aunque rara vez comparten sus armas con otros por temor a que las usen para otros fines"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mejora de características Centauro Eneprano",
+							"entries": [
+								"DEBES AGREGARLAS MANUALMENTE",
+								"Tu puntuación de Carisma aumenta en 2.",
+								"BORRA ESTE ELEMENTO Después de hacer las modificaciones"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Competencia con herramientas",
+							"entries": [
+								"Tienes competencia con las herramientas de herrero ({@item smith's tools|phb})"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Edad",
+							"entries": [
+								"Debido a su sangre celestial los Centauros Euranos alcanzan la madurez a los 20 años momento en que dejan de envejecer y viven hasta los 1000 años aproximadamente momento en que retoman su proceso de envejecimiento rápidamente y mueren en un par de días."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Alineamiento",
+							"entries": [
+								"A los Centauros Euranos son fieles debotos de Eneprana por lo que sólo pueden tener el mismo alineamiento que su diosa Neutral Bueno, si hacen alguna acción que se considere fuera de este alineamiento perderan el favor de Eneprana y con ello su energía divina"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Vista verdadera",
+							"entries": [
+								"a nivel 2 los Centauros Euranos ganan la capacidad de ver en la oscuridad a 60 pies de distacia, en nivel 4 pueden también ver en la oscuridad mágica, a nivel 8 aumentan su capacidad y pueden ver criaturas y objetos invisibles a nivel 16 obtienen la capacidad de detectar automáticamente ilusiones visuales y percibir la forma original de un cambiador de forma, a nivel 20 pueden ver en el plano etéreo"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resistencia Celestial",
+							"entries": [
+								"Tienes resistencia al daño necrotico y radiante"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Manos Celestiales",
+							"entries": [
+								"A nivel 2 puedes tocar una criatura y hacer que recupere una cantidad de puntos de golpe igual a tu nivel una vez que usa este rasgo, no puede volver a usarlo hasta que termine un largo descanso. A nivel 4 puedes tocar una criatura y hacer que recupere una cantidad de puntos de golpe igual a tu nivel multiplicado por 5 una vez que usa este rasgo, no puede volver a usarlo hasta que termine un largo descanso. A nivel 8 adicionalmente puedes gastar 5 puntos de golpe de tu reserva de curación para curar al objetivo de una enfermedad o neutralizar el veneno que le afecta y conoces el truco Disipar la agonía ({@spell spare the dying}), puedes usar este rasgo un máximo de 4 veces al día. A nivel 16 adicionalmente puedes neutralizar cualquier condición que afecte a otros y por un máximo de 8 veces al día"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Armas Celestiales",
+							"entries": [
+								"Puedes canalizar tu energía divina para canalizar un arma. la criatura que recibe el daño puede hacer una tirada de salvación, la CD de esta tirada es igual a 8 + tu modificador de Carisma + tu bonificador por competencia, si la criatura supera la tirada recibe la mitad del daño radiante",
+								"A nivel 2 cuando uses un arma puedes canalizar tu energía divina durante un minuto para agregar un daño radiante extra igual a tu modificador de Carisma. a nivel 4 cuando uses un arma vinculante puedes canalizar tu energía divina durante un minuto para agregar {@dice 1d8} más tu modificador de Carisma, el daño aumenta en {@dice 1d8} en los nivel 6, 8, 11 y 16, en el nivel 11 el tiempo de canalización aumenta a 2 minutos y en el 16 puedes utilizar la habilidad a voluntad en un máximo de 20 turnos durante un día.",
+								"Después de usar las armas celestiales, tienes que completar un descanso breve o prolongado para volver a utilizarla."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sangre Celestial",
+							"entries": [
+								"La sangre celestial y la divinidad que corre por tus venas se manifiesta cuando te encuentras cerca de la muerte separandote un poco más de tu cuerpo mortal",
+								"En nivel 2 Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes quedarte con 1 punto de golpe. En nivel 4 cuando suceda lo anterior, adicionalmente aumentas tus puntos de golpe en un número igual a tu modificador de Carisma. En nivel 8 al modificador de Carisma se suma el dado de golpe de tu clase. En nivel 11 al modificador de Carisma y el dado de golpe de tu clase se suma el modificador de constitución",
+								"No puedes volver a utilizar esta característica hasta que completes un descanso prolongado, cada vez que uses esta habilidad te alejas un poco más del plano terrenal y perderas 40 años de vida"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Idiomas",
+							"entries": [
+								"Puedes hablar, leer y escribir Común y Celestial."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
 			"name": "Dracónido",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 21,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/draconido.png",
 			"fluff": {
 				"entries": [
@@ -878,6 +1012,7 @@
 		{
 			"name": "Elfo",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 22,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/elfo.png",
 			"fluff": {
 				"entries": [
@@ -1194,6 +1329,7 @@
 		{
 			"name": "Enano",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 24,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/enano.png",
 			"fluff": {
 				"entries": [
@@ -1483,6 +1619,7 @@
 		{
 			"name": "Felínido",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 26,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/felinido.png",
 			"fluff": {
 				"entries": [
@@ -1678,6 +1815,7 @@
 		{
 			"name": "Fórmigo",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 27,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/formigo.png",
 			"fluff": {
 				"entries": [
@@ -1835,6 +1973,7 @@
 		{
 			"name": "Gnomo",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 28,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/gnomo.png",
 			"fluff": {
 				"entries": [
@@ -2139,6 +2278,7 @@
 		{
 			"name": "Hipótido",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 30,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/hipotido.png",
 			"fluff": {
 				"entries": [
@@ -2293,6 +2433,7 @@
 		{
 			"name": "Humano",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 31,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/humano.png",
 			"fluff": {
 				"entries": [
@@ -2412,6 +2553,7 @@
 		{
 			"name": "Karasu",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 32,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/karasu.png",
 			"fluff": {
 				"entries": [
@@ -2585,6 +2727,7 @@
 		{
 			"name": "Kitsune",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 33,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/kitsune.png",
 			"fluff": {
 				"entries": [
@@ -2746,6 +2889,7 @@
 		{
 			"name": "Mediano",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 34,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/mediano.png",
 			"fluff": {
 				"entries": [
@@ -2956,6 +3100,7 @@
 		{
 			"name": "Mida",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 35,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/mida.png",
 			"fluff": {
 				"entries": [
@@ -3131,6 +3276,7 @@
 		{
 			"name": "Morlock",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 36,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/morlock.png",
 			"fluff": {
 				"entries": [
@@ -3325,6 +3471,7 @@
 		{
 			"name": "Orco",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 37,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/orco.png",
 			"fluff": {
 				"entries": [
@@ -3581,6 +3728,7 @@
 		{
 			"name": "Rakshasa",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 38,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/rakshasa.png",
 			"fluff": {
 				"entries": [
@@ -3786,6 +3934,7 @@
 		{
 			"name": "Saurio",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 39,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/saurio.png",
 			"fluff": {
 				"entries": [
@@ -3952,6 +4101,7 @@
 		{
 			"name": "Semielfos",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 40,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/semielfo.png",
 			"fluff": {
 				"entries": [
@@ -4144,6 +4294,7 @@
 		{
 			"name": "Semiorco",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 41,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/semiorco.png",
 			"fluff": {
 				"entries": [
@@ -4309,6 +4460,7 @@
 		{
 			"name": "Tiefling",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 42,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/tiefling.png",
 			"fluff": {
 				"entries": [
@@ -4471,6 +4623,7 @@
 		{
 			"name": "Vípero",
 			"source": "ElResurgirDelDragon_Razas",
+			"page": 43,
 			"tokenUrl": "https://raw.githubusercontent.com/claudiomateluna/DnD_ResurgirDelDragon/master/Razas/img/vipero.png",
 			"fluff": {
 				"entries": [
